@@ -16,6 +16,7 @@ written report (PDF).
 | `07-pipeline-design.png` | Task 4 | Copy Data pipeline design (`pl_copy_superstore_data`) |
 | `08-pipeline-succeeded.png` | Task 5 | Pipeline execution result - status Succeeded |
 | `09-iam-roles.png` | Task 6 | IAM role assignments (Reader, Contributor, Storage Blob Data Contributor) |
+| `10-mini-project-combined.png` | Mini Project | Get Metadata + Copy Data chained in one pipeline - both activities Succeeded in a single Debug run |
 | `Week4_Assignment4_Report.pdf` | All | Full written report with explanations + embedded screenshots |
 
 ## Resource naming used in this assignment
@@ -38,5 +39,11 @@ written report (PDF).
 - **`DelimitedTextMoreColumnsThanDefined` on Copy Data run:** row 34 of the source CSV had a comma
   inside a text field that wasn't properly quote-wrapped, causing an extra column to be detected.
   Fixed by clearing the fixed column mapping on the Copy activity so columns map dynamically at runtime.
+
+## Mini project - final pipeline structure
+
+`pl_copy_superstore_data` was updated to chain **Get Metadata → Copy Data** in a single pipeline using
+an On Success dependency, so the metadata check and the copy operation now run together end-to-end in
+one Debug run instead of two separate pipelines.
 
 See the PDF report for the full write-up of each task.
