@@ -1,0 +1,8 @@
+user_id,product_id,amount,region,status
+U1001,P101,1250.0,North,Completed
+U1002,P102,450.0,South,Pending
+U1004,P104,80.0,North,Completed
+U1005,P105,1500.0,West,Cancelled
+U1007,P107,950.0,South,Completed
+U1008,P108,1800.0,West,Pending
+U1010,P110,600.0,East,Completed

@@ -1,0 +1,11 @@
+product_id,category,price,old_name,status,amount,base_price,region,priority,user_id
+P101,Electronics,299.99,Item Alpha,Completed,1250.00,250.00,North,High,U1001
+P102,Furniture,149.50,Item Beta,Pending,450.00,120.00,South,Low,U1002
+P103,Electronics,899.00,Item Gamma,Completed,3200.50,750.00,East,High,
+P104,Clothing,45.00,Item Delta,Completed,80.00,35.00,North,Medium,U1004
+P105,Electronics,120.00,Item Epsilon,Cancelled,1500.00,100.00,West,Low,U1005
+P106,Office Supplies,15.99,Item Zeta,Completed,2200.00,12.50,North,Low,U1006
+P107,Electronics,450.00,Item Eta,Completed,950.00,380.00,South,High,U1007
+P108,Furniture,620.00,Item Theta,Pending,1800.00,500.00,West,High,
+P109,Electronics,1299.99,Item Iota,Completed,1450.00,1100.00,North,Medium,U1009
+P110,Clothing,85.50,Item Kappa,Completed,600.00,70.00,East,Low,U1010

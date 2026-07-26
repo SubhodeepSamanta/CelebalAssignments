@@ -1,0 +1,5 @@
+product_id,category,price,old_name,status,amount,base_price,region,priority,user_id
+P101,Electronics,299.99,Item Alpha,Completed,1250.0,250.0,North,High,U1001
+P103,Electronics,899.0,Item Gamma,Completed,3200.5,750.0,East,High,
+P106,Office Supplies,15.99,Item Zeta,Completed,2200.0,12.5,North,Low,U1006
+P109,Electronics,1299.99,Item Iota,Completed,1450.0,1100.0,North,Medium,U1009
