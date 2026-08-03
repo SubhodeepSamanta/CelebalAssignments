@@ -1,0 +1,48 @@
+{
+  "assignment": "Assignment 7 \u2014 Delta Lake MERGE / incremental processing",
+  "engine": "delta-rs 1.6.2 (native Delta Lake)",
+  "executed_at_utc": "2026-08-03 03:35:07 UTC",
+  "source": {
+    "master_csv_rows": 866,
+    "incremental_csv_rows": 162
+  },
+  "cleaning": {
+    "master_rows_removed": 73,
+    "master_null_key_rows_dropped": 3,
+    "master_exact_duplicates_dropped": 45,
+    "master_duplicate_keys_dropped": 25,
+    "master_null_cells_filled": 123,
+    "incremental_duplicates_dropped": 5
+  },
+  "change_classification": {
+    "new": 45,
+    "changed": 101,
+    "unchanged": 11
+  },
+  "scd1": {
+    "rows_before": 793,
+    "rows_after": 838,
+    "updated": 112,
+    "inserted": 45,
+    "delta_version": 1
+  },
+  "scd2": {
+    "rows_before": 793,
+    "rows_after": 939,
+    "versions_closed": 101,
+    "rows_inserted": 146,
+    "current_rows": 838,
+    "delta_version": 1
+  },
+  "validation": {
+    "scd1_checks_passed": 7,
+    "scd2_checks_passed": 10,
+    "suite_checks_passed": 14,
+    "all_passed": true
+  },
+  "business": {
+    "customers": 838,
+    "total_sales": 2589469.56,
+    "total_profit": 316504.48
+  }
+}

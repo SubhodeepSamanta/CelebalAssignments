@@ -1,0 +1,26 @@
+# Assignment 7 — Delta Lake MERGE
+# Primary notebook: notebooks/delta_scd_assignment.ipynb
+#   pip install -r requirements.txt
+# No Java, no Spark cluster and no Maven download required.
+
+deltalake>=0.17,<2.0      # delta-rs — native Delta Lake protocol (MERGE, time travel)
+pandas>=2.0               # needs >=2.0 for non-nanosecond datetime64 units
+pyarrow>=14.0
+numpy>=1.24
+matplotlib>=3.7
+
+# notebook tooling
+jupyter>=1.0
+ipykernel>=6.0
+nbconvert>=7.0
+
+# scripts/capture_screenshots.py and scripts/build_report.py
+pillow>=10.0
+reportlab>=4.0
+
+# ---------------------------------------------------------------------------
+# Optional — only for notebooks/delta_scd_assignment_pyspark.ipynb.
+# Requires Java 8/11/17 on PATH and access to Maven Central for the Delta JARs.
+# ---------------------------------------------------------------------------
+# pyspark==3.5.1
+# delta-spark==3.2.0

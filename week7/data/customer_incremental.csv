@@ -1,0 +1,163 @@
+customer_id,customer_name,segment,country,city,state,postal_code,region,total_orders,total_sales,total_profit,last_order_date,loyalty_tier,email,record_updated_at
+TP-21565,Tracy Poddar,Home Office,United States,Eugene,Oregon,97405,West,7,2144.31,145.2,2020-01-15,SILVER,tracy.poddar@example.com,2020-01-15 06:30:00
+CY-12745,Craig Yedwab,Corporate,United States,Chicago,Illinois,60610,Central,8,2900.03,60.65,2017-10-31,GOLD,craig.yedwab@example.com,2020-01-15 06:30:00
+EP-20133,Elena Petrova,Corporate,United States,Houston,Texas,77041,Central,4,5800.79,536.95,2020-01-15,PLATINUM,elena.petrova@example.com,2020-01-15 06:30:00
+KB-16405,Katrina Bavinger,Home Office,United States,New York City,New York,10035,East,5,1415.34,279.03,2020-01-15,SILVER,katrina.bavinger@example.com,2020-01-15 06:30:00
+SS-20410,Shahid Shariari,Consumer,United States,Los Angeles,California,90008,West,8,4459.17,-1292.29,2020-01-15,GOLD,shahid.shariari@example.com,2020-01-15 06:30:00
+DH-13675,Duane Huffman,Home Office,United States,Miami,Florida,33180,South,7,1236.05,116.93,2020-01-15,SILVER,duane.huffman@example.com,2020-01-15 06:30:00
+CM-12115,Chad McGuire,Consumer,United States,New York City,New York,10011,East,4,1661.61,409.07,2017-12-22,SILVER,chad.mcguire@example.com,2020-01-15 06:30:00
+BW-11065,Barry Weirich,Consumer,United States,Denver,Colorado,80202,West,7,466.18,-59.72,2020-01-15,BRONZE,barry.weirich@example.com,2020-01-15 06:30:00
+SU-20665,Stephanie Ulpright,Home Office,United States,Chicago,Illinois,60610,Central,7,2595.36,763.47,2017-12-10,GOLD,stephanie.ulpright@example.com,2020-01-15 06:30:00
+AM-20224,Adam Mercer,Home Office,United States,New York City,New York,10024,East,7,8455.27,-212.7,2020-01-15,PLATINUM,adam.mercer@example.com,2020-01-15 06:30:00
+BW-11110,Bart Watters,Corporate,United States,Austin,Texas,78701,Central,10,5091.62,1249.52,2020-01-15,PLATINUM,bart.watters@example.com,2020-01-15 06:30:00
+PF-19225,Phillip Flathmann,Consumer,United States,Denver,Colorado,80202,West,8,2500.84,677.9,2020-01-15,GOLD,phillip.flathmann@example.com,2020-01-15 06:30:00
+SL-20155,Sara Luxemburg,Home Office,United States,Durham,North Carolina,27707,South,8,4160.01,752.81,2020-01-15,GOLD,sara.luxemburg@example.com,2020-01-15 06:30:00
+AR-10510,Andrew Roberts,Consumer,United States,Philadelphia,Pennsylvania,19134,East,6,319.49,53.71,2020-01-15,BRONZE,andrew.roberts@example.com,2020-01-15 06:30:00
+RO-19780,Rose O'Brian,Corporate,United States,Houston,Texas,77070,Central,9,5767.9,-1290.41,2020-01-15,PLATINUM,rose.obrian@example.com,2020-01-15 06:30:00
+JK-15730,Joe Kamberova,Consumer,United States,Des Plaines,Illinois,60016,Central,11,5258.07,65.61,2020-01-15,PLATINUM,joe.kamberova@example.com,2020-01-15 06:30:00
+NB-20217,Nora Blake,Corporate,United States,Atlanta,Georgia,30318,South,6,6128.86,1098.98,2020-01-15,PLATINUM,nora.blake@example.com,2020-01-15 06:30:00
+CG-12040,Catherine Glotzbach,Home Office,United States,Philadelphia,Pennsylvania,19120,East,6,904.47,86.51,2017-11-11,BRONZE,catherine.glotzbach@example.com,2020-01-15 06:30:00
+CD-11980,Carol Darley,Corporate,United States,Tyler,Texas,75701,Central,7,684.68,-237.49,2020-01-15,BRONZE,carol.darley@example.com,2020-01-15 06:30:00
+KB-16240,Karen Bern,Corporate,United States,Saint Cloud,Minnesota,56301,Central,11,3342.77,991.29,2020-01-15,GOLD,karen.bern@example.com,2020-01-15 06:30:00
+SC-20095,Sanjit Chand,Consumer,United States,Costa Mesa,California,92627,West,13,16545.55,6039.67,2020-01-15,PLATINUM,sanjit.chand@example.com,2020-01-15 06:30:00
+RW-19540,Rick Wilson,Corporate,United States,Boston,Massachusetts,02108,East,8,10981.05,2032.81,2020-01-15,PLATINUM,rick.wilson@example.com,2020-01-15 06:30:00
+JK-16090,Juliana Krohn,Consumer,United States,Louisville,Kentucky,40214,South,5,4702.34,791.24,2020-01-15,GOLD,juliana.krohn@example.com,2020-01-15 06:30:00
+KD-16495,Keith Dawkins,Corporate,United States,Seattle,Washington,98101,West,13,9092.78,3495.99,2020-01-15,PLATINUM,keith.dawkins@example.com,2020-01-15 06:30:00
+CV-12805,Cynthia Voltz,Corporate,United States,Austin,Texas,78745,Central,10,3231.35,132.28,2020-01-15,GOLD,cynthia.voltz@example.com,2020-01-15 06:30:00
+SO-20287,Sana Okafor,Home Office,United States,Los Angeles,California,90036,West,8,3155.37,572.7,2020-01-15,GOLD,sana.okafor@example.com,2020-01-15 06:30:00
+MC-17275,Marc Crier,Consumer,United States,Pasco,Washington,99301,West,10,3659.71,498.09,2020-01-15,GOLD,marc.crier@example.com,2020-01-15 06:30:00
+LS-16945,Linda Southworth,Corporate,United States,Dallas,Texas,75220,Central,9,3108.87,-335.53,2020-01-15,GOLD,linda.southworth@example.com,2020-01-15 06:30:00
+FL-20147,Freya Larsen,Consumer,United States,Phoenix,Arizona,85023,West,8,1639.93,455.06,2020-01-15,SILVER,freya.larsen@example.com,2020-01-15 06:30:00
+MC-18100,Mick Crebagga,Consumer,United States,Philadelphia,Pennsylvania,19140,East,10,2218.98,-64.17,2017-11-19,SILVER,mick.crebagga@example.com,2020-01-15 06:30:00
+FW-20182,Felix Weber,Home Office,United States,Chicago,Illinois,60610,Central,11,5324.13,711.74,2020-01-15,PLATINUM,felix.weber@example.com,2020-01-15 06:30:00
+SW-20245,Scot Wooten,Consumer,United States,Seattle,Washington,98101,West,11,1715.38,-22.93,2020-01-15,SILVER,scot.wooten@example.com,2020-01-15 06:30:00
+AR-10405,Allen Rosenblatt,Corporate,United States,Austin,Texas,78701,Central,8,2870.88,-109.72,2020-01-15,GOLD,allen.rosenblatt@example.com,2020-01-15 06:30:00
+CC-20273,Cleo Costa,Consumer,United States,Atlanta,Georgia,30318,South,3,1670.69,417.41,2020-01-15,SILVER,cleo.costa@example.com,2020-01-15 06:30:00
+JB-16000,Joy Bell-,Consumer,United States,Boston,Massachusetts,02108,East,9,815.18,160.72,2020-01-15,BRONZE,joy.bell@example.com,2020-01-15 06:30:00
+DA-20084,Dev Ali,Consumer,United States,Philadelphia,Pennsylvania,19140,East,10,5290.66,644.67,2020-01-15,PLATINUM,dev.ali@example.com,2020-01-15 06:30:00
+BD-11770,Bryan Davis,Consumer,United States,Austin,Texas,78701,Central,10,891.44,169.66,2020-01-15,BRONZE,bryan.davis@example.com,2020-01-15 06:30:00
+GK-14620,Grace Kelly,Corporate,United States,Los Angeles,California,90049,West,13,8172.14,1535.04,2020-01-15,PLATINUM,grace.kelly@example.com,2020-01-15 06:30:00
+RD-19660,Robert Dilbeck,Home Office,United States,Miami,Florida,33101,South,6,3576.41,968.15,2020-01-15,GOLD,robert.dilbeck@example.com,2020-01-15 06:30:00
+SK-19990,Sally Knutson,Consumer,United States,New York City,New York,10024,East,4,1256.5,225.59,2020-01-15,SILVER,sally.knutson@example.com,2020-01-15 06:30:00
+AR-10825,Anthony Rawles,Corporate,United States,Seattle,Washington,98101,West,9,6915.07,702.61,2020-01-15,PLATINUM,anthony.rawles@example.com,2020-01-15 06:30:00
+LG-20196,Leo Grant,Corporate,United States,Philadelphia,Pennsylvania,19140,East,4,6325.54,444.58,2020-01-15,PLATINUM,leo.grant@example.com,2020-01-15 06:30:00
+DP-13165,David Philippe,Consumer,United States,New York City,New York,10035,East,3,1497.61,-49.24,2020-01-15,SILVER,david.philippe@example.com,2020-01-15 06:30:00
+SG-20605,Speros Goranitis,Consumer,United States,New York City,New York,10009,East,7,3662.29,591.32,2020-01-15,GOLD,speros.goranitis@example.com,2020-01-15 06:30:00
+HM-20140,Hugo Muller,Home Office,United States,Philadelphia,Pennsylvania,19140,East,1,7817.97,-23.15,2020-01-15,PLATINUM,hugo.muller@example.com,2020-01-15 06:30:00
+AG-10300,Aleksandra Gannaway,Corporate,United States,Los Angeles,California,90049,West,7,564.4,71.96,2020-01-15,BRONZE,aleksandra.gannaway@example.com,2020-01-15 06:30:00
+PG-18820,Patrick Gardner,Consumer,United States,Bakersfield,California,93309,West,15,4435.75,194.23,2020-01-15,GOLD,patrick.gardner@example.com,2020-01-15 06:30:00
+PB-19105,Peter Bühler,Consumer,United States,Smyrna,Georgia,30080,South,7,735.11,270.38,2020-01-15,BRONZE,peter.buhler@example.com,2020-01-15 06:30:00
+IQ-20231,Iris Quinn,Consumer,United States,Los Angeles,California,90036,West,5,3369.62,-152.0,2020-01-15,GOLD,iris.quinn@example.com,2020-01-15 06:30:00
+RA-19285,Ralph Arnett,Consumer,United States,Lakeland,Florida,33801,South,12,2933.87,730.48,2020-01-15,GOLD,ralph.arnett@example.com,2020-01-15 06:30:00
+MI-20021,Meera Iyer,Consumer,United States,Houston,Texas,77041,Central,10,8363.08,845.63,2020-01-15,PLATINUM,meera.iyer@example.com,2020-01-15 06:30:00
+KD-16615,Ken Dana,Corporate,United States,Anaheim,California,92804,West,7,3128.22,554.63,2020-01-15,GOLD,ken.dana@example.com,2020-01-15 06:30:00
+MD-17350,Maribeth Dona,Consumer,United States,Philadelphia,Pennsylvania,19143,East,11,4448.0,-265.06,2020-01-15,GOLD,maribeth.dona@example.com,2020-01-15 06:30:00
+LD-16855,Lela Donovan,Corporate,United States,Chicago,Illinois,60653,Central,4,7.09,0.61,2020-01-15,BRONZE,lela.donovan@example.com,2020-01-15 06:30:00
+TB-21355,Todd Boyes,Corporate,United States,Sandy Springs,Georgia,30328,South,8,1232.29,321.85,2020-01-15,SILVER,todd.boyes@example.com,2020-01-15 06:30:00
+BD-11620,Brian DeCherney,Consumer,United States,Lawton,Oklahoma,73505,Central,7,2190.6,226.54,2020-01-15,SILVER,brian.decherney@example.com,2020-01-15 06:30:00
+NW-18400,Natalie Webber,Consumer,United States,Boston,Massachusetts,02108,East,8,8230.69,1356.22,2020-01-15,PLATINUM,natalie.webber@example.com,2020-01-15 06:30:00
+RS-20203,Ruby Sullivan,Home Office,United States,Phoenix,Arizona,85023,West,9,1685.15,226.76,2020-01-15,SILVER,ruby.sullivan@example.com,2020-01-15 06:30:00
+NB-20105,Nisha Bhatt,Consumer,United States,Atlanta,Georgia,30318,South,6,7285.6,1995.03,2020-01-15,PLATINUM,nisha.bhatt@example.com,2020-01-15 06:30:00
+CS-12505,Cindy Stewart,Consumer,United States,Lancaster,Ohio,43130,East,8,6876.8,-9344.1,2020-01-15,PLATINUM,cindy.stewart@example.com,2020-01-15 06:30:00
+SB-20290,Sean Braxton,Corporate,United States,,Texas,78701,Central,8,11367.25,-2553.39,2020-01-15,PLATINUM,sean.braxton@example.com,2020-01-15 06:30:00
+ZA-20175,Zara Aziz,Corporate,United States,Los Angeles,California,90036,West,1,8049.92,1532.05,2020-01-15,PLATINUM,zara.aziz@example.com,2020-01-15 06:30:00
+SC-20845,Sung Chung,Consumer,United States,Louisville,Colorado,80027,West,4,304.34,35.12,2020-01-15,BRONZE,sung.chung@example.com,2020-01-15 06:30:00
+OH-20112,Omar Haddad,Corporate,United States,New York City,New York,10024,East,11,6699.25,1799.48,2020-01-15,PLATINUM,omar.haddad@example.com,2020-01-15 06:30:00
+CM-12715,Craig Molinari,Corporate,United States,Huntsville,Texas,77340,Central,4,3984.45,176.31,2015-03-01,GOLD,craig.molinari@example.com,2020-01-15 06:30:00
+JD-16015,Joy Daniels,Consumer,United States,Chicago,Illinois,60610,Central,9,579.49,37.59,2020-01-15,BRONZE,joy.daniels@example.com,2020-01-15 06:30:00
+BH-11710,Brosina Hoffman,Corporate,United States,Boston,Massachusetts,02108,East,9,9639.2,881.37,2020-01-15,PLATINUM,brosina.hoffman@example.com,2020-01-15 06:30:00
+TP-21565,Tracy Poddar,Home Office,United States,Eugene,Oregon,97405,West,7,2144.31,145.2,2020-01-15,SILVER,tracy.poddar@example.com,2020-01-15 06:30:00
+RN-20014,Rohan Nair,Home Office,United States,Chicago,Illinois,60610,Central,3,7412.05,1508.73,2020-01-15,PLATINUM,rohan.nair@example.com,2020-01-15 06:30:00
+CJ-11875,Carl Jackson,Corporate,United States,Austin,Texas,78701,Central,2,20.64,1.66,2020-01-15,BRONZE,carl.jackson@example.com,2020-01-15 06:30:00
+AM-20056,Arjun Mehta,Home Office,United States,New York City,New York,10024,East,4,3194.47,631.76,2020-01-15,GOLD,arjun.mehta@example.com,2020-01-15 06:30:00
+AS-20000,Aarav Sharma,Consumer,United States,New York City,New York,10024,East,4,8412.27,84.73,2020-01-15,PLATINUM,aarav.sharma@example.com,2020-01-15 06:30:00
+CD-12790,Cynthia Delaney,Home Office,United States,Oklahoma City,Oklahoma,73120,Central,7,2007.69,439.05,2020-01-15,SILVER,cynthia.delaney@example.com,2020-01-15 06:30:00
+LH-16750,Larry Hughes,Corporate,United States,Chandler,Arizona,85224,West,4,334.1,12.71,2020-01-15,BRONZE,larry.hughes@example.com,2020-01-15 06:30:00
+JE-15715,Joe Elijah,Consumer,United States,Charlotte,North Carolina,28205,South,14,10406.89,1717.02,2020-01-15,PLATINUM,joe.elijah@example.com,2020-01-15 06:30:00
+SD-20485,Shirley Daniels,Home Office,United States,Alexandria,Virginia,22304,South,10,9269.17,2311.84,2020-01-15,PLATINUM,shirley.daniels@example.com,2020-01-15 06:30:00
+SF-20965,Sylvia Foulston,Corporate,United States,Bedford,Texas,76021,Central,10,4758.38,658.08,2020-01-15,GOLD,sylvia.foulston@example.com,2020-01-15 06:30:00
+TM-20294,Theo Mensah,Consumer,United States,Chicago,Illinois,60610,Central,9,1444.99,287.8,2020-01-15,SILVER,theo.mensah@example.com,2020-01-15 06:30:00
+DE-13255,Deanra Eno,Home Office,United States,Seattle,Washington,98101,West,6,3491.09,507.96,2020-01-15,GOLD,deanra.eno@example.com,2020-01-15 06:30:00
+AA-10645,Anna Andreadi,Consumer,United States,Denver,Colorado,80202,West,7,5623.56,1169.52,2020-01-15,PLATINUM,,2020-01-15 06:30:00
+VR-20042,Vivaan Reddy,Consumer,United States,San Diego,California,92024,West,10,6625.02,116.08,2020-01-15,PLATINUM,vivaan.reddy@example.com,2020-01-15 06:30:00
+RD-19810,Ross DeVincentis,Home Office,United States,Chicago,Illinois,60610,Central,11,1669.6,354.47,2020-01-15,SILVER,ross.devincentis@example.com,2020-01-15 06:30:00
+EN-13780,Edward Nazzal,Corporate,United States,New York City,New York,10035,East,7,2822.68,699.73,2020-01-15,GOLD,edward.nazzal@example.com,2020-01-15 06:30:00
+AB-10060,Adam Bellavance,Home Office,United States,New York City,New York,10009,East,11,9050.56,2868.97,2020-01-15,PLATINUM,adam.bellavance@example.com,2020-01-15 06:30:00
+IS-20154,Ivan Sokolov,Corporate,United States,San Diego,California,92024,West,6,1920.13,148.95,2020-01-15,SILVER,ivan.sokolov@example.com,2020-01-15 06:30:00
+AM-20224,Adam Mercer,Home Office,United States,New York City,New York,10024,East,7,8455.27,-212.7,2020-01-15,PLATINUM,adam.mercer@example.com,2020-01-15 06:30:00
+NB-20168,Noah Bennett,Consumer,United States,New York City,New York,10024,East,3,4767.07,-187.86,2020-01-15,GOLD,noah.bennett@example.com,2020-01-15 06:30:00
+AJ-10795,Anthony Johnson,Corporate,United States,San Francisco,California,94110,West,10,7011.66,1215.95,2020-01-15,PLATINUM,anthony.johnson@example.com,2020-01-15 06:30:00
+NV-20070,Neel Verma,Corporate,United States,Chicago,Illinois,60610,Central,8,8717.0,2240.25,2020-01-15,PLATINUM,neel.verma@example.com,2020-01-15 06:30:00
+DP-13105,Dave Poirier,Corporate,United States,Hempstead,New York,11550,East,9,2842.73,812.18,2020-01-15,GOLD,dave.poirier@example.com,2020-01-15 06:30:00
+DB-13060,Dave Brooks,Corporate,United States,Denver,Colorado,80202,West,10,5936.23,629.75,2020-01-15,PLATINUM,dave.brooks@example.com,2020-01-15 06:30:00
+RB-19330,Randy Bradley,Corporate,United States,Boston,Massachusetts,02108,East,4,1156.32,-222.28,2020-01-15,SILVER,randy.bradley@example.com,2020-01-15 06:30:00
+ML-18265,Muhammed Lee,Consumer,United States,Seattle,Washington,98103,West,2,162.23,42.66,2017-09-21,BRONZE,muhammed.lee@example.com,2020-01-15 06:30:00
+IK-20049,Isha Kapoor,Corporate,United States,Atlanta,Georgia,30318,South,11,1598.01,389.93,2020-01-15,SILVER,isha.kapoor@example.com,2020-01-15 06:30:00
+YG-20098,Yash Gill,Home Office,United States,San Diego,California,92024,West,9,6259.0,160.22,2020-01-15,PLATINUM,yash.gill@example.com,2020-01-15 06:30:00
+BD-11500,Bradley Drucker,Consumer,United States,Miami,Florida,33101,South,7,4844.62,1539.79,2020-01-15,GOLD,bradley.drucker@example.com,2020-01-15 06:30:00
+FW-20182,Felix Weber,Home Office,United States,Chicago,Illinois,60610,Central,11,5324.13,711.74,2020-01-15,PLATINUM,felix.weber@example.com,2020-01-15 06:30:00
+MT-20266,Milo Tanaka,Home Office,United States,San Diego,California,92024,West,2,2972.55,534.59,2020-01-15,GOLD,milo.tanaka@example.com,2020-01-15 06:30:00
+AT-20301,Amara Torres,Corporate,United States,Houston,Texas,77041,Central,11,5039.96,-78.34,2020-01-15,PLATINUM,amara.torres@example.com,2020-01-15 06:30:00
+BV-11245,Benjamin Venier,Home Office,United States,Des Moines,Iowa,50315,Central,7,2243.66,384.7,2020-01-15,SILVER,benjamin.venier@example.com,2020-01-15 06:30:00
+VF-21715,Vicky Freymann,Home Office,United States,Seattle,Washington,98115,West,7,896.67,-127.5,2020-01-15,BRONZE,vicky.freymann@example.com,2020-01-15 06:30:00
+AB-20035,Ananya Bose,Home Office,United States,Phoenix,Arizona,85023,West,5,6219.65,1725.68,2020-01-15,PLATINUM,ananya.bose@example.com,2020-01-15 06:30:00
+TD-20091,Tara Dutta,Corporate,United States,,Arizona,85023,West,9,5220.67,171.95,2020-01-15,PLATINUM,tara.dutta@example.com,2020-01-15 06:30:00
+WK-20259,Wren Kim,Corporate,United States,Phoenix,Arizona,85023,West,6,3040.0,170.8,2020-01-15,GOLD,wren.kim@example.com,2020-01-15 06:30:00
+DR-12880,Dan Reichenbach,Corporate,United States,Inglewood,California,90301,West,11,7391.45,1776.48,2020-01-15,PLATINUM,dan.reichenbach@example.com,2020-01-15 06:30:00
+CM-12160,Charles McCrossin,Consumer,United States,Philadelphia,Pennsylvania,19143,East,8,3386.73,-506.51,2020-01-15,GOLD,charles.mccrossin@example.com,2020-01-15 06:30:00
+TH-21115,Thea Hudgings,Corporate,United States,Philadelphia,Pennsylvania,19140,East,8,4418.96,-346.21,2020-01-15,GOLD,,2020-01-15 06:30:00
+JC-15340,Jasper Cacioppo,Consumer,United States,Los Angeles,California,90032,West,8,111.33,-0.49,2020-01-15,BRONZE,jasper.cacioppo@example.com,2020-01-15 06:30:00
+GH-14425,Gary Hwang,Corporate,United States,Tucson,Arizona,85705,West,8,6138.93,1297.02,2020-01-15,PLATINUM,gary.hwang@example.com,2020-01-15 06:30:00
+EG-13900,Emily Grady,Consumer,United States,Oceanside,New York,11572,East,9,2454.22,134.63,2020-01-15,SILVER,emily.grady@example.com,2020-01-15 06:30:00
+LR-16915,Lena Radford,Consumer,United States,Miami,Florida,33101,South,9,8216.62,614.2,2020-01-15,PLATINUM,lena.radford@example.com,2020-01-15 06:30:00
+MH-17290,Marc Harrigan,Home Office,United States,Philadelphia,Pennsylvania,19140,East,9,3824.29,41.22,2020-01-15,GOLD,marc.harrigan@example.com,2020-01-15 06:30:00
+PM-18940,Paul MacIntyre,Consumer,United States,Boston,Massachusetts,02108,East,4,1606.93,226.42,2020-01-15,SILVER,paul.macintyre@example.com,2020-01-15 06:30:00
+PJ-20077,Priya Joshi,Home Office,United States,Houston,Texas,77041,Central,6,3568.4,951.48,2020-01-15,GOLD,priya.joshi@example.com,2020-01-15 06:30:00
+JP-15460,Jennifer Patt,Corporate,United States,Dallas,Texas,75220,Central,7,1669.14,429.75,2017-11-23,SILVER,jennifer.patt@example.com,2020-01-15 06:30:00
+RC-19960,Ryan Crowe,Consumer,United States,Columbus,Ohio,43229,East,10,1256.4,13.8,2020-01-15,SILVER,ryan.crowe@example.com,2020-01-15 06:30:00
+CA-12310,Christine Abelman,Corporate,United States,Bristol,Connecticut,06010,East,5,2085.34,290.45,2020-01-15,SILVER,christine.abelman@example.com,2020-01-15 06:30:00
+JV-20238,Jonas Vaughn,Corporate,United States,Chicago,Illinois,60610,Central,1,5718.68,-244.63,2020-01-15,PLATINUM,jonas.vaughn@example.com,2020-01-15 06:30:00
+AH-20245,Alice Hale,Home Office,United States,Houston,Texas,77041,Central,7,5798.13,-71.64,2020-01-15,PLATINUM,alice.hale@example.com,2020-01-15 06:30:00
+BF-11215,Benjamin Farhat,Home Office,United States,Albuquerque,New Mexico,87105,West,6,2110.65,595.95,2020-01-15,SILVER,benjamin.farhat@example.com,2020-01-15 06:30:00
+BF-10975,Barbara Fisher,Corporate,United States,Charlotte,North Carolina,28205,South,8,797.8,273.98,2020-01-15,BRONZE,barbara.fisher@example.com,2020-01-15 06:30:00
+DP-20007,Diya Patel,Corporate,United States,Los Angeles,California,90036,West,3,975.72,160.7,2020-01-15,BRONZE,diya.patel@example.com,2020-01-15 06:30:00
+SC-20305,Sean Christensen,Corporate,United States,,Pennsylvania,19140,East,10,5750.79,326.78,2020-01-15,PLATINUM,sean.christensen@example.com,2020-01-15 06:30:00
+RH-19600,Rob Haberlin,Consumer,United States,Carol Stream,Illinois,60188,Central,5,2885.46,208.41,2020-01-15,GOLD,rob.haberlin@example.com,2020-01-15 06:30:00
+MF-20189,Maya Fischer,Consumer,United States,Houston,Texas,77041,Central,1,4712.47,1204.28,2020-01-15,GOLD,maya.fischer@example.com,2020-01-15 06:30:00
+CT-11995,Carol Triggs,Consumer,United States,Tucson,Arizona,85705,West,12,4516.08,192.89,2020-01-15,GOLD,carol.triggs@example.com,2020-01-15 06:30:00
+KM-16375,Katherine Murray,Home Office,United States,Gilbert,Arizona,85234,West,9,6337.57,1324.47,2020-01-15,PLATINUM,katherine.murray@example.com,2020-01-15 06:30:00
+MO-17800,Meg O'Connel,Home Office,United States,Miami,Florida,33101,South,10,2346.59,209.27,2020-01-15,SILVER,meg.oconnel@example.com,2020-01-15 06:30:00
+CS-12250,Chris Selesnick,Corporate,United States,Bossier City,Louisiana,71111,South,13,3296.87,917.77,2020-01-15,GOLD,chris.selesnick@example.com,2020-01-15 06:30:00
+EF-20210,Ethan Ford,Consumer,United States,San Diego,California,92024,West,10,7071.75,1118.33,2020-01-15,PLATINUM,ethan.ford@example.com,2020-01-15 06:30:00
+CD-20161,Chloe Dupont,Home Office,United States,Atlanta,Georgia,30318,South,6,8177.26,-16.16,2020-01-15,PLATINUM,chloe.dupont@example.com,2020-01-15 06:30:00
+VR-20252,Victor Rossi,Consumer,United States,Philadelphia,Pennsylvania,19140,East,4,7076.29,-210.61,2020-01-15,PLATINUM,victor.rossi@example.com,2020-01-15 06:30:00
+BB-10990,Barry Blumstein,Corporate,United States,Inglewood,California,90301,West,7,1028.12,16.44,2020-01-15,SILVER,barry.blumstein@example.com,2020-01-15 06:30:00
+RF-19345,Randy Ferguson,Corporate,United States,Marietta,Georgia,30062,South,12,3700.03,793.72,2020-01-15,GOLD,,2020-01-15 06:30:00
+PG-18895,Paul Gonzalez,Consumer,United States,Los Angeles,California,90008,West,9,1987.16,334.52,2017-11-03,SILVER,paul.gonzalez@example.com,2020-01-15 06:30:00
+JG-15310,Jason Gross,Home Office,United States,Newark,Ohio,43055,East,8,3442.35,5.19,2020-01-15,GOLD,jason.gross@example.com,2020-01-15 06:30:00
+MC-17275,Marc Crier,Consumer,United States,Pasco,Washington,99301,West,10,3659.71,498.09,2020-01-15,GOLD,marc.crier@example.com,2020-01-15 06:30:00
+JG-15805,John Grady,Corporate,United States,Auburn,New York,13021,East,9,2272.22,237.6,2020-01-15,SILVER,john.grady@example.com,2020-01-15 06:30:00
+SO-20335,Sean O'Donnell,Consumer,United States,Columbia,Tennessee,38401,South,9,3327.26,-104.2,2020-01-15,GOLD,sean.odonnell@example.com,2020-01-15 06:30:00
+BF-11080,Bart Folk,Consumer,United States,Baltimore,Maryland,21215,East,7,303.11,144.81,2020-01-15,BRONZE,bart.folk@example.com,2020-01-15 06:30:00
+TC-21145,Theresa Coyne,Corporate,United States,Miami,Florida,33101,South,2,1314.84,287.11,2020-01-15,SILVER,theresa.coyne@example.com,2020-01-15 06:30:00
+PJ-19015,Pauline Johnson,Corporate,United States,New York City,New York,10024,East,8,2806.46,871.46,2020-01-15,GOLD,pauline.johnson@example.com,2020-01-15 06:30:00
+KN-20308,Kian Nolan,Home Office,United States,Philadelphia,Pennsylvania,19140,East,3,3005.13,20.34,2020-01-15,GOLD,,2020-01-15 06:30:00
+LN-20119,Lena Novak,Home Office,United States,Los Angeles,California,90036,West,3,8019.77,28.78,2020-01-15,PLATINUM,lena.novak@example.com,2020-01-15 06:30:00
+JH-16180,Justin Hirsh,Corporate,United States,Denver,Colorado,80202,West,8,3041.32,-109.4,2020-01-15,GOLD,justin.hirsh@example.com,2020-01-15 06:30:00
+RS-20280,Rafael Silva,Corporate,United States,New York City,New York,10024,East,4,3525.43,-98.48,2020-01-15,GOLD,rafael.silva@example.com,2020-01-15 06:30:00
+MC-18130,Mike Caudle,Corporate,United States,Seattle,Washington,98101,West,9,2177.26,163.4,2020-01-15,SILVER,mike.caudle@example.com,2020-01-15 06:30:00
+MW-18235,Mitch Willingham,Corporate,United States,Virginia Beach,Virginia,23464,South,3,7578.66,1678.58,2020-01-15,PLATINUM,mitch.willingham@example.com,2020-01-15 06:30:00
+MC-20126,Marcus Cole,Consumer,United States,Chicago,Illinois,60610,Central,5,3011.36,135.35,2020-01-15,GOLD,marcus.cole@example.com,2020-01-15 06:30:00
+MD-17860,Michael Dominguez,Corporate,United States,Corpus Christi,Texas,78415,Central,5,1204.91,-4.04,2017-11-24,SILVER,michael.dominguez@example.com,2020-01-15 06:30:00
+JO-15280,Jas O'Carroll,Consumer,United States,Austin,Texas,78701,Central,7,2359.18,276.27,2020-01-15,SILVER,jas.ocarroll@example.com,2020-01-15 06:30:00
+KK-20028,Kabir Khan,Corporate,United States,Philadelphia,Pennsylvania,19140,East,2,6561.79,860.32,2020-01-15,PLATINUM,kabir.khan@example.com,2020-01-15 06:30:00
+LC-17140,Logan Currie,Consumer,United States,Philadelphia,Pennsylvania,19140,East,11,3409.14,293.42,2020-01-15,GOLD,logan.currie@example.com,2020-01-15 06:30:00
+RB-19705,Roger Barcio,Home Office,United States,Denver,Colorado,80202,West,8,3273.45,342.83,2020-01-15,GOLD,roger.barcio@example.com,2020-01-15 06:30:00
+SR-20063,Sara Rao,Consumer,United States,Los Angeles,California,90036,West,11,7046.97,1678.58,2020-01-15,PLATINUM,sara.rao@example.com,2020-01-15 06:30:00
+HM-20140,Hugo Muller,Home Office,United States,Philadelphia,Pennsylvania,19140,East,1,7817.97,-23.15,2020-01-15,PLATINUM,hugo.muller@example.com,2020-01-15 06:30:00
+CA-12265,Christina Anderson,Consumer,United States,Miami,Florida,33101,South,12,4021.39,358.39,2020-01-15,GOLD,christina.anderson@example.com,2020-01-15 06:30:00
+MC-17425,Mark Cousins,Home Office,United States,Mobile,Alabama,36608,South,9,5973.15,2144.0,2020-01-15,PLATINUM,mark.cousins@example.com,2020-01-15 06:30:00
+GP-14740,Guy Phonely,Corporate,United States,Leominster,Massachusetts,01453,East,2,236.53,31.84,2015-11-26,BRONZE,guy.phonely@example.com,2020-01-15 06:30:00
+PO-18850,Patrick O'Brill,Consumer,United States,Philadelphia,Pennsylvania,19143,East,14,11684.75,40.99,2020-01-15,PLATINUM,patrick.obrill@example.com,2020-01-15 06:30:00
+RP-19855,Roy Phan,Corporate,United States,Seattle,Washington,98101,West,10,3255.45,679.18,2020-01-15,GOLD,roy.phan@example.com,2020-01-15 06:30:00
+LW-17215,Luke Weiss,Consumer,United States,Rochester,New York,14609,East,7,5420.51,837.24,2017-12-09,PLATINUM,luke.weiss@example.com,2020-01-15 06:30:00

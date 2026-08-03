@@ -1,0 +1,867 @@
+customer_id,customer_name,segment,country,city,state,postal_code,region,total_orders,total_sales,total_profit,last_order_date,loyalty_tier,email,record_updated_at
+DK-12895,Dana Kaydos,Consumer,United States,Seattle,Washington,98103,West,5,4282.18,937.65,2017-11-15,GOLD,dana.kaydos@example.com,2019-12-31 22:00:00
+MA-17995,Michelle Arnett,Home Office,United States,Richmond,Virginia,23223,South,6,2453.28,280.78,2017-06-27,SILVER,michelle.arnett@example.com,2019-12-31 22:00:00
+RO-19780,Rose O'Brian,Consumer,United States,Houston,Texas,77070,Central,7,3815.48,-1262.57,2017-11-25,GOLD,rose.obrian@example.com,2019-12-31 22:00:00
+SC-20050,Sample Company A,Home Office,United States,Burbank,California,91505,West,9,4624.57,1011.74,2017-11-20,GOLD,sample.company.a@example.com,2019-12-31 22:00:00
+AG-10525,Andy Gerbode,Corporate,United States,New York City,New York,10011,East,4,1455.04,-152.76,2015-09-07,SILVER,andy.gerbode@example.com,2019-12-31 22:00:00
+CR-12730,Craig Reiter,Consumer,United States,Columbus,Ohio,43229,East,4,1600.55,306.92,2017-10-13,SILVER,craig.reiter@example.com,2019-12-31 22:00:00
+NP-18325,Naresj Patel,Consumer,United States,New York City,New York,10024,East,6,5529.62,1208.89,2017-12-05,,naresj.patel@example.com,2019-12-31 22:00:00
+JD-16015,Joy Daniels,  CONSUMER ,United States,Chicago,Illinois,60610,Central,6,385.43,26.76,2017-09-09,BRONZE,joy.daniels@example.com,2019-12-31 22:00:00
+TH-21115,Thea Hudgings,Corporate,United States,Philadelphia,Pennsylvania,19140,East,4,2942.77,-252.55,2017-11-02,GOLD,thea.hudgings@example.com,2019-12-31 22:00:00
+JH-15430,Jennifer Halladay,Consumer,United States,Burlington,North Carolina,27217,South,4,309.28,-24.08,2017-12-25,BRONZE,jennifer.halladay@example.com,2019-12-31 22:00:00
+RB-19795,Ross Baird,Home Office,United States,Philadelphia,Pennsylvania,19120,East,8,5633.32,-461.73,2017-11-28,PLATINUM,ross.baird@example.com,2019-12-31 22:00:00
+KW-16435,Katrina Willman,Consumer,United States,New York City,New York,10009,East,5,4416.52,1756.14,2017-09-25,GOLD,katrina.willman@example.com,2019-12-31 22:00:00
+GB-14530, George Bell  ,Corporate,United States,Los Angeles,California,90049,West,11,1568.44,7.84,2017-10-29,SILVER,george.bell@example.com,2019-12-31 22:00:00
+SG-20470,Sheri Gordon,Consumer,United States,Atlanta,Georgia,30318,South,8,1884.8,-119.01,2017-06-30,SILVER,sheri.gordon@example.com,2019-12-31 22:00:00
+LM-17065,Liz MacKendrick,  CONSUMER ,United States,Southaven,Mississippi,38671,South,5,1346.77,-44.88,2016-12-04,SILVER,liz.mackendrick@example.com,2019-12-31 22:00:00
+VM-21685,Valerie Mitchum,Home Office,United States,Seattle,Washington,98105,West,7,2454.87,513.53,2017-11-06,SILVER,valerie.mitchum@example.com,2019-12-31 22:00:00
+BD-11320,Bill Donatelli,,United States,Los Angeles,California,90004,West,12,5718.52,1094.5,2017-11-27,PLATINUM,bill.donatelli@example.com,2019-12-31 22:00:00
+MD-17350,Maribeth Dona,Consumer,United States,Philadelphia,Pennsylvania,19143,East,7,3766.38,-241.95,2017-09-04,GOLD,maribeth.dona@example.com,2019-12-31 22:00:00
+SS-20875,Sung Shariari,Consumer,United States,Dallas,Texas,75220,Central,5,964.64,-75.59,2017-09-01,BRONZE,sung.shariari@example.com,2019-12-31 22:00:00
+CC-12670,Craig Carreira,Consumer,United States,Tampa,Florida,33614,South,7,2269.7,187.84,2017-12-01,SILVER,craig.carreira@example.com,2019-12-31 22:00:00
+PJ-18835,Patrick Jones,Corporate,United States,New York City,New York,10035,East,8,1220.09,442.14,2017-11-21,SILVER,patrick.jones@example.com,2019-12-31 22:00:00
+JF-15295,Jason Fortune-,Consumer,United States,Logan,Utah,84321,West,5,955.12,97.29,2017-05-19,BRONZE,,2019-12-31 22:00:00
+BG-11695,Brooke Gillingham,Corporate,United States,New York City,New York,10009,East,6,1874.17,107.57,2017-11-24,SILVER,brooke.gillingham@example.com,2019-12-31 22:00:00
+HW-14935,Helen Wasserman,Corporate,United States,Indianapolis,Indiana,46203,Central,8,9300.25,2164.16,2017-09-04,PLATINUM,helen.wasserman@example.com,2019-12-31 22:00:00
+MS-17710,Maurice Satty,Consumer,United States,Fort Worth,Texas,76106,Central,6,1694.07,247.43,2016-11-12,SILVER,maurice.satty@example.com,2019-12-31 23:45:00
+CC-12685,Craig Carroll,  CONSUMER ,United States,Henderson,Kentucky,42420,South,4,2854.12,850.16,2015-10-23,GOLD,craig.carroll@example.com,2019-12-31 22:00:00
+PO-18850,Patrick O'Brill,  CONSUMER ,United States,Philadelphia,Pennsylvania,19143,East,11,7473.83,38.48,2017-12-26,PLATINUM,patrick.obrill@example.com,2019-12-31 22:00:00
+LC-16870,Lena Cacioppo,Consumer,United States,Thornton,Colorado,80229,West,8,2580.7,-188.25,2017-12-03,GOLD,lena.cacioppo@example.com,2019-12-31 22:00:00
+JL-15850,John Lucas,Consumer,United States,Philadelphia,Pennsylvania,19134,East,6,2725.26,779.9,2016-04-25,GOLD,john.lucas@example.com,2019-12-31 22:00:00
+FP-14320,Frank Preis,Consumer,United States,Huntsville,Texas,77340,Central,8,4046.75,406.45,2017-12-07,GOLD,frank.preis@example.com,2019-12-31 22:00:00
+MH-17620,Matt Hagelstein,Corporate,United States,San Francisco,California,94110,west  ,4,1252.8,122.36,2017-07-28,SILVER,matt.hagelstein@example.com,2019-12-31 22:00:00
+VS-21820,Vivek Sundaresam,Consumer,United States,Raleigh,North Carolina,27604,South,4,1055.98,-262.81,2017-05-23,SILVER,vivek.sundaresam@example.com,2019-12-31 22:00:00
+RS-19870,Roy Skaria,Home Office,United States,Burlington,Iowa,52601,Central,2,22.33,9.58,2017-12-11,BRONZE,roy.skaria@example.com,2019-12-31 22:00:00
+SO-20335,Sean O'Donnell,Consumer,United States,Columbia,Tennessee,38401,South,6,2602.58,-81.09,2017-12-01,GOLD,sean.odonnell@example.com,2019-12-31 22:00:00
+ML-18265,Muhammed Lee,Consumer,United States,Seattle,Washington,98103,West,2,162.23,42.66,2017-09-21,BRONZE,muhammed.lee@example.com,2019-12-31 22:00:00
+JS-16030,Joy Smith,Consumer,United States,Hattiesburg,Mississippi,39401,South,6,2642.31,-311.26,2017-12-02,GOLD,joy.smith@example.com,2019-12-31 23:45:00
+PK-19075,Pete Kriz,Consumer,United States,,Michigan,48227,Central,12,8646.93,2038.27,2017-12-21,PLATINUM,,2019-12-31 22:00:00
+KL-16645,Ken Lonsdale,Consumer,United States,Chicago,Illinois,60610,Central,12,14175.23,806.86,2017-11-13,PLATINUM,ken.lonsdale@example.com,2019-12-31 22:00:00
+CS-12175,Charles Sheldon,Corporate,United States,San Francisco,California,94122,West,5,844.46,113.14,2017-05-12,BRONZE,charles.sheldon@example.com,2019-12-31 22:00:00
+BD-11605,Brian Dahlen,Consumer,United States,Monroe,Louisiana,71203,South,7,3288.47,634.85,2017-09-24,GOLD,brian.dahlen@example.com,2019-12-31 22:00:00
+CD-11980,Carol Darley,Consumer,United States,Tyler,Texas,75701,Central,3,639.77,-206.72,2017-11-06,BRONZE,carol.darley@example.com,2019-12-31 22:00:00
+DK-12895,Dana Kaydos,Consumer,United States,Seattle,Washington,98103,West,5,4282.18,937.65,2017-11-15,GOLD,dana.kaydos@example.com,2019-12-31 22:00:00
+BT-11305,Beth Thompson,Home Office,United States,San Gabriel,California,91776,West,5,2567.66,417.59,2017-01-28,GOLD,beth.thompson@example.com,2019-12-31 22:00:00
+EC-14050,Erin Creighton,  CONSUMER ,United States,Columbus,Georgia,31907,South,5,461.91,96.43,2017-11-07,BRONZE,erin.creighton@example.com,2019-12-31 22:00:00
+GA-14515,George Ashbrook,Consumer,United States,San Francisco,California,94122,West,8,3919.78,840.9,2017-08-03,GOLD,george.ashbrook@example.com,2019-12-31 22:00:00
+DK-12985,Darren Koutras,Consumer,United States,Hendersonville,Tennessee,37075,South,5,1687.04,-107.35,2017-12-23,SILVER,,2019-12-31 22:00:00
+AJ-10960,Astrea Jones,Consumer,United States,New York City,New York,10035,East,3,629.25,60.43,2017-10-17,BRONZE,astrea.jones@example.com,2019-12-31 22:00:00
+LP-17080,Liz Pelletier,Consumer,United States,San Francisco,California,94110,West,4,756.61,110.78,2017-11-20,BRONZE,liz.pelletier@example.com,2019-12-31 22:00:00
+JF-15490,Jeremy Farry,Consumer,United States,San Francisco,California,94122,West,11,1082.92,-18.07,2017-08-31,SILVER,jeremy.farry@example.com,2019-12-31 22:00:00
+MO-17800,Meg O'Connel,Home Office,United States,Chicago,Illinois,60653,Central,8,1687.03,169.34,2017-09-17,SILVER,meg.oconnel@example.com,2019-12-31 22:00:00
+EB-13750, Edward Becker  ,Corporate,United States,New York City,New York,,East,10,3236.31,-80.29,2017-11-25,GOLD,,2019-12-31 22:00:00
+AH-10195,Alan Haines,Corporate,United States,Tamarac,Florida,33319,South,4,1587.45,-378.55,2017-11-05,SILVER,alan.haines@example.com,2019-12-31 22:00:00
+NP-18685,Nora Pelletier,Home Office,United States,Niagara Falls,New York,14304,East,6,1228.7,514.5,2016-11-19,SILVER,nora.pelletier@example.com,2019-12-31 22:00:00
+Dp-13240,Dean percer,Home Office,United States,Knoxville,Tennessee,37918,South,11,7198.76,333.36,2017-10-07,PLATINUM,dean.percer@example.com,2019-12-31 22:00:00
+EH-13990,Erica Hackney,Consumer,United States,Meriden,Connecticut,06450,East,6,825.95,150.38,2016-11-20,BRONZE,erica.hackney@example.com,2019-12-31 22:00:00
+CA-11965,Carol Adams,Corporate,United States,Port Arthur,Texas,77642,Central,6,3789.72,1143.38,2017-09-25,GOLD,carol.adams@example.com,2019-12-31 22:00:00
+RB-19645,Robert Barroso,Corporate,United States,Memphis,Tennessee,38109,South,5,221.08,72.68,2016-03-22,BRONZE,,2019-12-31 22:00:00
+KB-16585,Ken Black,Corporate,United States,Lafayette,Louisiana,70506,South,12,2744.74,579.36,2017-05-14,GOLD,ken.black@example.com,2019-12-31 22:00:00
+MV-18190,Mike Vittorini,Consumer,United States,Los Angeles,California,90045,West,7,1734.57,273.86,2017-12-11,SILVER,mike.vittorini@example.com,2019-12-31 22:00:00
+JD-16150,Justin Deggeller,Corporate,United States,Los Angeles,California,90008,West,8,8828.03,1619.52,2017-11-19,PLATINUM,justin.deggeller@example.com,2019-12-31 22:00:00
+GZ-14470,Gary Zandusky,Consumer,United States,Columbia,Maryland,21044,East,9,4355.15,1087.75,2017-12-23,GOLD,gary.zandusky@example.com,2019-12-31 22:00:00
+PO-18865,Patrick O'Donnell,Consumer,United States,Indianapolis,Indiana,46203,Central,7,2493.21,437.85,2017-12-30,SILVER,patrick.odonnell@example.com,2019-12-31 22:00:00
+DJ-13510,Don Jones,Corporate,United States,Little Rock,Arkansas,72209,South,8,2501.69,345.25,2017-11-12,GOLD,don.jones@example.com,2019-12-31 22:00:00
+DK-13225,Dean Katz,Corporate,United States,Philadelphia,Pennsylvania,19140,East,9,4802.39,209.9,2017-12-20,GOLD,dean.katz@example.com,2019-12-31 22:00:00
+PB-18805, Patrick Bzostek  ,Home Office,United States,Seattle,Washington,98115,West,3,740.36,229.23,2017-12-05,BRONZE,patrick.bzostek@example.com,2019-12-31 22:00:00
+BC-11125,Becky Castell,Home Office,United States,Peoria,Arizona,85345,West,9,2933.68,251.6,2017-06-11,GOLD,becky.castell@example.com,2019-12-31 22:00:00
+SC-20380,Shahid Collister,Consumer,United States,Atlanta,Georgia,30318,South,9,5992.54,236.66,2017-11-30,PLATINUM,shahid.collister@example.com,2019-12-31 22:00:00
+EK-13795,Eileen Kiefer,Home Office,United States,Chicago,Illinois,60610,Central,4,1303.48,97.11,2017-11-16,SILVER,eileen.kiefer@example.com,2019-12-31 22:00:00
+TC-21295,Toby Carlisle,Consumer,United States,Westminster,California,92683,West,8,4266.81,606.37,2017-12-03,GOLD,toby.carlisle@example.com,2019-12-31 22:00:00
+DB-13210,Dean Braden,Consumer,United States,Detroit,Michigan,48234,Central,10,,169.97,2017-12-21,SILVER,dean.braden@example.com,2019-12-31 22:00:00
+EH-14005,Erica Hernandez,Home Office,United States,Hialeah,Florida,33012,South,7,1219.53,-94.14,2017-12-28,SILVER,erica.hernandez@example.com,2019-12-31 22:00:00
+BO-11350,Bill Overfelt,Corporate,United States,Philadelphia,Pennsylvania,19134,East,5,2682.73,278.78,2017-08-15,GOLD,bill.overfelt@example.com,2019-12-31 22:00:00
+SB-20170,Sarah Bern,Consumer,United States,New York City,New York,10035,East,3,1348.02,157.67,2017-06-12,SILVER,sarah.bern@example.com,2019-12-31 22:00:00
+TT-21220,Thomas Thornton,Consumer,United States,Houston,Texas,77041,Central,8,1427.04,278.74,2017-06-30,SILVER,thomas.thornton@example.com,2019-12-31 22:00:00
+DJ-13630,Doug Jacobs,Consumer,United States,New York City,New York,10009,East,3,3356.4,731.56,2017-12-18,GOLD,doug.jacobs@example.com,2019-12-31 22:00:00
+GD-14590,Giulietta Dortch,Corporate,United States,Arlington,Virginia,22204,South,4,1888.07,230.94,2017-12-25,SILVER,giulietta.dortch@example.com,2019-12-31 22:00:00
+SB-20185,Sarah Brown,Consumer,United States,Los Angeles,California,90045,West,6,6411.0,885.46,2017-06-25,PLATINUM,sarah.brown@example.com,2019-12-31 22:00:00
+KB-16405,Katrina Bavinger,Home Office,United States,New York City,New York,10035,East,3,908.82,274.3,2017-09-04,BRONZE,katrina.bavinger@example.com,2019-12-31 22:00:00
+HA-14905,Helen Abelman,Consumer,United States,Fort Collins,Colorado,,West,7,2163.3,270.86,2017-10-22,SILVER,helen.abelman@example.com,2019-12-31 22:00:00
+JR-16210, Justin Ritter  ,Corporate,United States,Springfield,Oregon,97477,West,5,2201.69,452.37,2017-11-27,SILVER,justin.ritter@example.com,2019-12-31 22:00:00
+GH-14485,Gene Hale,Corporate,United States,Richardson,Texas,75080,Central,2,1361.24,-95.45,2016-12-08,SILVER,gene.hale@example.com,2019-12-31 22:00:00
+GW-14605,Giulietta Weimer,Consumer,United States,Henderson,Kentucky,42420,South,7,2298.47,-268.54,2017-12-02,SILVER,,2019-12-31 23:45:00
+AZ-10750,Annie Zypern,Consumer,United States,San Diego,California,92037,West,6,1622.02,154.95,2017-07-23,SILVER,annie.zypern@example.com,2019-12-31 22:00:00
+DC-12850,Dan Campbell,Consumer,United States,Memphis,Tennessee,38109,South,9,3336.17,-1441.63,2017-11-23,GOLD,dan.campbell@example.com,2019-12-31 22:00:00
+GH-14410,Gary Hansen,Home Office,United States,Chicago,Illinois,60653,Central,9,2819.47,-576.83,2017-10-16,GOLD,gary.hansen@example.com,2019-12-31 22:00:00
+HR-14830,Harold Ryan,Corporate,United States,Seattle,Washington,98103,West,7,5248.79,1196.95,2017-07-24,PLATINUM,harold.ryan@example.com,2019-12-31 22:00:00
+BB-11545,Brenda Bowman,Corporate,United States,Fort Worth,Texas,76106,Central,9,6765.73,1015.08,2017-12-02,PLATINUM,brenda.bowman@example.com,2019-12-31 22:00:00
+ND-18460,Neil Ducich,Corporate,United States,Chesapeake,Virginia,23320,South,6,2893.46,443.34,2017-06-30,GOLD,neil.ducich@example.com,2019-12-31 22:00:00
+RD-19810,Ross DeVincentis,Home Office,United States,Chicago,Illinois,60610,Central,8,1137.62,318.46,2017-12-16,SILVER,ross.devincentis@example.com,2019-12-31 22:00:00
+BF-10975,Barbara Fisher,Corporate,United States,Charlotte,North Carolina,28205,South,7,599.8,227.44,2017-09-30,BRONZE,barbara.fisher@example.com,2019-12-31 22:00:00
+SC-20260,Scott Cohen,Corporate,United States,Corpus Christi,Texas,78415,Central,8,3729.79,671.0,2017-06-26,GOLD,scott.cohen@example.com,2019-12-31 22:00:00
+KS-16300,Karen Seio,Corporate,United States,Raleigh,North Carolina,,South,3,88.47,0.11,2017-03-10,BRONZE,karen.seio@example.com,2019-12-31 22:00:00
+KT-16480,Kean Thornton,Consumer,United States,Buffalo,New York,14215,East,10,4642.09,194.07,2017-09-21,GOLD,kean.thornton@example.com,2019-12-31 22:00:00
+YC-21895,Yoseph Carroll,Corporate,United States,Newark,Delaware,19711,East,5,5454.35,1305.63,2017-12-26,PLATINUM,yoseph.carroll@example.com,2019-12-31 22:00:00
+RR-19315, Ralph Ritter  ,Consumer,United States,Aurora,Illinois,60505,Central,2,615.93,-73.83,2017-12-11,BRONZE,ralph.ritter@example.com,2019-12-31 22:00:00
+JO-15145,Jack O'Briant,Corporate,United States,Franklin,Wisconsin,53132,Central,9,3254.95,581.4,2017-11-03,GOLD,jack.obriant@example.com,2019-12-31 22:00:00
+GT-14710,Greg Tran,Consumer,United States,Seattle,Washington,98105,West,11,11820.12,2163.43,2017-11-24,PLATINUM,,2019-12-31 22:00:00
+MZ-17335,Maria Zettner,Home Office,United States,Phoenix,Arizona,85023,West,4,623.29,85.02,2017-11-30,BRONZE,maria.zettner@example.com,2019-12-31 23:45:00
+DP-13165,David Philippe,Consumer,United States,New York City,New York,10035,East,2,1058.62,-40.94,2015-10-10,SILVER,david.philippe@example.com,2019-12-31 22:00:00
+GH-14425,Gary Hwang,Consumer,United States,Tucson,Arizona,85705,West,4,4172.85,1176.42,2017-11-10,GOLD,gary.hwang@example.com,2019-12-31 22:00:00
+AR-10570,Anemone Ratner,Consumer,United States,,Georgia,31907,South,1,88.15,32.63,2016-07-14,BRONZE,anemone.ratner@example.com,2019-12-31 22:00:00
+SH-20635,Stefanie Holloman,Corporate,United States,Jackson,Tennessee,38301,South,2,2096.39,260.63,2015-11-26,SILVER,stefanie.holloman@example.com,2019-12-31 22:00:00
+ZC-21910,Zuschuss Carroll,Consumer,United States,Edmonds,Washington,98026,West,13,8025.71,-1032.15,2017-11-06,PLATINUM,zuschuss.carroll@example.com,2019-12-31 22:00:00
+KN-16390,Katherine Nockton,Corporate,United States,New York City,New York,10011,East,9,2617.27,-151.15,2017-12-11,GOLD,katherine.nockton@example.com,2019-12-31 22:00:00
+GM-14680,Greg Matthias,Consumer,United States,San Jose,California,95123,West,6,3163.63,35.49,2017-07-31,GOLD,greg.matthias@example.com,2019-12-31 22:00:00
+SR-20740,Steven Roelle,Home Office,United States,Bloomington,Indiana,47401,Central,8,4345.89,1990.42,2017-06-17,GOLD,steven.roelle@example.com,2019-12-31 22:00:00
+,Craig Carroll,  CONSUMER ,United States,Henderson,Kentucky,42420,South,4,2854.12,850.16,2015-10-23,GOLD,craig.carroll@example.com,2019-12-31 22:00:00
+FC-14245,Frank Carlisle,Home Office,United States,,California,94109,West,7,3418.74,1217.17,2017-10-21,GOLD,frank.carlisle@example.com,2019-12-31 22:00:00
+MH-18025,Michelle Huthwaite,Consumer,United States,Seattle,Washington,98115,West,5,2984.95,476.9,2017-11-11,GOLD,michelle.huthwaite@example.com,2019-12-31 22:00:00
+AH-10585,Angele Hood,Consumer,United States,Seattle,Washington,98105,West,4,738.5,83.96,2017-12-09,BRONZE,angele.hood@example.com,2019-12-31 22:00:00
+AH-10210,Alan Hwang,  CONSUMER ,United States,New York City,New York,10024,East,9,4805.34,1308.55,2017-12-24,GOLD,alan.hwang@example.com,2019-12-31 22:00:00
+MS-17770,Maxwell Schwartz,Consumer,United States,Seattle,Washington,98105,West,9,3144.68,280.86,2017-08-31,GOLD,maxwell.schwartz@example.com,2019-12-31 22:00:00
+GK-14620,Grace Kelly,Corporate,United States,Los Angeles,California,90049,West,9,6497.27,1448.55,2017-09-09,PLATINUM,grace.kelly@example.com,2019-12-31 22:00:00
+GR-14560,Georgia Rosenberg,Corporate,United States,Wilmington,Delaware,19805,East,2,1284.38,359.83,2014-11-21,SILVER,georgia.rosenberg@example.com,2019-12-31 22:00:00
+EP-13915,Emily Phan,Consumer,United States,Houston,Texas,77036,Central,17,5478.06,144.96,2017-12-18,PLATINUM,emily.phan@example.com,2019-12-31 22:00:00
+BE-11410,Bobby Elias,Consumer,United States,Appleton,Wisconsin,54915,Central,5,2261.44,755.92,2017-09-23,SILVER,bobby.elias@example.com,2019-12-31 22:00:00
+MM-18055,Michelle Moray,Consumer,United States,New York City,New York,10024,East,8,,-520.34,2017-10-30,GOLD,michelle.moray@example.com,2019-12-31 22:00:00
+LW-17215,Luke Weiss,  CONSUMER ,United States,Rochester,New York,14609,East,7,5420.51,837.24,2017-12-09,PLATINUM,luke.weiss@example.com,2019-12-31 22:00:00
+HL-15040,Hunter Lopez,Consumer,United States,Jonesboro,Arkansas,72401,South,6,12873.3,5622.43,2017-11-17,PLATINUM,hunter.lopez@example.com,2019-12-31 22:00:00
+BS-11800,Bryan Spruell,Home Office,United States,New York City,New York,10011,East,2,,194.05,2017-04-09,BRONZE,bryan.spruell@example.com,2019-12-31 22:00:00
+BD-11635,Brian Derr,Consumer,United States,New York City,New York,10009,East,3,582.65,141.53,2017-12-21,BRONZE,brian.derr@example.com,2019-12-31 22:00:00
+BE-11455,Brad Eason,Home Office,United States,Providence,Rhode Island,,East,6,1727.65,139.2,2017-04-20,SILVER,brad.eason@example.com,2019-12-31 22:00:00
+HK-14890,Heather Kirkland,Corporate,United States,Houston,Texas,77070,Central,8,4877.78,956.95,2017-08-01,GOLD,heather.kirkland@example.com,2019-12-31 22:00:00
+PW-19030,Pauline Webber,Corporate,United States,New York City,New York,10009,East,10,3454.92,803.82,2017-11-14,GOLD,pauline.webber@example.com,2019-12-31 22:00:00
+BF-11170,Ben Ferrer,Home Office,United States,Los Angeles,California,90045,West,11,5907.97,1538.21,2017-12-14,PLATINUM,,2019-12-31 22:00:00
+KL-16555,Kelly Lampkin,Corporate,United States,Colorado Springs,Colorado,80906,West,8,5016.49,-182.78,2017-12-14,PLATINUM,kelly.lampkin@example.com,2019-12-31 22:00:00
+RD-19900,Ruben Dartt,Consumer,United States,San Diego,California,92037,West,9,3133.92,455.53,2017-09-07,GOLD,ruben.dartt@example.com,2019-12-31 22:00:00
+KH-16630,Ken Heidel,Corporate,United States,Clinton,Maryland,20735,east  ,9,3918.97,727.38,2017-11-02,GOLD,ken.heidel@example.com,2019-12-31 22:00:00
+FW-14395,Fred Wasserman,Corporate,United States,Huntsville,Alabama,35810,South,3,79.75,23.49,2017-01-02,BRONZE,fred.wasserman@example.com,2019-12-31 22:00:00
+MK-18160,Mike Kennedy,Consumer,United States,San Francisco,California,94122,West,4,1031.6,227.83,2017-05-04,SILVER,mike.kennedy@example.com,2019-12-31 22:00:00
+TS-21370,Todd Sumrall,Corporate,United States,Los Angeles,California,90049,West,6,11891.75,2371.71,2017-11-24,PLATINUM,todd.sumrall@example.com,2019-12-31 22:00:00
+JG-15805,John Grady,Corporate,United States,Auburn,New York,13021,East,6,1507.02,206.1,2017-05-21,SILVER,john.grady@example.com,2019-12-31 22:00:00
+RD-19720,Roger Demir,Consumer,United States,Morgan Hill,California,95037,West,10,1419.74,207.33,2017-12-09,SILVER,roger.demir@example.com,2019-12-31 22:00:00
+AB-10060,Adam Bellavance,Home Office,United States,New York City,New York,10009,East,8,7755.62,2054.59,2017-11-06,PLATINUM,adam.bellavance@example.com,2019-12-31 22:00:00
+AS-10225,Alan Schoenberger,Corporate,United States,Provo,Utah,84604,West,5,4260.78,719.78,2017-12-08,GOLD,alan.schoenberger@example.com,2019-12-31 22:00:00
+KE-16420,Katrina Edelman,Corporate,United States,Los Angeles,California,90008,West,8,1686.73,397.88,2017-12-04,SILVER,katrina.edelman@example.com,2019-12-31 22:00:00
+SC-20695,Steve Chapman,Corporate,United States,La Crosse,Wisconsin,54601,Central,10,2576.41,611.83,2017-10-02,GOLD,steve.chapman@example.com,2019-12-31 22:00:00
+DO-13435,Denny Ordway,Consumer,United States,Columbus,Ohio,43229,East,9,1300.03,-38.91,2017-08-19,SILVER,denny.ordway@example.com,2019-12-31 22:00:00
+BO-11425,Bobby Odegard,Consumer,United States,New York City,New York,10024,East,2,130.83,59.45,2017-10-16,BRONZE,bobby.odegard@example.com,2019-12-31 22:00:00
+NC-18625,Noah Childs,Corporate,United States,Aurora,Colorado,80013,West,5,1821.74,-359.02,2017-06-09,SILVER,noah.childs@example.com,2019-12-31 22:00:00
+AG-10525,Andy Gerbode,Corporate,United States,New York City,New York,10011,East,4,1455.04,-152.76,2015-09-07,SILVER,andy.gerbode@example.com,2019-12-31 22:00:00
+SH-19975, Sally Hughsby  ,Corporate,United States,Milwaukee,Wisconsin,53209,Central,13,3406.84,558.47,2017-12-01,GOLD,sally.hughsby@example.com,2019-12-31 22:00:00
+LW-16825,Laurel Workman,Corporate,United States,Phoenix,Arizona,85023,West,5,2238.06,32.58,2017-10-03,SILVER,laurel.workman@example.com,2019-12-31 22:00:00
+PA-19060,Pete Armstrong,Home Office,United States,Richmond,Indiana,47374,Central,6,729.41,225.86,2017-09-18,BRONZE,pete.armstrong@example.com,2019-12-31 22:00:00
+BF-11275,Beth Fritzler,Corporate,United States,Tucson,Arizona,85705,west  ,3,791.99,25.87,2017-11-03,BRONZE,beth.fritzler@example.com,2019-12-31 22:00:00
+AB-10600,Ann Blume,Corporate,United States,Tucson,Arizona,85705,West,4,1515.86,-274.96,2017-11-10,SILVER,ann.blume@example.com,2019-12-31 22:00:00
+RC-19960,Ryan Crowe,Consumer,United States,Columbus,Ohio,43229,East,6,885.75,10.56,2017-09-11,BRONZE,ryan.crowe@example.com,2019-12-31 22:00:00
+JE-15715,Joe Elijah,Consumer,United States,Charlotte,North Carolina,28205,South,10,8697.84,1262.29,2017-11-14,PLATINUM,joe.elijah@example.com,2019-12-31 22:00:00
+MC-17425,Mark Cousins,Corporate,United States,Mobile,Alabama,36608,South,5,4432.14,1802.39,2016-11-26,GOLD,mark.cousins@example.com,2019-12-31 22:00:00
+JF-15355,Jay Fein,Consumer,United States,San Diego,California,,West,6,1911.84,330.2,2017-09-16,SILVER,jay.fein@example.com,2019-12-31 22:00:00
+BW-11110,Bart Watters,Corporate,United States,New York City,New York,10024,East,8,4750.36,921.26,2017-08-31,GOLD,bart.watters@example.com,2019-12-31 22:00:00
+LD-16855,Lela Donovan,  CORPORATE ,United States,Chicago,Illinois,60653,Central,1,5.3,0.46,2016-06-26,BRONZE,lela.donovan@example.com,2019-12-31 22:00:00
+FM-14215,Filia McAdams,Corporate,United States,Richmond,Kentucky,,South,10,2456.64,249.68,2017-12-23,SILVER,filia.mcadams@example.com,2019-12-31 22:00:00
+AH-10120,Adrian Hane,Home Office,United States,Salem,Oregon,97301,west  ,7,1735.51,-2.31,2017-10-31,SILVER,adrian.hane@example.com,2019-12-31 22:00:00
+JM-15655,Jim Mitchum,Corporate,United States,Carlsbad,New Mexico,88220,West,5,864.95,117.2,2017-12-22,BRONZE,jim.mitchum@example.com,2019-12-31 22:00:00
+JL-15130,Jack Lebron,Consumer,United States,Jackson,Tennessee,38301,South,6,1214.96,-207.8,2017-12-22,SILVER,jack.lebron@example.com,2019-12-31 22:00:00
+DL-12925,Daniel Lacy,Consumer,United States,Eagan,Minnesota,55122,Central,6,3272.2,4.21,2017-11-03,GOLD,daniel.lacy@example.com,2019-12-31 22:00:00
+DB-13555,Dorothy Badders,Corporate,United States,Newark,Delaware,19711,East,7,3908.8,109.33,2017-09-14,GOLD,dorothy.badders@example.com,2019-12-31 22:00:00
+SK-19990,Sally Knutson,Consumer,United States,New York City,New York,10024,East,3,883.41,168.79,2017-12-22,BRONZE,sally.knutson@example.com,2019-12-31 22:00:00
+BF-11080,Bart Folk,Consumer,United States,Baltimore,Maryland,21215,East,3,272.95,110.93,2017-12-05,BRONZE,bart.folk@example.com,2019-12-31 22:00:00
+DK-13090,Dave Kipp,Consumer,United States,Clinton,Maryland,20735,East,7,2650.56,536.39,2017-11-18,GOLD,dave.kipp@example.com,2019-12-31 22:00:00
+JC-15340,Jasper Cacioppo,Consumer,United States,Los Angeles,California,,,4,71.26,-0.36,2017-09-07,BRONZE,jasper.cacioppo@example.com,2019-12-31 22:00:00
+MS-17980,Michael Stewart,Corporate,United States,Philadelphia,Pennsylvania,19134,East,6,855.12,55.23,2017-12-04,BRONZE,,2019-12-31 22:00:00
+SG-20080,Sandra Glassco,Consumer,United States,Redlands,California,92374,West,3,3406.58,570.44,2017-12-22,GOLD,sandra.glassco@example.com,2019-12-31 22:00:00
+TR-21325,Toby Ritter,Consumer,United States,Belleville,New Jersey,07109,East,5,675.94,220.36,2017-06-20,BRONZE,toby.ritter@example.com,2019-12-31 22:00:00
+SB-20290,Sean Braxton,Corporate,United States,Henderson,Kentucky,42420,South,7,8057.89,-2082.75,2017-11-13,PLATINUM,sean.braxton@example.com,2019-12-31 22:00:00
+ML-17755,Max Ludwig,Home Office,United States,Suffolk,Virginia,23434,South,7,2071.91,409.51,2017-12-01,SILVER,max.ludwig@example.com,2019-12-31 22:00:00
+TP-21130,Theone Pippenger,Consumer,United States,Detroit,Michigan,48227,Central,9,4454.06,1129.13,2017-12-22,GOLD,theone.pippenger@example.com,2019-12-31 22:00:00
+TB-21625,Trudy Brown,Consumer,United States,New York City,New York,10009,East,9,2797.67,379.88,2017-11-30,GOLD,trudy.brown@example.com,2019-12-31 22:00:00
+TD-20995,Tamara Dahlen,Consumer,United States,Bolingbrook,Illinois,60440,Central,9,1434.55,88.19,2017-11-23,SILVER,tamara.dahlen@example.com,2019-12-31 22:00:00
+SH-20395,Shahid Hopkins,Consumer,United States,Jacksonville,North Carolina,28540,South,10,2180.72,-144.52,2017-12-07,SILVER,,2019-12-31 22:00:00
+SW-20755,Steven Ward,Corporate,United States,New York City,New York,10009,East,2,758.7,68.24,2016-07-14,BRONZE,steven.ward@example.com,2019-12-31 22:00:00
+SC-20575,Sonia Cooley,Consumer,United States,Miami,Florida,33178,South,5,902.73,100.23,2017-09-29,,sonia.cooley@example.com,2019-12-31 22:00:00
+DK-12835,Damala Kotsonis,Corporate,United States,Salinas,California,93905,West,12,3256.48,881.12,2017-12-09,GOLD,damala.kotsonis@example.com,2019-12-31 22:00:00
+AH-10195,Alan Haines,Corporate,United States,Tamarac,Florida,33319,South,4,1587.45,-378.55,2017-11-05,SILVER,alan.haines@example.com,2019-12-31 22:00:00
+ND-18370,Natalie DeCherney,Consumer,United States,San Francisco,California,94110,West,9,4326.14,353.65,2017-12-03,GOLD,,2019-12-31 22:00:00
+KH-16330,Katharine Harms,Corporate,United States,New York City,New York,10024,East,8,3312.86,454.79,2017-11-20,GOLD,katharine.harms@example.com,2019-12-31 22:00:00
+AB-10150,Aimee Bixby,Consumer,United States,Yonkers,New York,10701,East,5,966.71,313.66,2017-11-19,BRONZE,aimee.bixby@example.com,2019-12-31 22:00:00
+MG-17890,Michael Granlund,Home Office,United States,Baltimore,Maryland,21215,East,9,776.38,171.74,2017-09-22,BRONZE,michael.granlund@example.com,2019-12-31 22:00:00
+CM-11935,Carlos Meador,Consumer,United States,Fayetteville,North Carolina,28314,South,2,565.39,-43.73,2016-01-22,BRONZE,carlos.meador@example.com,2019-12-31 22:00:00
+MC-17275,Marc Crier,Consumer,United States,Pasco,Washington,99301,West,8,2725.98,461.0,2017-10-15,GOLD,marc.crier@example.com,2019-12-31 22:00:00
+BP-11185,Ben Peterman,,United States,Arvada,Colorado,,West,9,3675.86,363.6,2017-12-29,GOLD,ben.peterman@example.com,2019-12-31 22:00:00
+KE-16420,Katrina Edelman,Corporate,United States,Los Angeles,California,90008,West,8,1771.07,397.88,2017-12-04,SILVER,katrina.edelman@example.com,2019-12-31 23:45:00
+JW-16075,Julia West,Consumer,United States,Jacksonville,North Carolina,28540,South,4,1428.73,154.06,2016-09-25,SILVER,julia.west@example.com,2019-12-31 22:00:00
+LC-16960,Lindsay Castell,Home Office,United States,Tampa,Florida,33614,South,4,3246.63,299.48,2016-10-20,GOLD,lindsay.castell@example.com,2019-12-31 22:00:00
+DB-13660,Duane Benoit,Consumer,United States,Los Angeles,California,90036,West,7,1155.2,177.67,2017-12-18,SILVER,duane.benoit@example.com,2019-12-31 22:00:00
+TS-21205,Thomas Seio,Corporate,United States,Nashville,Tennessee,37211,South,7,5371.09,862.89,2017-06-15,PLATINUM,thomas.seio@example.com,2019-12-31 22:00:00
+AA-10480,Andrew Allen,Consumer,United States,Detroit,Michigan,48234,Central,4,1790.51,435.83,2017-04-15,SILVER,andrew.allen@example.com,2019-12-31 22:00:00
+JM-15865,John Murray,Consumer,United States,Phoenix,Arizona,85023,West,7,7625.08,1574.62,2017-09-12,PLATINUM,john.murray@example.com,2019-12-31 22:00:00
+DB-13060,Dave Brooks,Consumer,United States,Skokie,Illinois,60076,Central,7,4758.23,473.03,2017-12-14,GOLD,dave.brooks@example.com,2019-12-31 23:45:00
+HZ-14950,Henia Zydlo,Consumer,United States,Houston,Texas,77095,Central,5,886.52,-130.39,2017-11-25,BRONZE,henia.zydlo@example.com,2019-12-31 22:00:00
+SJ-20215, Sarah Jordon  ,Consumer,United States,Chicago,Illinois,60653,Central,6,1341.04,-23.51,2017-12-01,SILVER,sarah.jordon@example.com,2019-12-31 22:00:00
+EB-13930,Eric Barreto,Consumer,United States,Saint Petersburg,Florida,33710,South,5,944.6,0.6,2017-07-22,BRONZE,eric.barreto@example.com,2019-12-31 22:00:00
+ML-17395,Marina Lichtenstein,Corporate,United States,Murfreesboro,Tennessee,37130,South,9,2722.84,684.92,2017-10-22,GOLD,marina.lichtenstein@example.com,2019-12-31 22:00:00
+TP-21565,Tracy Poddar,  CORPORATE ,United States,Eugene,Oregon,97405,West,4,1936.64,139.23,2017-01-14,SILVER,tracy.poddar@example.com,2019-12-31 22:00:00
+MY-17380,Maribeth Yedwab,Corporate,United States,Parker,Colorado,80134,West,7,2254.28,319.12,2017-12-01,SILVER,maribeth.yedwab@example.com,2019-12-31 22:00:00
+ST-20530,Shui Tom,Consumer,United States,Philadelphia,Pennsylvania,19140,East,7,433.34,84.44,2017-08-27,BRONZE,shui.tom@example.com,2019-12-31 22:00:00
+EP-13915,Emily Phan,Consumer,United States,Houston,Texas,77036,Central,17,5478.06,144.96,2017-12-18,PLATINUM,emily.phan@example.com,2019-12-31 22:00:00
+VP-21760,Victoria Pisteka,Corporate,United States,Columbus,Ohio,43229,East,7,3360.53,-1018.78,2017-10-16,GOLD,victoria.pisteka@example.com,2019-12-31 22:00:00
+TH-21100,Thea Hendricks,Consumer,United States,San Diego,California,92037,West,5,2422.82,-135.21,2017-01-20,SILVER,thea.hendricks@example.com,2019-12-31 22:00:00
+JK-15205,Jamie Kunitz,Consumer,United States,San Francisco,California,94122,West,5,4427.14,1219.98,2017-10-30,GOLD,jamie.kunitz@example.com,2019-12-31 22:00:00
+HM-14860,Harry Marie,Corporate,United States,Dallas,Texas,75217,Central,10,8236.76,2437.98,2017-12-28,PLATINUM,,2019-12-31 22:00:00
+RD-19930,Russell D'Ascenzo,Consumer,United States,Dallas,Texas,75217,Central,4,970.94,35.06,2017-11-18,BRONZE,russell.dascenzo@example.com,2019-12-31 22:00:00
+TC-21535,Tracy Collins,Home Office,United States,Los Angeles,California,90008,West,7,742.56,217.93,2017-12-26,BRONZE,tracy.collins@example.com,2019-12-31 22:00:00
+BF-11005,Barry Franz,Home Office,United States,Pasadena,California,91104,West,4,1333.88,-291.38,2017-11-21,SILVER,barry.franz@example.com,2019-12-31 22:00:00
+CK-12325,Christine Kargatis,Home Office,United States,Troy,Ohio,45373,East,5,2945.32,261.22,2017-09-01,GOLD,christine.kargatis@example.com,2019-12-31 22:00:00
+SS-20140,Saphhira Shifley,Corporate,United States,Columbus,Georgia,31907,South,8,1324.03,332.35,2017-12-15,SILVER,saphhira.shifley@example.com,2019-12-31 22:00:00
+VG-21790,Vivek Gonzalez,Consumer,United States,San Francisco,California,94109,West,6,846.01,143.63,2017-07-29,BRONZE,vivek.gonzalez@example.com,2019-12-31 22:00:00
+DK-12835,Damala Kotsonis,Corporate,United States,Salinas,California,93905,West,12,3256.48,881.12,2017-12-09,GOLD,damala.kotsonis@example.com,2019-12-31 22:00:00
+JG-15160,James Galang,Consumer,United States,Los Angeles,California,90049,West,11,6366.39,1415.67,2017-12-29,,james.galang@example.com,2019-12-31 22:00:00
+AZ-10750,Annie Zypern,Consumer,United States,San Diego,California,92037,West,6,1622.02,154.95,2017-07-23,SILVER,annie.zypern@example.com,2019-12-31 22:00:00
+JD-16060,Julia Dunbar,Consumer,United States,Rochester,Minnesota,55901,Central,3,695.44,111.11,2017-03-05,BRONZE,,2019-12-31 22:00:00
+SC-20050,Sample Company A,Home Office,United States,Burbank,California,91505,West,9,4624.57,1011.74,2017-11-20,GOLD,sample.company.a@example.com,2019-12-31 22:00:00
+CC-12475,Cindy Chapman,Consumer,United States,Houston,Texas,77070,Central,9,1659.44,154.85,2017-11-21,SILVER,cindy.chapman@example.com,2019-12-31 22:00:00
+KH-16690,Kristen Hastings,Corporate,United States,Springfield,Oregon,97477,West,7,5990.8,1227.51,2017-12-28,PLATINUM,kristen.hastings@example.com,2019-12-31 22:00:00
+CP-12340,Christine Phan,Corporate,United States,New York City,New York,10024,East,8,5888.28,-1850.3,2017-07-23,PLATINUM,christine.phan@example.com,2019-12-31 22:00:00
+MM-18280,Muhammed MacIntyre,Corporate,United States,Haltom City,Texas,76117,Central,9,775.41,58.89,2017-10-06,BRONZE,muhammed.macintyre@example.com,2019-12-31 22:00:00
+AS-10240,Alan Shonely,Consumer,United States,Tampa,Florida,33614,South,7,584.61,33.72,2017-06-21,BRONZE,alan.shonely@example.com,2019-12-31 22:00:00
+SS-20590,Sonia Sunley,Consumer,United States,San Francisco,California,94122,west  ,6,418.49,135.54,2016-10-24,BRONZE,sonia.sunley@example.com,2019-12-31 22:00:00
+RM-19750,Roland Murray,Consumer,United States,New York City,New York,10011,East,1,98.35,28.69,2017-03-06,BRONZE,roland.murray@example.com,2019-12-31 22:00:00
+MO-17500,Mary O'Rourke,Consumer,United States,New York City,New York,10035,East,4,922.49,59.36,2017-10-19,BRONZE,mary.orourke@example.com,2019-12-31 22:00:00
+HE-14800,Harold Engle,Corporate,United States,Newark,Delaware,19711,East,4,883.53,274.4,2017-12-18,BRONZE,harold.engle@example.com,2019-12-31 22:00:00
+KM-16375,Katherine Murray,Home Office,United States,Gilbert,Arizona,85234,West,8,5620.19,973.79,2017-11-04,PLATINUM,katherine.murray@example.com,2019-12-31 22:00:00
+DG-13300,Deirdre Greer,Corporate,United States,Philadelphia,Pennsylvania,19134,East,5,3195.82,562.78,2017-11-28,GOLD,deirdre.greer@example.com,2019-12-31 22:00:00
+PH-18790,Patricia Hirasaki,Home Office,United States,Lakeland,Florida,33801,South,1,729.65,47.89,2017-10-21,BRONZE,patricia.hirasaki@example.com,2019-12-31 22:00:00
+LB-16795,Laurel Beltran,Home Office,United States,Seattle,Washington,98105,West,8,4985.68,-52.19,2017-07-31,GOLD,laurel.beltran@example.com,2019-12-31 22:00:00
+JK-16120,Julie Kriz,  HOME OFFICE ,United States,Austin,Texas,78745,Central,10,2932.48,122.66,2017-09-04,GOLD,julie.kriz@example.com,2019-12-31 22:00:00
+JB-16000,Joy Bell-,Consumer,United States,Brownsville,Texas,78521,Central,7,644.12,126.76,2017-11-17,BRONZE,joy.bell@example.com,2019-12-31 22:00:00
+KH-16360,Katherine Hughes,Consumer,United States,Louisville,Kentucky,40214,South,6,3100.61,528.21,2017-12-29,GOLD,katherine.hughes@example.com,2019-12-31 22:00:00
+AW-10840,Anthony Witt,Consumer,United States,Bakersfield,California,93309,West,4,649.38,65.77,2017-12-10,BRONZE,anthony.witt@example.com,2019-12-31 22:00:00
+DC-12850,Dan Campbell,Consumer,United States,Memphis,Tennessee,38109,South,9,3336.17,-1441.63,2017-11-23,GOLD,dan.campbell@example.com,2019-12-31 22:00:00
+DS-13030,Darrin Sayre,Home Office,United States,Aurora,Colorado,80013,West,4,1762.21,193.33,2017-09-28,SILVER,darrin.sayre@example.com,2019-12-31 22:00:00
+QJ-19255,Quincy Jones,Corporate,United States,Springfield,Virginia,22153,South,9,6108.34,1203.68,2017-12-05,PLATINUM,quincy.jones@example.com,2019-12-31 22:00:00
+KD-16615,Ken Dana,Corporate,United States,Anaheim,California,92804,West,5,2243.51,539.72,2017-03-16,SILVER,ken.dana@example.com,2019-12-31 22:00:00
+DW-13195,David Wiener,Corporate,United States,Houston,Texas,77095,Central,6,1080.75,-86.87,2017-10-22,SILVER,david.wiener@example.com,2019-12-31 22:00:00
+MC-18130,Mike Caudle,  CORPORATE ,United States,Los Angeles,California,90004,West,5,1582.0,121.76,2016-12-26,SILVER,mike.caudle@example.com,2019-12-31 22:00:00
+EL-13735,Ed Ludwig,Home Office,United States,Columbia,Maryland,21044,East,2,124.28,27.12,2017-10-14,BRONZE,ed.ludwig@example.com,2019-12-31 22:00:00
+ME-18010,Michelle Ellison,Corporate,United States,San Francisco,California,94122,West,4,1256.94,107.36,2017-09-29,SILVER,michelle.ellison@example.com,2019-12-31 22:00:00
+NM-18520,Neoma Murray,Consumer,United States,Amarillo,Texas,79109,Central,10,2161.98,788.95,2017-04-30,SILVER,neoma.murray@example.com,2019-12-31 22:00:00
+PC-19000,Pauline Chand,Home Office,United States,Los Angeles,California,90004,West,2,1061.49,-184.34,2015-08-01,SILVER,pauline.chand@example.com,2019-12-31 22:00:00
+MB-18085,Mick Brown,Consumer,United States,Charlotte,North Carolina,28205,South,7,1428.23,117.81,2017-11-16,SILVER,mick.brown@example.com,2019-12-31 22:00:00
+SC-20770,Stewart Carmichael,Corporate,United States,Philadelphia,Pennsylvania,19134,East,7,4492.66,-671.19,2017-11-19,GOLD,stewart.carmichael@example.com,2019-12-31 22:00:00
+IM-15070,Irene Maddox,Consumer,United States,Colorado Springs,Colorado,80906,West,7,4930.47,514.65,2016-12-05,GOLD,irene.maddox@example.com,2019-12-31 22:00:00
+VG-21805,Vivek Grady,Corporate,United States,Philadelphia,Pennsylvania,19140,East,5,427.37,-52.33,2017-03-19,BRONZE,vivek.grady@example.com,2019-12-31 22:00:00
+BM-11140, Becky Martin  ,Consumer,United States,San Antonio,Texas,78207,Central,4,,-1659.96,2017-02-26,PLATINUM,becky.martin@example.com,2019-12-31 22:00:00
+ML-18265,Muhammed Lee,Consumer,United States,Seattle,Washington,98103,West,2,162.23,42.66,2017-09-21,BRONZE,muhammed.lee@example.com,2019-12-31 22:00:00
+CT-11995,Carol Triggs,Consumer,United States,Tucson,Arizona,85705,West,8,3241.9,161.23,2017-09-25,GOLD,carol.triggs@example.com,2019-12-31 22:00:00
+SS-20515,Shirley Schmidt,Home Office,United States,Louisville,Kentucky,40214,South,3,613.4,199.93,2016-08-26,BRONZE,shirley.schmidt@example.com,2019-12-31 22:00:00
+JW-15955,Joni Wasserman,Consumer,United States,Louisville,Kentucky,40214,South,7,1244.09,-29.58,2017-12-25,SILVER,joni.wasserman@example.com,2019-12-31 22:00:00
+MG-18145,Mike Gockenbach,Consumer,United States,Los Angeles,California,90045,West,4,3061.54,-93.6,2017-10-07,GOLD,,2019-12-31 22:00:00
+CM-12190,Charlotte Melton,Consumer,United States,Rochester,Minnesota,55901,Central,6,1475.14,91.2,2017-12-22,SILVER,charlotte.melton@example.com,2019-12-31 22:00:00
+TW-21025,Tamara Willingham,  HOME OFFICE ,United States,Seattle,Washington,98105,West,7,5278.83,737.39,2017-10-27,PLATINUM,tamara.willingham@example.com,2019-12-31 22:00:00
+BD-11560,Brendan Dodson,,United States,Fresno,California,93727,West,2,320.54,116.71,2017-03-27,BRONZE,,2019-12-31 22:00:00
+HG-15025,Hunter Glantz,Consumer,United States,Amarillo,Texas,79109,,7,3690.28,804.61,2017-12-24,GOLD,hunter.glantz@example.com,2019-12-31 22:00:00
+CC-12370,Christopher Conant,Consumer,United States,Philadelphia,Pennsylvania,19120,East,5,12129.07,2177.05,2017-11-17,PLATINUM,,2019-12-31 22:00:00
+AP-10915,Arthur Prichep,Consumer,United States,Los Angeles,California,90045,West,10,3323.56,579.31,2017-09-23,GOLD,arthur.prichep@example.com,2019-12-31 22:00:00
+LB-16735,Larry Blacks,Consumer,United States,Fort Worth,Texas,76106,Central,3,50.19,18.65,2017-11-12,BRONZE,larry.blacks@example.com,2019-12-31 22:00:00
+KN-16450,Kean Nguyen,Corporate,United States,Redondo Beach,California,90278,West,5,2171.96,114.31,2017-11-08,SILVER,kean.nguyen@example.com,2019-12-31 22:00:00
+CC-12610,Corey Catlett,  CORPORATE ,United States,Denver,Colorado,80219,West,7,2540.63,331.43,2017-11-26,GOLD,corey.catlett@example.com,2019-12-31 22:00:00
+CP-12085,Cathy Prescott,Corporate,United States,Springfield,Missouri,65807,Central,8,5402.25,427.03,2017-10-09,PLATINUM,cathy.prescott@example.com,2019-12-31 22:00:00
+AH-10075,Adam Hart,Corporate,United States,Cranston,Rhode Island,02920,East,10,3250.34,281.19,2017-11-26,GOLD,adam.hart@example.com,2019-12-31 22:00:00
+TS-21160,Theresa Swint,Corporate,United States,Toledo,Ohio,43615,East,6,2163.62,260.87,2016-08-13,SILVER,theresa.swint@example.com,2019-12-31 22:00:00
+DB-13270,Deborah Brumfield,Home Office,United States,Providence,Rhode Island,02908,East,8,4655.9,841.83,2017-11-07,GOLD,deborah.brumfield@example.com,2019-12-31 22:00:00
+FC-14335,Fred Chung,Corporate,United States,Chicago,Illinois,,Central,7,3889.37,714.29,2017-06-29,GOLD,fred.chung@example.com,2019-12-31 22:00:00
+TA-21385,Tom Ashbrook,Home Office,United States,New York City,New York,10024,East,4,14595.62,4703.79,2017-10-22,PLATINUM,tom.ashbrook@example.com,2019-12-31 22:00:00
+LC-16885,Lena Creighton,Consumer,United States,Roseville,California,95661,West,12,7663.13,1288.35,2017-12-14,PLATINUM,lena.creighton@example.com,2019-12-31 22:00:00
+CD-12280,Christina DeMoss,Consumer,United States,New York City,New York,10024,East,2,1205.58,233.03,2017-11-18,SILVER,christina.demoss@example.com,2019-12-31 22:00:00
+CS-12130, Chad Sievert  ,Consumer,United States,Los Angeles,California,90004,West,4,884.64,143.83,2016-08-28,BRONZE,chad.sievert@example.com,2019-12-31 22:00:00
+AB-10105,Adrian Barton,Consumer,United States,Houston,Texas,77041,Central,10,14473.57,5444.81,2017-11-19,PLATINUM,adrian.barton@example.com,2019-12-31 22:00:00
+ZD-21925,Zuschuss Donatelli,Consumer,United States,San Francisco,California,94109,West,5,1493.94,249.13,2017-06-11,SILVER,zuschuss.donatelli@example.com,2019-12-31 22:00:00
+JC-15775,John Castell,Consumer,United States,Philadelphia,Pennsylvania,19143,East,9,2772.06,279.57,2017-07-25,GOLD,john.castell@example.com,2019-12-31 22:00:00
+BD-11725,Bruce Degenhardt,,United States,Lafayette,Louisiana,70506,South,6,1526.5,333.98,2017-09-28,SILVER,bruce.degenhardt@example.com,2019-12-31 22:00:00
+PK-19075,Pete Kriz,Consumer,United States,,Michigan,48227,Central,12,8646.93,2038.27,2017-12-21,PLATINUM,,2019-12-31 22:00:00
+SF-20200,Sarah Foster,Consumer,United States,Seattle,Washington,98103,West,9,3422.79,286.9,2017-11-01,GOLD,sarah.foster@example.com,2019-12-31 22:00:00
+KD-16270,Karen Daniels,Consumer,United States,Houston,Texas,77095,Central,5,8282.36,1107.7,2016-09-02,PLATINUM,karen.daniels@example.com,2019-12-31 22:00:00
+CJ-11875,Carl Jackson,Corporate,United States,Philadelphia,Pennsylvania,19140,East,1,16.52,1.65,2016-12-30,BRONZE,carl.jackson@example.com,2019-12-31 22:00:00
+DR-12940,Daniel Raglin,Home Office,United States,Franklin,Massachusetts,02038,East,8,8350.87,2869.08,2017-11-10,PLATINUM,daniel.raglin@example.com,2019-12-31 22:00:00
+DL-13330,Denise Leinenbach,Consumer,United States,Lawrence,Indiana,46226,Central,4,585.02,222.68,2017-11-03,BRONZE,denise.leinenbach@example.com,2019-12-31 22:00:00
+TN-21040,Tanja Norvell,Home Office,United States,Phoenix,Arizona,85023,West,7,3130.22,-692.05,2017-10-01,GOLD,tanja.norvell@example.com,2019-12-31 22:00:00
+JF-15415,Jennifer Ferguson,Consumer,United States,Seattle,Washington,98105,West,6,2371.45,635.64,2017-12-28,SILVER,jennifer.ferguson@example.com,2019-12-31 22:00:00
+CC-12430,Chuck Clark,  HOME OFFICE ,United States,Concord,New Hampshire,03301,East,10,2870.05,424.66,2017-12-30,GOLD,chuck.clark@example.com,2019-12-31 22:00:00
+KD-16495,Keith Dawkins,Corporate,United States,San Jose,California,95123,West,12,8181.26,3038.63,2017-09-09,PLATINUM,keith.dawkins@example.com,2019-12-31 22:00:00
+RB-19705,Roger Barcio,Home Office,United States,New York City,New York,10035,East,4,2067.45,243.08,2017-11-06,SILVER,roger.barcio@example.com,2019-12-31 22:00:00
+LW-16990,Lindsay Williams,  CORPORATE ,United States,San Francisco,California,94109,West,6,3230.31,662.83,2017-11-27,GOLD,lindsay.williams@example.com,2019-12-31 22:00:00
+AM-10705,Anne McFarland,Consumer,United States,Cranston,Rhode Island,02920,East,8,5664.02,1085.73,2017-07-21,PLATINUM,anne.mcfarland@example.com,2019-12-31 22:00:00
+MP-17470,Mark Packer,Home Office,United States,New York City,New York,10035,East,7,3206.13,600.29,2016-01-11,GOLD,mark.packer@example.com,2019-12-31 22:00:00
+BS-11755,Bruce Stewart,Consumer,United States,Detroit,Michigan,48227,Central,7,2562.38,-113.3,2017-12-29,GOLD,bruce.stewart@example.com,2019-12-31 22:00:00
+PO-19180,Philisse Overcash,Home Office,United States,Roseville,Minnesota,55113,Central,9,4893.04,1155.43,2017-07-23,GOLD,philisse.overcash@example.com,2019-12-31 22:00:00
+AS-10285,Alejandro Savely,Corporate,United States,Dallas,Texas,75081,Central,6,3214.24,354.63,2017-12-11,GOLD,alejandro.savely@example.com,2019-12-31 22:00:00
+VW-21775,Victoria Wilson,Corporate,United States,Medina,Ohio,44256,East,10,6134.04,-874.66,2017-12-02,PLATINUM,,2019-12-31 22:00:00
+ME-17320,Maria Etezadi,Home Office,United States,Henderson,Kentucky,,South,10,10663.73,1859.47,2017-11-18,PLATINUM,maria.etezadi@example.com,2019-12-31 22:00:00
+LH-17020,Lisa Hazard,Consumer,United States,Louisville,Colorado,80027,West,4,318.24,-242.74,2017-05-05,BRONZE,lisa.hazard@example.com,2019-12-31 22:00:00
+AG-10675,Anna Gayman,Consumer,United States,Houston,Texas,77036,,7,3489.04,-246.43,2017-09-24,GOLD,anna.gayman@example.com,2019-12-31 22:00:00
+RD-19480,Rick Duston,Consumer,United States,San Francisco,California,94122,West,8,4272.93,480.59,2017-10-19,GOLD,rick.duston@example.com,2019-12-31 22:00:00
+JO-15550,Jesus Ocampo,Home Office,United States,Chester,Pennsylvania,19013,East,5,1090.84,167.67,2017-05-29,SILVER,jesus.ocampo@example.com,2019-12-31 22:00:00
+TS-21655,Trudy Schmidt,Consumer,United States,,Texas,79907,Central,5,3368.09,220.92,2017-05-06,GOLD,trudy.schmidt@example.com,2019-12-31 22:00:00
+AS-10045,Aaron Smayling,Corporate,United States,Jacksonville,North Carolina,28540,South,7,3050.69,-253.57,2017-10-03,GOLD,aaron.smayling@example.com,2019-12-31 22:00:00
+JK-15370,Jay Kimmel,Consumer,United States,Miami,Florida,33180,South,8,2709.63,330.28,2017-11-16,GOLD,jay.kimmel@example.com,2019-12-31 22:00:00
+DB-13660,Duane Benoit,Consumer,United States,Los Angeles,California,90036,West,7,1155.2,177.67,2017-12-18,SILVER,duane.benoit@example.com,2019-12-31 22:00:00
+NC-18340,Nat Carroll,Consumer,United States,Fargo,North Dakota,58103,Central,5,2461.4,580.31,2017-05-20,SILVER,nat.carroll@example.com,2019-12-31 22:00:00
+EJ-14155,Eva Jacobs,Consumer,United States,Franklin,Massachusetts,02038,East,5,2656.69,451.88,2017-11-03,GOLD,eva.jacobs@example.com,2019-12-31 22:00:00
+JS-15595,Jill Stevenson,Corporate,United States,Chicago,Illinois,60653,Central,4,1417.65,-175.55,2017-09-02,SILVER,jill.stevenson@example.com,2019-12-31 22:00:00
+PK-18910,Paul Knutson,Home Office,United States,Philadelphia,Pennsylvania,19143,East,2,1441.15,-798.7,2016-09-03,SILVER,paul.knutson@example.com,2019-12-31 22:00:00
+JK-15730,Joe Kamberova,Consumer,United States,Des Plaines,Illinois,60016,Central,10,4867.2,55.05,2017-10-07,GOLD,joe.kamberova@example.com,2019-12-31 22:00:00
+LP-17095,Liz Preis,Consumer,United States,Aurora,Illinois,60505,Central,7,3653.4,338.45,2017-12-21,GOLD,liz.preis@example.com,2019-12-31 22:00:00
+AG-10270,Alejandro Grove,Consumer,United States,Omaha,Nebraska,68104,Central,5,2582.9,732.74,2017-03-27,GOLD,alejandro.grove@example.com,2019-12-31 22:00:00
+RB-19465,Rick Bensley,Home Office,United States,Tulsa,Oklahoma,74133,Central,12,4715.47,640.55,2017-12-21,GOLD,rick.bensley@example.com,2019-12-31 22:00:00
+MF-18250,Monica Federle,Corporate,United States,Little Rock,Arkansas,72209,South,5,1758.3,456.86,2017-12-23,SILVER,,2019-12-31 22:00:00
+BF-11215,Benjamin Farhat,Home Office,United States,Albuquerque,New Mexico,87105,West,4,1585.16,523.21,2017-10-26,SILVER,benjamin.farhat@example.com,2019-12-31 22:00:00
+AW-10930,Arthur Wiediger,Home Office,United States,Houston,Texas,77070,Central,7,2852.97,-104.55,2017-11-14,GOLD,arthur.wiediger@example.com,2019-12-31 22:00:00
+EM-14140,Eugene Moren,  HOME OFFICE ,United States,Superior,Wisconsin,54880,Central,6,4588.44,1319.37,2017-11-12,GOLD,eugene.moren@example.com,2019-12-31 22:00:00
+FH-14365,Fred Hopkins,Corporate,United States,Seattle,Washington,98115,West,8,6987.2,2050.28,2017-12-25,PLATINUM,fred.hopkins@example.com,2019-12-31 22:00:00
+HR-14770,Hallie Redmond,  HOME OFFICE ,United States,Richmond,Indiana,47374,Central,5,1299.29,185.58,2017-12-17,SILVER,hallie.redmond@example.com,2019-12-31 22:00:00
+KH-16510,Keith Herrera,Consumer,United States,San Francisco,California,94110,West,7,5952.86,656.12,2017-12-08,PLATINUM,keith.herrera@example.com,2019-12-31 22:00:00
+BO-11350,Bill Overfelt,Corporate,United States,Philadelphia,Pennsylvania,19134,East,5,2682.73,278.78,2017-08-15,GOLD,bill.overfelt@example.com,2019-12-31 22:00:00
+CV-12295,Christina VanderZanden,Consumer,United States,Fresno,California,93727,West,5,2830.63,493.09,2017-04-20,GOLD,christina.vanderzanden@example.com,2019-12-31 22:00:00
+JE-16165,Justin Ellison,Corporate,United States,Franklin,Wisconsin,53132,Central,3,2697.25,789.65,2017-12-10,GOLD,justin.ellison@example.com,2019-12-31 22:00:00
+MS-17530,MaryBeth Skach,Consumer,United States,Seattle,Washington,98105,West,4,475.66,84.03,2016-10-22,BRONZE,marybeth.skach@example.com,2019-12-31 22:00:00
+DM-13015,Darrin Martin,Consumer,United States,New York City,New York,10009,East,7,6345.1,1677.39,2017-11-03,PLATINUM,darrin.martin@example.com,2019-12-31 22:00:00
+LT-17110,Liz Thompson,Consumer,United States,San Diego,California,92105,West,8,2936.25,320.97,2017-11-26,GOLD,liz.thompson@example.com,2019-12-31 22:00:00
+PS-19045,Penelope Sewall,Home Office,United States,Harrisonburg,Virginia,22801,South,7,6843.63,1742.73,2017-05-08,PLATINUM,penelope.sewall@example.com,2019-12-31 22:00:00
+JF-15565,Jill Fjeld,Consumer,United States,Fayetteville,North Carolina,,South,8,4198.33,1073.21,2017-11-06,GOLD,jill.fjeld@example.com,2019-12-31 22:00:00
+HM-14980,Henry MacAllister,Consumer,United States,Los Angeles,California,90008,West,4,736.28,117.28,2017-04-27,BRONZE,henry.macallister@example.com,2019-12-31 22:00:00
+MF-17665,Maureen Fritzler,Corporate,United States,Columbia,Maryland,21044,East,5,937.04,-341.53,2016-11-04,BRONZE,maureen.fritzler@example.com,2019-12-31 22:00:00
+MO-17950,Michael Oakman,Consumer,United States,Dallas,Texas,75220,Central,2,154.29,-82.01,2017-07-03,BRONZE,michael.oakman@example.com,2019-12-31 22:00:00
+CS-12355,Christine Sundaresam,Consumer,United States,Roswell,Georgia,30076,South,11,3202.16,831.94,2017-12-24,GOLD,christine.sundaresam@example.com,2019-12-31 22:00:00
+PB-19105,Peter Bühler,Consumer,United States,Smyrna,Georgia,30080,South,4,688.32,218.16,2017-11-03,BRONZE,peter.buhler@example.com,2019-12-31 22:00:00
+SC-20305,Sean Christensen,Consumer,United States,,Pennsylvania,19140,East,7,3979.06,229.16,2017-12-01,GOLD,sean.christensen@example.com,2019-12-31 22:00:00
+CM-12715,Craig Molinari,Corporate,United States,Huntsville,Texas,77340,Central,4,3984.45,176.31,2015-03-01,GOLD,craig.molinari@example.com,2019-12-31 22:00:00
+EB-13840,Ellis Ballard,Corporate,United States,Seattle,Washington,98105,West,5,4358.13,656.2,2017-10-01,GOLD,ellis.ballard@example.com,2019-12-31 22:00:00
+SS-20410,Shahid Shariari,Consumer,United States,Los Angeles,California,90008,West,6,3056.81,-1010.97,2017-09-11,GOLD,shahid.shariari@example.com,2019-12-31 22:00:00
+TS-21430,Tom Stivers,Corporate,United States,Reading,Pennsylvania,19601,East,5,2054.14,48.7,2017-07-11,SILVER,tom.stivers@example.com,2019-12-31 22:00:00
+BD-11770, Bryan Davis  ,Consumer,United States,Edmonds,Washington,98026,West,6,658.47,141.26,2017-02-06,BRONZE,bryan.davis@example.com,2019-12-31 22:00:00
+BT-11485,Brad Thomas,Home Office,United States,Clinton,Maryland,20735,East,2,415.2,126.87,2016-03-11,BRONZE,brad.thomas@example.com,2019-12-31 22:00:00
+RB-19570,Rob Beeghly,Consumer,United States,Columbus,Indiana,47201,Central,5,528.55,76.89,2017-12-05,BRONZE,rob.beeghly@example.com,2019-12-31 22:00:00
+LD-17005,Lisa DeCherney,Consumer,United States,New York City,New York,10011,East,4,1961.93,557.17,2016-11-11,SILVER,lisa.decherney@example.com,2019-12-31 22:00:00
+BS-11365,Bill Shonely,Corporate,United States,Lakewood,New Jersey,08701,East,5,10501.65,2616.06,2016-06-20,PLATINUM,bill.shonely@example.com,2019-12-31 22:00:00
+BT-11530,Bradley Talbott,Home Office,United States,Los Angeles,California,90036,West,5,2684.49,409.5,2017-09-30,GOLD,bradley.talbott@example.com,2019-12-31 22:00:00
+OT-18730,Olvera Toch,Consumer,United States,Bethlehem,Pennsylvania,18018,East,5,3818.62,-925.12,2017-10-26,GOLD,olvera.toch@example.com,2019-12-31 22:00:00
+BM-11650,Brian Moss,Corporate,United States,Columbus,Indiana,47201,Central,11,7294.18,2199.28,2017-11-27,PLATINUM,brian.moss@example.com,2019-12-31 22:00:00
+RB-19360,Raymond Buch,,United States,Auburn,New York,13021,East,6,15117.34,6976.1,2017-09-25,PLATINUM,raymond.buch@example.com,2019-12-31 22:00:00
+BK-11260,Berenike Kampe,Consumer,United States,Chicago,Illinois,60610,Central,6,659.14,-63.76,2017-10-14,BRONZE,berenike.kampe@example.com,2019-12-31 22:00:00
+IL-15100,Ivan Liston,Consumer,United States,Columbus,Indiana,47201,Central,7,5040.74,1121.94,2017-08-10,PLATINUM,ivan.liston@example.com,2019-12-31 22:00:00
+SP-20860,Sung Pak,Corporate,United States,Philadelphia,Pennsylvania,19134,East,10,4282.94,566.72,2017-10-12,GOLD,sung.pak@example.com,2019-12-31 22:00:00
+TB-21595,Troy Blackwell,Consumer,United States,Portland,Oregon,,West,5,1387.56,-136.41,2017-03-20,SILVER,troy.blackwell@example.com,2019-12-31 22:00:00
+BC-11125,Becky Castell,Home Office,United States,Peoria,Arizona,85345,West,9,2933.68,251.6,2017-06-11,GOLD,becky.castell@example.com,2019-12-31 22:00:00
+MN-17935,Michael Nguyen,Consumer,United States,Dallas,Texas,75220,Central,6,2477.95,290.82,2017-11-26,SILVER,michael.nguyen@example.com,2019-12-31 22:00:00
+MP-17965,Michael Paige,Corporate,United States,Mcallen,Texas,78501,Central,9,3983.64,638.16,2017-10-19,GOLD,michael.paige@example.com,2019-12-31 22:00:00
+BN-11470,Brad Norvell,Corporate,United States,Cary,North Carolina,27511,South,4,265.3,36.61,2017-12-06,BRONZE,brad.norvell@example.com,2019-12-31 22:00:00
+AC-10420,Alyssa Crouse,Corporate,United States,Houston,Texas,77041,Central,3,925.8,-62.13,2017-05-12,BRONZE,alyssa.crouse@example.com,2019-12-31 22:00:00
+NM-18445,Nathan Mautz,Home Office,United States,New York City,New York,10024,East,7,6459.34,2751.68,2017-07-23,PLATINUM,nathan.mautz@example.com,2019-12-31 22:00:00
+AP-10720,Anne Pryor,Home Office,United States,Los Angeles,California,90032,West,8,1638.55,285.79,2017-11-19,SILVER,anne.pryor@example.com,2019-12-31 22:00:00
+AO-10810,Anthony O'Donnell,Corporate,United States,Los Angeles,California,90045,West,1,161.28,12.1,2016-08-16,BRONZE,anthony.odonnell@example.com,2019-12-31 22:00:00
+HM-14980,Henry MacAllister,Consumer,United States,Los Angeles,California,90008,West,4,736.28,117.28,2017-04-27,BRONZE,henry.macallister@example.com,2019-12-31 22:00:00
+CR-12625,Corey Roper,Home Office,United States,Lakewood,New Jersey,08701,East,3,475.9,144.76,2016-09-16,BRONZE,corey.roper@example.com,2019-12-31 22:00:00
+TP-21415,Tom Prescott,Consumer,United States,Houston,Texas,77070,Central,5,5329.0,-1087.39,2017-09-17,PLATINUM,tom.prescott@example.com,2019-12-31 22:00:00
+ML-18040,Michelle Lonsdale,Corporate,United States,Albuquerque,New Mexico,,West,3,742.08,138.72,2017-10-12,BRONZE,michelle.lonsdale@example.com,2019-12-31 22:00:00
+RS-19765,Roland Schwarz,Corporate,United States,Mount Vernon,New York,10550,East,8,4159.77,1206.39,2017-11-24,GOLD,roland.schwarz@example.com,2019-12-31 22:00:00
+LL-16840,Lauren Leatherbury,Consumer,United States,Waynesboro,Virginia,22980,South,6,2741.2,560.01,2017-04-25,GOLD,lauren.leatherbury@example.com,2019-12-31 22:00:00
+CS-12460,Chuck Sachs,Consumer,United States,New York City,New York,10009,East,2,550.64,156.26,2017-12-03,BRONZE,chuck.sachs@example.com,2019-12-31 22:00:00
+NL-18310,Nancy Lomonaco,Home Office,United States,Danville,California,,West,4,1418.09,343.64,2017-11-02,SILVER,nancy.lomonaco@example.com,2019-12-31 22:00:00
+NS-18640,Noel Staavos,Corporate,United States,Columbus,Ohio,43229,East,13,2964.82,-234.77,2017-07-09,GOLD,noel.staavos@example.com,2019-12-31 22:00:00
+CS-12400,Christopher Schild,Home Office,United States,Tampa,Florida,,South,9,3651.86,-342.8,2017-12-28,GOLD,christopher.schild@example.com,2019-12-31 22:00:00
+PG-18820, Patrick Gardner  ,Consumer,United States,Bakersfield,California,93309,West,13,3086.91,137.46,2017-11-24,GOLD,patrick.gardner@example.com,2019-12-31 22:00:00
+SG-20605,Speros Goranitis,Consumer,United States,New York City,New York,10009,East,6,3124.83,463.27,2017-09-13,GOLD,speros.goranitis@example.com,2019-12-31 22:00:00
+PL-18925,Paul Lucas,Home Office,United States,Philadelphia,Pennsylvania,19140,east  ,5,239.48,-0.75,2017-12-15,BRONZE,paul.lucas@example.com,2019-12-31 22:00:00
+EH-13765,Edward Hooks,Corporate,United States,Seattle,Washington,98103,West,12,10310.88,1393.52,2017-08-17,PLATINUM,,2019-12-31 22:00:00
+SP-20650,Stephanie Phelps,Corporate,United States,Akron,Ohio,44312,East,9,1872.44,268.48,2016-12-09,SILVER,stephanie.phelps@example.com,2019-12-31 22:00:00
+IG-15085,Ivan Gibson,Consumer,United States,Little Rock,Arkansas,72209,South,4,744.57,320.5,2017-10-20,BRONZE,ivan.gibson@example.com,2019-12-31 22:00:00
+MS-17365,Maribeth Schnelling,Consumer,United States,Chicago,Illinois,60653,Central,10,7443.69,844.94,2017-04-01,PLATINUM,maribeth.schnelling@example.com,2019-12-31 22:00:00
+AD-10180,Alan Dominguez,Home Office,United States,Great Falls,Montana,59405,West,8,6106.88,1869.93,2017-12-01,,alan.dominguez@example.com,2019-12-31 22:00:00
+AA-10645,Anna Andreadi,Consumer,United States,Georgetown,Kentucky,40324,South,6,5086.93,857.8,2017-11-05,PLATINUM,anna.andreadi@example.com,2019-12-31 22:00:00
+JK-16090,Juliana Krohn,Consumer,United States,Louisville,Kentucky,40214,South,3,3747.67,586.66,2017-12-02,GOLD,juliana.krohn@example.com,2019-12-31 22:00:00
+EG-13900,Emily Grady,Consumer,United States,Oceanside,New York,11572,East,5,1832.02,104.27,2017-12-08,SILVER,emily.grady@example.com,2019-12-31 22:00:00
+KC-16540,Kelly Collister,Consumer,United States,San Diego,California,92037,West,4,3908.26,709.42,2017-09-24,GOLD,kelly.collister@example.com,2019-12-31 22:00:00
+RW-19540,Rick Wilson,Corporate,United States,Brentwood,California,94513,West,7,7397.4,1586.63,2017-09-01,PLATINUM,rick.wilson@example.com,2019-12-31 22:00:00
+DK-12835,Damala Kotsonis,Corporate,United States,Salinas,California,93905,West,12,3419.3,881.12,2017-12-09,GOLD,damala.kotsonis@example.com,2019-12-31 23:45:00
+DM-12955,Dario Medina,Corporate,United States,Houston,Texas,77036,Central,7,1322.03,108.76,2017-09-07,SILVER,dario.medina@example.com,2019-12-31 22:00:00
+MC-17605,Matt Connell,Corporate,United States,Lakeland,Florida,33801,South,8,2258.19,195.45,2017-09-09,SILVER,matt.connell@example.com,2019-12-31 22:00:00
+PF-19120,Peter Fuller,Consumer,United States,New York City,New York,10035,East,4,9062.86,-614.29,2015-09-17,PLATINUM,peter.fuller@example.com,2019-12-31 22:00:00
+SV-20785,Stewart Visinsky,Consumer,United States,Philadelphia,Pennsylvania,19140,East,9,4105.3,485.03,2017-02-13,GOLD,stewart.visinsky@example.com,2019-12-31 22:00:00
+HH-15010,Hilary Holden,Corporate,United States,San Francisco,California,94110,West,2,218.67,86.73,2017-10-19,BRONZE,hilary.holden@example.com,2019-12-31 22:00:00
+MZ-17515,Mary Zewe,Corporate,United States,Arlington,Texas,76017,Central,6,2564.91,787.75,2017-03-23,GOLD,mary.zewe@example.com,2019-12-31 22:00:00
+AB-10255,Alejandro Ballentine,Home Office,United States,Carlsbad,New Mexico,88220,West,9,914.53,264.57,2017-07-17,BRONZE,alejandro.ballentine@example.com,2019-12-31 22:00:00
+EB-13870,Emily Burns,Consumer,United States,Phoenix,Arizona,85023,west  ,10,2767.22,261.53,2017-09-21,GOLD,emily.burns@example.com,2019-12-31 22:00:00
+AG-10495,Andrew Gjertsen,Corporate,United States,Saint Petersburg,Florida,33710,South,8,2356.86,295.67,2017-10-13,SILVER,andrew.gjertsen@example.com,2019-12-31 22:00:00
+JE-15745,Joel Eaton,Consumer,United States,Florence,Kentucky,41042,South,13,6760.82,221.8,2017-11-09,PLATINUM,joel.eaton@example.com,2019-12-31 22:00:00
+DL-13495,Dionis Lloyd,Corporate,United States,Detroit,Michigan,48227,Central,8,3539.32,-52.79,2017-10-15,GOLD,,2019-12-31 22:00:00
+PB-19150,Philip Brown,Consumer,United States,Los Angeles,California,90004,West,8,1456.95,280.66,2017-09-24,SILVER,philip.brown@example.com,2019-12-31 22:00:00
+TC-21475,Tony Chapman,Home Office,United States,Aurora,Colorado,,West,9,1244.98,119.1,2017-07-30,SILVER,tony.chapman@example.com,2019-12-31 22:00:00
+BH-11710,Brosina Hoffman,Consumer,United States,Los Angeles,California,90032,West,8,6568.12,802.79,2017-12-07,PLATINUM,brosina.hoffman@example.com,2019-12-31 23:45:00
+MH-17785,Maya Herman,Corporate,United States,New York City,New York,10035,East,7,2203.78,238.56,2017-09-23,SILVER,maya.herman@example.com,2019-12-31 22:00:00
+JB-15400,Jennifer Braxton,Corporate,United States,Tampa,Florida,33614,South,10,1791.6,156.05,2017-12-23,SILVER,jennifer.braxton@example.com,2019-12-31 22:00:00
+SV-20815,Stuart Van,  CORPORATE ,United States,Houston,Texas,77041,Central,4,1271.09,199.65,2017-10-15,SILVER,stuart.van@example.com,2019-12-31 22:00:00
+DF-13135,David Flashing,Consumer,United States,Rockford,Illinois,61107,Central,3,2390.53,-259.31,2016-01-30,SILVER,david.flashing@example.com,2019-12-31 22:00:00
+DV-13045,Darrin Van Huff,Corporate,United States,Jacksonville,Florida,32216,South,5,1119.48,-427.18,2017-12-11,SILVER,darrin.van.huff@example.com,2019-12-31 22:00:00
+BM-11785,Bryan Mills,Consumer,United States,Columbus,Ohio,43229,East,10,1338.84,137.74,2017-05-26,SILVER,bryan.mills@example.com,2019-12-31 22:00:00
+NB-18580,Nicole Brennan,Corporate,United States,,Louisiana,71111,South,2,273.87,24.79,2014-10-22,BRONZE,nicole.brennan@example.com,2019-12-31 22:00:00
+JS-16030,Joy Smith,Consumer,United States,Hattiesburg,Mississippi,39401,South,6,2516.49,-311.26,2017-12-02,GOLD,joy.smith@example.com,2019-12-31 22:00:00
+MV-17485,Mark Van Huff,Consumer,United States,Houston,Texas,77041,Central,9,1560.05,189.03,2017-12-03,SILVER,mark.van.huff@example.com,2019-12-31 22:00:00
+FH-14350,Fred Harton,Consumer,United States,Atlanta,Georgia,30318,South,4,2271.28,706.29,2017-06-01,SILVER,fred.harton@example.com,2019-12-31 22:00:00
+CW-11905,Carl Weiss,Home Office,United States,Huntsville,Texas,77340,Central,6,1136.59,370.83,2017-12-08,SILVER,carl.weiss@example.com,2019-12-31 22:00:00
+NW-18400,Natalie Webber,Consumer,United States,Philadelphia,Pennsylvania,19120,East,7,7595.71,1023.12,2017-07-11,PLATINUM,natalie.webber@example.com,2019-12-31 23:45:00
+LA-16780,Laura Armstrong,Corporate,United States,Hackensack,New Jersey,07601,East,11,,2059.12,2017-07-29,PLATINUM,laura.armstrong@example.com,2019-12-31 22:00:00
+CL-12700,Craig Leslie,Home Office,United States,Colorado Springs,Colorado,80906,West,5,2353.59,229.01,2017-09-16,SILVER,craig.leslie@example.com,2019-12-31 22:00:00
+BE-11335,Bill Eplett,Home Office,United States,Jackson,Michigan,49201,Central,5,4204.68,1487.77,2017-09-02,GOLD,bill.eplett@example.com,2019-12-31 22:00:00
+RA-19885,Ruben Ausman,  CORPORATE ,United States,San Francisco,California,,West,7,3832.31,1292.87,2017-11-17,GOLD,ruben.ausman@example.com,2019-12-31 22:00:00
+MR-17545,Mathew Reese,Home Office,United States,New York City,New York,,East,4,639.18,162.94,2017-08-27,BRONZE,mathew.reese@example.com,2019-12-31 22:00:00
+ES-14020,Erica Smith,Consumer,United States,Los Angeles,California,90049,West,5,3510.46,1003.29,2017-11-20,GOLD,erica.smith@example.com,2019-12-31 22:00:00
+BD-11500,Bradley Drucker,Consumer,United States,Chicago,Illinois,60653,Central,6,4411.24,1142.12,2017-11-25,GOLD,bradley.drucker@example.com,2019-12-31 22:00:00
+MY-18295,Muhammed Yedwab,Corporate,United States,Baltimore,Maryland,21215,East,11,4152.7,-371.71,2017-10-20,GOLD,muhammed.yedwab@example.com,2019-12-31 22:00:00
+DB-12910,Daniel Byrd,Home Office,United States,Lake Forest,California,92630,west  ,8,2171.6,431.37,2017-12-09,SILVER,,2019-12-31 22:00:00
+EM-14095,Eudokia Martin,Corporate,United States,Los Angeles,California,90036,West,4,1041.04,240.24,2017-09-08,SILVER,eudokia.martin@example.com,2019-12-31 22:00:00
+RH-19555,Ritsa Hightower,Consumer,United States,Charlotte,North Carolina,28205,South,2,740.38,0.31,2016-07-29,BRONZE,ritsa.hightower@example.com,2019-12-31 22:00:00
+SN-20710,Steve Nguyen,Home Office,United States,Houston,Texas,77041,Central,7,3127.96,481.75,2017-10-12,GOLD,steve.nguyen@example.com,2019-12-31 22:00:00
+DS-13180,David Smith,Corporate,United States,Philadelphia,Pennsylvania,19140,East,9,2881.81,163.7,2017-12-07,GOLD,david.smith@example.com,2019-12-31 22:00:00
+BH-11710,Brosina Hoffman,Consumer,United States,Los Angeles,California,90032,West,8,6255.35,802.79,2017-12-07,PLATINUM,brosina.hoffman@example.com,2019-12-31 22:00:00
+TB-21280,Toby Braunhardt,Consumer,United States,Washington,District of Columbia,20016,East,6,2198.45,490.96,2016-05-26,SILVER,toby.braunhardt@example.com,2019-12-31 22:00:00
+BW-11065,Barry Weirich,Consumer,United States,New York City,New York,10035,East,3,385.52,-58.29,2017-06-01,BRONZE,barry.weirich@example.com,2019-12-31 22:00:00
+CB-12025,Cassandra Brandow,Consumer,United States,Los Angeles,California,90049,West,10,6076.14,150.21,2017-11-13,PLATINUM,,2019-12-31 22:00:00
+SP-20920,Susan Pistek,Consumer,United States,Columbus,Ohio,43229,East,6,3990.69,14.69,2017-10-21,GOLD,susan.pistek@example.com,2019-12-31 22:00:00
+FO-14305,Frank Olsen,Consumer,United States,Glendale,Arizona,85301,West,10,2678.44,215.6,2017-11-22,GOLD,frank.olsen@example.com,2019-12-31 22:00:00
+DV-13465,Dianna Vittorini,Consumer,United States,Denver,Colorado,80219,West,6,3341.59,353.21,2017-12-01,GOLD,,2019-12-31 22:00:00
+AA-10315,Alex Avila,Consumer,United States,Round Rock,Texas,78664,Central,5,5563.56,-362.88,2017-06-29,PLATINUM,alex.avila@example.com,2019-12-31 22:00:00
+MM-17260,Magdelene Morse,  CONSUMER ,United States,New Rochelle,New York,10801,East,4,1379.72,178.4,2017-07-15,SILVER,magdelene.morse@example.com,2019-12-31 23:45:00
+,Duane Benoit,Consumer,United States,Los Angeles,California,90036,West,7,1155.2,177.67,2017-12-18,SILVER,duane.benoit@example.com,2019-12-31 22:00:00
+TM-21490,Tony Molinari,Consumer,United States,Yonkers,New York,10701,East,3,1094.68,292.52,2017-08-22,SILVER,tony.molinari@example.com,2019-12-31 22:00:00
+JM-16195,Justin MacKendrick,Consumer,United States,Los Angeles,California,90004,West,10,2833.93,754.11,2017-11-03,GOLD,justin.mackendrick@example.com,2019-12-31 22:00:00
+MJ-17740,Max Jones,Consumer,United States,Lancaster,Ohio,43130,East,7,,1054.55,2017-12-08,PLATINUM,max.jones@example.com,2019-12-31 22:00:00
+CB-12415,Christy Brittain,Consumer,United States,Chicago,Illinois,,Central,8,1949.2,272.39,2017-12-04,SILVER,christy.brittain@example.com,2019-12-31 22:00:00
+ES-14080,Erin Smith,Corporate,United States,Tempe,Arizona,85281,West,9,4657.92,246.67,2017-12-02,GOLD,erin.smith@example.com,2019-12-31 22:00:00
+SC-20230,Scot Coram,,United States,Los Angeles,California,90004,West,4,4371.96,440.14,2017-08-03,GOLD,scot.coram@example.com,2019-12-31 22:00:00
+BV-11245,Benjamin Venier,Corporate,United States,Des Moines,Iowa,50315,Central,5,1523.27,315.22,2017-01-30,SILVER,benjamin.venier@example.com,2019-12-31 22:00:00
+DO-13645,Doug O'Connell,Consumer,United States,Paterson,New Jersey,07501,East,7,1267.32,294.07,2017-12-04,SILVER,doug.oconnell@example.com,2019-12-31 22:00:00
+PO-19195, Phillina Ober  ,Home Office,United States,Bayonne,New Jersey,07002,East,5,1056.86,-49.7,2017-10-05,SILVER,phillina.ober@example.com,2019-12-31 22:00:00
+LS-17200,Luke Schmidt,Corporate,United States,Fresno,California,93727,,6,1010.26,244.2,2017-09-25,SILVER,luke.schmidt@example.com,2019-12-31 22:00:00
+CD-12280,Christina DeMoss,Consumer,United States,New York City,New York,10024,East,2,1265.86,233.03,2017-11-18,SILVER,christina.demoss@example.com,2019-12-31 23:45:00
+EN-13780,Edward Nazzal,Consumer,United States,New York City,New York,10035,East,4,2199.37,496.11,2017-03-18,SILVER,edward.nazzal@example.com,2019-12-31 22:00:00
+HD-14785,Harold Dahlen,  HOME OFFICE ,United States,Philadelphia,Pennsylvania,19143,East,3,251.36,-135.88,2015-11-22,BRONZE,harold.dahlen@example.com,2019-12-31 22:00:00
+PF-19165,Philip Fox,Consumer,United States,San Diego,California,92105,West,6,2770.0,196.87,2017-06-17,GOLD,philip.fox@example.com,2019-12-31 22:00:00
+CH-12070,Cathy Hwang,  HOME OFFICE ,United States,Philadelphia,Pennsylvania,19143,East,3,1537.24,195.15,2016-02-08,SILVER,cathy.hwang@example.com,2019-12-31 22:00:00
+RA-19285,Ralph Arnett,Consumer,United States,Lakeland,Florida,33801,South,9,2617.91,546.09,2017-12-25,GOLD,ralph.arnett@example.com,2019-12-31 22:00:00
+MT-18070,Michelle Tran,Home Office,United States,Houston,Texas,77041,Central,4,1319.45,-23.68,2017-06-10,SILVER,michelle.tran@example.com,2019-12-31 22:00:00
+WB-21850,William Brown,Consumer,United States,Anaheim,California,92804,West,11,6160.1,714.33,2017-12-10,PLATINUM,william.brown@example.com,2019-12-31 22:00:00
+RP-19270,Rachel Payne,Corporate,United States,San Francisco,California,94110,West,4,954.65,59.54,2016-08-21,BRONZE,rachel.payne@example.com,2019-12-31 22:00:00
+JH-15820,John Huston,Consumer,United States,Kent,Ohio,44240,East,6,528.91,26.08,2017-07-09,BRONZE,john.huston@example.com,2019-12-31 22:00:00
+EM-13825,Elizabeth Moffitt,Corporate,United States,Sioux Falls,South Dakota,57103,Central,8,2339.6,682.55,2017-11-05,SILVER,elizabeth.moffitt@example.com,2019-12-31 22:00:00
+PP-18955,Paul Prost,Home Office,United States,Smyrna,Georgia,30080,South,10,7252.61,1495.09,2017-09-24,PLATINUM,paul.prost@example.com,2019-12-31 22:00:00
+GM-14695,Greg Maxwell,Corporate,United States,Alexandria,Virginia,22304,South,3,6049.97,188.72,2017-09-04,PLATINUM,greg.maxwell@example.com,2019-12-31 22:00:00
+KD-16345,Katherine Ducich,Consumer,United States,Chicago,Illinois,60623,Central,6,1888.96,328.59,2017-11-19,SILVER,,2019-12-31 22:00:00
+GT-14635,Grant Thornton,Corporate,United States,Long Beach,New York,11561,East,3,9351.21,-4108.66,2017-11-04,PLATINUM,grant.thornton@example.com,2019-12-31 22:00:00
+RR-19315, Ralph Ritter  ,Consumer,United States,Aurora,Illinois,60505,Central,2,615.93,-73.83,2017-12-11,BRONZE,ralph.ritter@example.com,2019-12-31 22:00:00
+AR-10405,Allen Rosenblatt,Corporate,United States,Los Angeles,California,90036,West,5,2236.13,-98.76,2017-08-27,SILVER,allen.rosenblatt@example.com,2019-12-31 22:00:00
+JD-15895,Jonathan Doherty,Corporate,United States,Columbia,South Carolina,29203,South,11,7610.86,1050.27,2016-12-01,PLATINUM,jonathan.doherty@example.com,2019-12-31 22:00:00
+JH-15985,Joseph Holt,Consumer,United States,Saginaw,Michigan,,Central,6,7955.0,-644.7,2017-12-01,PLATINUM,joseph.holt@example.com,2019-12-31 22:00:00
+KT-16465,Kean Takahito,  CONSUMER ,United States,Chicago,Illinois,60623,Central,7,3057.1,254.0,2016-12-04,GOLD,kean.takahito@example.com,2019-12-31 22:00:00
+EH-14125,Eugene Hildebrand,Home Office,United States,San Francisco,California,94110,West,10,3082.65,96.27,2017-07-31,GOLD,eugene.hildebrand@example.com,2019-12-31 22:00:00
+DB-13405,Denny Blanton,Consumer,United States,New York City,New York,10011,East,4,1711.69,438.91,2017-06-26,SILVER,denny.blanton@example.com,2019-12-31 22:00:00
+,Troy Blackwell,Consumer,United States,Portland,Oregon,,West,5,1387.56,-136.41,2017-03-20,SILVER,troy.blackwell@example.com,2019-12-31 22:00:00
+SV-20935,Susan Vittorini,Consumer,United States,Fairfield,Ohio,45014,East,8,1903.49,106.89,2017-12-28,SILVER,susan.vittorini@example.com,2019-12-31 22:00:00
+BS-11665,Brian Stugart,Consumer,United States,San Diego,California,92105,West,3,3288.11,238.74,2016-05-27,GOLD,brian.stugart@example.com,2019-12-31 22:00:00
+AT-10735,Annie Thurman,Consumer,United States,New York City,New York,,East,10,3831.86,974.11,2017-12-17,GOLD,annie.thurman@example.com,2019-12-31 22:00:00
+RF-19735,Roland Fjeld,Consumer,United States,Oklahoma City,Oklahoma,73120,Central,7,2341.3,711.62,2017-10-02,SILVER,roland.fjeld@example.com,2019-12-31 22:00:00
+MP-18175,Mike Pelletier,Home Office,United States,Milwaukee,Wisconsin,53209,Central,9,5087.92,226.45,2017-12-14,PLATINUM,mike.pelletier@example.com,2019-12-31 22:00:00
+BP-11155,Becky Pak,Consumer,United States,Paterson,New Jersey,07501,East,6,1697.86,647.38,2017-10-02,SILVER,becky.pak@example.com,2019-12-31 22:00:00
+KT-16465,Kean Takahito,  CONSUMER ,United States,Chicago,Illinois,60623,Central,7,3057.1,254.0,2016-12-04,GOLD,kean.takahito@example.com,2019-12-31 22:00:00
+PF-19225,Phillip Flathmann,Consumer,United States,Los Angeles,California,90032,West,5,2206.13,591.31,2017-09-07,SILVER,phillip.flathmann@example.com,2019-12-31 22:00:00
+VF-21715,Vicky Freymann,Home Office,United States,Seattle,Washington,98115,West,5,847.94,-96.28,2017-12-17,BRONZE,vicky.freymann@example.com,2019-12-31 22:00:00
+RB-19435,Richard Bierner,Consumer,United States,San Diego,California,92105,West,8,2663.09,477.24,2017-12-11,GOLD,richard.bierner@example.com,2019-12-31 22:00:00
+MW-18235,Mitch Willingham,Corporate,United States,Virginia Beach,Virginia,23464,South,2,5253.88,1665.52,2017-11-16,PLATINUM,,2019-12-31 22:00:00
+CS-12490,Cindy Schnelling,Corporate,United States,Toledo,Ohio,43615,East,4,1077.23,-302.88,2016-11-01,SILVER,cindy.schnelling@example.com,2019-12-31 22:00:00
+GM-14455,Gary Mitchum,Home Office,United States,Chicago,Illinois,60653,Central,6,3078.62,793.28,2017-12-14,GOLD,gary.mitchum@example.com,2019-12-31 22:00:00
+MA-17560,Matt Abelman,Home Office,United States,Everett,Massachusetts,02149,East,11,4299.16,1240.23,2017-10-27,GOLD,matt.abelman@example.com,2019-12-31 22:00:00
+AS-10630,Ann Steele,Home Office,United States,Boynton Beach,Florida,33437,South,7,833.4,136.49,2017-09-29,BRONZE,ann.steele@example.com,2019-12-31 22:00:00
+MA-17995,Michelle Arnett,Home Office,United States,Richmond,Virginia,23223,South,6,2453.28,280.78,2017-06-27,SILVER,michelle.arnett@example.com,2019-12-31 22:00:00
+CK-12595,Clytie Kelty,Consumer,United States,Little Rock,Arkansas,72209,South,11,2372.75,497.71,2017-11-17,SILVER,clytie.kelty@example.com,2019-12-31 22:00:00
+CA-12775,Cynthia Arntzen,Consumer,United States,Philadelphia,Pennsylvania,19140,East,7,3041.57,204.49,2017-09-01,GOLD,cynthia.arntzen@example.com,2019-12-31 22:00:00
+SD-20485,Shirley Daniels,Home Office,United States,Alexandria,Virginia,22304,South,9,6121.11,1985.17,2017-06-13,PLATINUM,shirley.daniels@example.com,2019-12-31 22:00:00
+TH-21235,Tiffany House,Corporate,United States,Dallas,Texas,75081,Central,8,1022.2,92.73,2017-09-04,SILVER,tiffany.house@example.com,2019-12-31 22:00:00
+CY-12745,Craig Yedwab,Corporate,United States,Chicago,Illinois,60610,central  ,8,2900.03,60.65,2017-10-31,GOLD,craig.yedwab@example.com,2019-12-31 22:00:00
+NZ-18565,Nick Zandusky,  HOME OFFICE ,United States,Columbus,Ohio,43229,East,9,2488.31,402.42,2017-10-06,SILVER,nick.zandusky@example.com,2019-12-31 22:00:00
+AR-10825,Anthony Rawles,Corporate,United States,New York City,New York,10009,East,8,4523.34,494.84,2017-11-02,GOLD,anthony.rawles@example.com,2019-12-31 22:00:00
+JB-15925,Joni Blumstein,,United States,Dublin,Ohio,43017,East,3,900.55,-286.98,2015-12-24,BRONZE,joni.blumstein@example.com,2019-12-31 22:00:00
+KW-16570,Kelly Williams,Consumer,United States,Kirkwood,Missouri,63122,Central,4,449.1,107.93,2015-11-20,BRONZE,kelly.williams@example.com,2019-12-31 22:00:00
+MG-17695,Maureen Gnade,Consumer,United States,Philadelphia,Pennsylvania,19134,East,3,1409.39,-398.79,2016-06-23,SILVER,maureen.gnade@example.com,2019-12-31 23:45:00
+ML-17755,Max Ludwig,Home Office,United States,Suffolk,Virginia,23434,South,7,2071.91,409.51,2017-12-01,SILVER,max.ludwig@example.com,2019-12-31 22:00:00
+HG-14845,Harry Greene,Consumer,United States,New York City,New York,10024,East,5,785.63,147.0,2017-11-06,BRONZE,harry.greene@example.com,2019-12-31 22:00:00
+JE-15475,Jeremy Ellison,Consumer,United States,,Texas,77095,Central,6,1388.68,276.22,2017-06-20,SILVER,jeremy.ellison@example.com,2019-12-31 22:00:00
+LP-17080,Liz Pelletier,Consumer,United States,San Francisco,California,94110,West,4,756.61,110.78,2017-11-20,BRONZE,liz.pelletier@example.com,2019-12-31 22:00:00
+CG-12040,Catherine Glotzbach,Home Office,United States,Philadelphia,Pennsylvania,19120,East,6,904.47,86.51,2017-11-11,BRONZE,catherine.glotzbach@example.com,2019-12-31 22:00:00
+LR-17035,Lisa Ryan,Corporate,United States,Philadelphia,Pennsylvania,19134,East,5,1879.31,-382.81,2017-08-20,SILVER,lisa.ryan@example.com,2019-12-31 22:00:00
+JH-15910,Jonathan Howell,Consumer,United States,Atlanta,Georgia,30318,South,7,959.48,-13.55,2017-11-19,BRONZE,jonathan.howell@example.com,2019-12-31 22:00:00
+NS-18505,Neola Schneider,Consumer,United States,Dallas,Texas,75217,Central,4,2575.86,-12.3,2017-12-24,GOLD,neola.schneider@example.com,2019-12-31 22:00:00
+CD-12790,Cynthia Delaney,Home Office,United States,Oklahoma City,Oklahoma,73120,Central,5,1860.73,403.84,2016-11-26,SILVER,cynthia.delaney@example.com,2019-12-31 22:00:00
+JP-15460,Jennifer Patt,Corporate,United States,Dallas,Texas,75220,Central,7,1669.14,429.75,2017-11-23,SILVER,jennifer.patt@example.com,2019-12-31 22:00:00
+MC-18100,Mick Crebagga,Consumer,United States,Philadelphia,Pennsylvania,19140,East,10,2218.98,-64.17,2017-11-19,SILVER,mick.crebagga@example.com,2019-12-31 22:00:00
+EJ-13720, Ed Jacobs  ,Consumer,United States,San Diego,California,92037,West,4,2162.17,387.02,2017-03-03,SILVER,ed.jacobs@example.com,2019-12-31 22:00:00
+HF-14995,Herbert Flentye,Consumer,United States,San Francisco,California,94109,West,7,2533.16,-13.88,2017-12-09,GOLD,,2019-12-31 22:00:00
+AG-10300,Aleksandra Gannaway,Corporate,United States,Los Angeles,California,90049,West,4,367.55,59.29,2017-09-03,BRONZE,aleksandra.gannaway@example.com,2019-12-31 22:00:00
+CS-11950,Carlos Soltero,Consumer,United States,Philadelphia,Pennsylvania,19140,East,11,3036.55,-126.42,2017-12-05,GOLD,carlos.soltero@example.com,2019-12-31 22:00:00
+SN-20560,Skye Norling,Home Office,United States,Paterson,New Jersey,07501,East,6,1860.42,-716.86,2017-09-10,SILVER,,2019-12-31 22:00:00
+GT-14755,Guy Thornton,Consumer,United States,Harlingen,Texas,78550,Central,4,226.44,-6.14,2017-11-26,BRONZE,guy.thornton@example.com,2019-12-31 22:00:00
+JM-15265,Janet Molinari,Corporate,United States,Chicago,Illinois,60653,Central,5,1804.15,502.61,2017-11-23,,,2019-12-31 22:00:00
+JB-15400,Jennifer Braxton,Corporate,United States,Tampa,Florida,33614,South,10,1791.6,156.05,2017-12-23,SILVER,jennifer.braxton@example.com,2019-12-31 22:00:00
+AC-10450,Amy Cox,Consumer,United States,New York City,New York,10011,East,7,5527.85,1366.01,2017-12-19,PLATINUM,amy.cox@example.com,2019-12-31 22:00:00
+JS-15880,John Stevenson,Consumer,United States,Harlingen,Texas,78550,Central,5,3868.02,564.98,2016-07-14,GOLD,john.stevenson@example.com,2019-12-31 22:00:00
+JS-15940,Joni Sundaresam,Home Office,United States,Lancaster,Ohio,43130,East,5,469.17,-327.93,2016-09-23,BRONZE,joni.sundaresam@example.com,2019-12-31 22:00:00
+GM-14500,Gene McClure,Consumer,United States,Oceanside,New York,11572,East,10,1255.68,441.32,2017-09-15,SILVER,gene.mcclure@example.com,2019-12-31 22:00:00
+JE-15610,Jim Epp,Corporate,United States,Lakeland,Florida,33801,South,7,7754.98,1623.4,2017-11-12,PLATINUM,jim.epp@example.com,2019-12-31 22:00:00
+AG-10765,Anthony Garverick,Home Office,United States,Chicago,Illinois,60623,Central,4,170.58,-8.43,2017-10-14,BRONZE,anthony.garverick@example.com,2019-12-31 22:00:00
+RE-19450,Richard Eichhorn,Consumer,United States,Decatur,Illinois,62521,Central,5,876.7,209.23,2017-03-03,BRONZE,richard.eichhorn@example.com,2019-12-31 22:00:00
+CR-12820,Cyra Reiten,Home Office,United States,Houston,Texas,77041,,3,1397.87,83.27,2017-10-06,SILVER,cyra.reiten@example.com,2019-12-31 22:00:00
+MT-17815,Meg Tillman,Consumer,United States,Jackson,Mississippi,39212,South,6,2890.14,509.01,2017-11-11,GOLD,,2019-12-31 22:00:00
+AJ-10945,Ashley Jarboe,Consumer,United States,Detroit,Michigan,48227,Central,7,1839.24,521.14,2017-10-06,SILVER,ashley.jarboe@example.com,2019-12-31 22:00:00
+CS-12250,Chris Selesnick,Corporate,United States,Bossier City,Louisiana,71111,South,12,2754.22,738.36,2017-12-04,GOLD,chris.selesnick@example.com,2019-12-31 22:00:00
+EA-14035,Erin Ashbrook,Corporate,United States,Columbus,Ohio,43229,east  ,13,2846.7,-52.74,2017-07-31,GOLD,erin.ashbrook@example.com,2019-12-31 22:00:00
+MZ-17515,Mary Zewe,Corporate,United States,Arlington,Texas,76017,Central,6,2693.16,787.75,2017-03-23,GOLD,mary.zewe@example.com,2019-12-31 23:45:00
+PB-19210,Phillip Breyer,Corporate,United States,Philadelphia,Pennsylvania,19134,East,2,132.74,21.9,2016-02-11,BRONZE,phillip.breyer@example.com,2019-12-31 22:00:00
+RR-19525,Rick Reed,Corporate,United States,Lowell,Massachusetts,,East,6,3302.26,721.68,2017-07-13,GOLD,rick.reed@example.com,2019-12-31 22:00:00
+TC-21145,Theresa Coyne,Corporate,United States,Lakewood,New Jersey,08701,East,1,1038.26,265.53,2017-09-15,SILVER,theresa.coyne@example.com,2019-12-31 22:00:00
+CM-11815,Candace McMahon,Corporate,United States,Seattle,Washington,98115,West,6,1673.89,214.46,2017-08-21,SILVER,candace.mcmahon@example.com,2019-12-31 22:00:00
+FM-14290,Frank Merwin,Home Office,United States,San Francisco,California,94122,West,9,3736.2,198.11,2017-11-24,GOLD,frank.merwin@example.com,2019-12-31 22:00:00
+MM-17920,Michael Moore,Consumer,United States,Chesapeake,Virginia,,South,11,3794.08,82.12,2017-12-23,GOLD,michael.moore@example.com,2019-12-31 22:00:00
+AF-10885, Art Foster  ,  CONSUMER ,United States,Louisville,Kentucky,40214,South,4,861.56,-163.12,2016-11-10,BRONZE,,2019-12-31 22:00:00
+CB-12535,Claudia Bergmann,Corporate,United States,Camarillo,California,93010,West,8,4246.46,1049.56,2017-06-16,GOLD,claudia.bergmann@example.com,2019-12-31 22:00:00
+HG-14965, Henry Goldwyn  ,Corporate,United States,Los Angeles,California,90032,West,12,3247.64,-2797.96,2017-12-07,GOLD,henry.goldwyn@example.com,2019-12-31 22:00:00
+ED-13885,Emily Ducich,Home Office,United States,Houston,Texas,77095,Central,8,3484.92,670.44,2017-08-17,GOLD,emily.ducich@example.com,2019-12-31 22:00:00
+NS-18505,Neola Schneider,Consumer,United States,Dallas,Texas,75217,Central,4,2575.86,-12.3,2017-12-24,GOLD,neola.schneider@example.com,2019-12-31 22:00:00
+VG-21805,Vivek Grady,Corporate,United States,Philadelphia,Pennsylvania,19140,East,5,427.37,-52.33,2017-03-19,BRONZE,vivek.grady@example.com,2019-12-31 22:00:00
+DB-13060,Dave Brooks,Consumer,United States,Skokie,Illinois,60076,Central,7,4531.65,473.03,2017-12-14,GOLD,dave.brooks@example.com,2019-12-31 22:00:00
+BT-11680,Brian Thompson,Consumer,United States,Clinton,Maryland,20735,East,7,3196.75,447.75,2017-12-10,GOLD,brian.thompson@example.com,2019-12-31 22:00:00
+MS-17710,Maurice Satty,Consumer,United States,Fort Worth,Texas,76106,Central,6,1613.4,247.43,2016-11-12,SILVER,maurice.satty@example.com,2019-12-31 22:00:00
+CS-12505,Cindy Stewart,Consumer,United States,Lancaster,Ohio,43130,east  ,6,5690.05,-6626.39,2017-11-02,PLATINUM,cindy.stewart@example.com,2019-12-31 22:00:00
+GH-14665, Greg Hansen  ,Consumer,United States,Round Rock,Texas,78664,Central,2,146.94,-5.81,2017-12-28,BRONZE,,2019-12-31 22:00:00
+CS-12355,Christine Sundaresam,Consumer,United States,Roswell,Georgia,30076,South,11,3362.27,831.94,2017-12-24,GOLD,christine.sundaresam@example.com,2019-12-31 23:45:00
+RB-19330,Randy Bradley,Consumer,United States,Austin,Texas,78745,Central,2,1008.2,-164.41,2017-10-23,SILVER,randy.bradley@example.com,2019-12-31 22:00:00
+RD-19585,Rob Dowd,Consumer,United States,Henderson,Kentucky,42420,South,10,2912.89,734.52,2017-07-03,GOLD,rob.dowd@example.com,2019-12-31 22:00:00
+PM-18940,Paul MacIntyre,Consumer,United States,Texas City,Texas,77590,Central,3,1405.4,157.88,2016-12-09,,paul.macintyre@example.com,2019-12-31 22:00:00
+ON-18715, Odella Nelson  ,,United States,Clinton,Maryland,20735,East,9,1567.52,-5.89,2016-11-15,SILVER,odella.nelson@example.com,2019-12-31 22:00:00
+MK-17905,Michael Kennedy,Corporate,United States,Jacksonville,Florida,32216,south  ,8,2302.37,-405.36,2017-12-02,SILVER,michael.kennedy@example.com,2019-12-31 22:00:00
+TS-21655,Trudy Schmidt,Consumer,United States,,Texas,79907,Central,5,3536.49,220.92,2017-05-06,GOLD,trudy.schmidt@example.com,2019-12-31 23:45:00
+AR-10345,Alex Russell,Corporate,United States,Philadelphia,Pennsylvania,19143,East,4,1055.69,-221.05,2017-09-10,SILVER,alex.russell@example.com,2019-12-31 22:00:00
+VT-21700,Valerie Takahito,Home Office,United States,Philadelphia,Pennsylvania,19143,East,2,1736.6,-224.09,2015-04-05,SILVER,valerie.takahito@example.com,2019-12-31 22:00:00
+CM-12160,Charles McCrossin,,United States,Philadelphia,Pennsylvania,19143,East,6,2533.31,-394.37,2017-12-04,GOLD,charles.mccrossin@example.com,2019-12-31 22:00:00
+TM-21010,Tamara Manning,Consumer,United States,Auburn,New York,13021,East,8,2955.23,573.3,2017-09-18,GOLD,tamara.manning@example.com,2019-12-31 22:00:00
+CS-11860,Cari Schnelling,Consumer,United States,New York City,New York,10011,East,6,537.63,105.83,2017-07-21,BRONZE,cari.schnelling@example.com,2019-12-31 22:00:00
+AF-10870,Art Ferguson,Consumer,United States,Passaic,New Jersey,07055,East,7,2052.91,317.97,2017-11-19,SILVER,art.ferguson@example.com,2019-12-31 22:00:00
+MH-17455,Mark Hamilton,Consumer,United States,Chicago,Illinois,60623,Central,8,2456.18,484.77,2017-10-06,SILVER,mark.hamilton@example.com,2019-12-31 22:00:00
+AR-10540,Andy Reiter,Consumer,United States,Jackson,Michigan,49201,Central,6,6608.45,2884.62,2017-12-24,PLATINUM,andy.reiter@example.com,2019-12-31 22:00:00
+JH-15910,Jonathan Howell,Consumer,United States,Atlanta,Georgia,30318,South,7,1007.45,-13.55,2017-11-19,SILVER,jonathan.howell@example.com,2019-12-31 23:45:00
+TB-21055,Ted Butterfield,Consumer,United States,Troy,New York,12180,East,5,1467.88,390.21,2017-09-02,SILVER,ted.butterfield@example.com,2019-12-31 22:00:00
+MH-18115,Mick Hernandez,Home Office,United States,Jackson,Michigan,49201,Central,9,5503.09,170.97,2017-12-25,PLATINUM,mick.hernandez@example.com,2019-12-31 22:00:00
+DW-13195,David Wiener,Corporate,United States,Houston,Texas,77095,Central,6,1080.75,-86.87,2017-10-22,SILVER,david.wiener@example.com,2019-12-31 22:00:00
+LW-17125,Liz Willingham,Consumer,United States,Virginia Beach,Virginia,23464,south  ,3,1259.04,192.63,2017-06-08,SILVER,liz.willingham@example.com,2019-12-31 22:00:00
+FH-14275,Frank Hawley,Corporate,United States,La Porte,Indiana,46350,Central,10,4256.27,1073.27,2017-11-23,GOLD,frank.hawley@example.com,2019-12-31 22:00:00
+SJ-20125,Sanjit Jacobs,Home Office,United States,Franklin,Tennessee,37064,South,12,3949.66,144.12,2017-09-26,GOLD,sanjit.jacobs@example.com,2019-12-31 22:00:00
+DM-13525,Don Miller,Corporate,United States,New York City,New York,10035,East,3,1376.79,199.77,2016-09-05,SILVER,don.miller@example.com,2019-12-31 22:00:00
+AG-10900,Arthur Gainer,Consumer,United States,Tucson,Arizona,85705,West,10,4510.8,343.68,2017-09-25,GOLD,arthur.gainer@example.com,2019-12-31 22:00:00
+SC-20725,Steven Cartwright,Consumer,United States,Houston,Texas,77070,Central,11,5226.21,1276.65,2017-06-26,PLATINUM,steven.cartwright@example.com,2019-12-31 22:00:00
+KM-16660,Khloe Miller,Consumer,United States,Inglewood,California,90301,west  ,5,453.54,91.14,2017-12-15,BRONZE,khloe.miller@example.com,2019-12-31 22:00:00
+JG-15115,Jack Garza,Consumer,United States,Jacksonville,North Carolina,28540,south  ,3,2358.68,684.19,2015-12-03,SILVER,jack.garza@example.com,2019-12-31 22:00:00
+DP-13000,Darren Powers,Consumer,United States,New Albany,Indiana,47150,Central,9,1050.64,241.45,2017-08-26,SILVER,darren.powers@example.com,2019-12-31 22:00:00
+AJ-10795,Anthony Johnson,Corporate,United States,San Francisco,California,94110,West,7,4501.39,1158.71,2017-07-17,GOLD,anthony.johnson@example.com,2019-12-31 22:00:00
+LD-16855,Lela Donovan,  CORPORATE ,United States,Chicago,Illinois,60653,Central,1,5.3,0.46,2016-06-26,BRONZE,lela.donovan@example.com,2019-12-31 22:00:00
+JJ-15760,Joel Jenkins,Home Office,United States,Springfield,Virginia,22153,South,2,195.0,34.45,2015-12-08,BRONZE,joel.jenkins@example.com,2019-12-31 22:00:00
+LR-16915,Lena Radford,Consumer,United States,Los Angeles,California,90036,West,6,5142.89,535.48,2017-12-04,PLATINUM,lena.radford@example.com,2019-12-31 22:00:00
+SP-20545,Sibella Parks,Corporate,United States,Chicago,Illinois,,Central,6,1306.09,-118.78,2017-02-06,SILVER,sibella.parks@example.com,2019-12-31 22:00:00
+TB-21355,Todd Boyes,Corporate,United States,Sandy Springs,Georgia,30328,South,5,834.33,268.97,2017-08-06,BRONZE,todd.boyes@example.com,2019-12-31 22:00:00
+RD-19720,Roger Demir,Consumer,United States,Morgan Hill,California,95037,West,10,1419.74,207.33,2017-12-09,SILVER,roger.demir@example.com,2019-12-31 22:00:00
+DB-13360,Dennis Bolton,Home Office,United States,Waterbury,Connecticut,06708,East,5,1081.47,291.01,2017-04-10,SILVER,dennis.bolton@example.com,2019-12-31 22:00:00
+TB-21520,Tracy Blumstein,Consumer,United States,Philadelphia,Pennsylvania,19140,East,9,4737.49,-1603.05,2017-09-14,GOLD,tracy.blumstein@example.com,2019-12-31 22:00:00
+EB-13930,Eric Barreto,Consumer,United States,Saint Petersburg,Florida,33710,South,5,944.6,0.6,2017-07-22,BRONZE,eric.barreto@example.com,2019-12-31 22:00:00
+MG-17680,Maureen Gastineau,Home Office,United States,Mentor,Ohio,44060,East,4,2350.19,25.89,2017-09-29,SILVER,maureen.gastineau@example.com,2019-12-31 22:00:00
+GB-14530, George Bell  ,Corporate,United States,Los Angeles,California,90049,West,11,1568.44,7.84,2017-10-29,SILVER,george.bell@example.com,2019-12-31 22:00:00
+SV-20365,Seth Vernon,Consumer,United States,New York City,New York,10035,East,10,11470.95,1199.42,2017-09-20,PLATINUM,seth.vernon@example.com,2019-12-31 22:00:00
+RE-19450,Richard Eichhorn,Consumer,United States,Decatur,Illinois,62521,Central,5,876.7,209.23,2017-03-03,BRONZE,richard.eichhorn@example.com,2019-12-31 22:00:00
+CM-12655,Corinna Mitchell,Home Office,United States,Los Angeles,California,90008,West,6,6339.56,1572.46,2017-12-03,PLATINUM,corinna.mitchell@example.com,2019-12-31 22:00:00
+RP-19390,Resi Pölking,Consumer,United States,Seattle,Washington,98103,West,12,5153.08,465.25,2017-11-27,PLATINUM,resi.polking@example.com,2019-12-31 22:00:00
+CL-12565,Clay Ludtke,Consumer,United States,Cleveland,Ohio,44105,East,12,10880.55,1933.78,2017-03-21,PLATINUM,clay.ludtke@example.com,2019-12-31 22:00:00
+PJ-19015,Pauline Johnson,Consumer,United States,New York City,New York,10024,East,7,1824.23,683.0,2017-08-18,SILVER,pauline.johnson@example.com,2019-12-31 22:00:00
+PT-19090,Pete Takahito,Consumer,United States,Jacksonville,Florida,32216,South,4,160.57,-20.05,2017-10-20,BRONZE,pete.takahito@example.com,2019-12-31 22:00:00
+RS-19420,Ricardo Sperren,Corporate,United States,Meriden,Connecticut,06450,east  ,5,3221.29,633.45,2017-10-15,GOLD,ricardo.sperren@example.com,2019-12-31 22:00:00
+BT-11395,Bill Tyler,  CORPORATE ,United States,Los Angeles,California,90036,west  ,6,2186.61,257.92,2017-03-03,SILVER,bill.tyler@example.com,2019-12-31 22:00:00
+DN-13690,Duane Noonan,Consumer,United States,Columbia,Maryland,21044,East,7,2139.79,540.54,2017-05-27,SILVER,duane.noonan@example.com,2019-12-31 22:00:00
+PN-18775,Parhena Norris,,United States,Clarksville,Tennessee,37042,South,8,1467.15,192.04,2017-11-30,SILVER,parhena.norris@example.com,2019-12-31 22:00:00
+BP-11290,Beth Paige,Consumer,United States,Columbus,Ohio,43229,East,7,2475.16,-319.06,2017-12-18,SILVER,beth.paige@example.com,2019-12-31 22:00:00
+KC-16675,Kimberly Carter,Corporate,United States,Louisville,Kentucky,40214,South,4,1146.05,156.78,2017-11-03,SILVER,kimberly.carter@example.com,2019-12-31 22:00:00
+KC-16255,Karen Carlisle,Corporate,United States,Henderson,Kentucky,42420,South,6,2120.95,846.12,2016-11-18,SILVER,karen.carlisle@example.com,2019-12-31 22:00:00
+PC-18745,Pamela Coakley,Corporate,United States,San Francisco,California,94122,West,4,1832.06,272.68,2017-12-28,SILVER,pamela.coakley@example.com,2019-12-31 22:00:00
+BW-11200,Ben Wallace,  CONSUMER ,United States,New York City,New York,10011,East,6,1738.41,247.0,2017-06-10,SILVER,,2019-12-31 22:00:00
+AS-10135,Adrian Shami,Home Office,United States,,New York,10035,East,2,58.82,21.85,2017-11-19,BRONZE,adrian.shami@example.com,2019-12-31 22:00:00
+CL-11890,Carl Ludwig,Consumer,United States,Everett,Massachusetts,02149,East,4,1262.01,328.08,2017-09-15,SILVER,carl.ludwig@example.com,2019-12-31 22:00:00
+JR-15700,Jocasta Rupert,Consumer,United States,Jacksonville,Florida,32216,South,1,863.88,107.98,2017-10-23,BRONZE,jocasta.rupert@example.com,2019-12-31 22:00:00
+PC-18745,Pamela Coakley,Corporate,United States,San Francisco,California,94122,West,4,1832.06,272.68,2017-12-28,SILVER,pamela.coakley@example.com,2019-12-31 22:00:00
+DJ-13420,Denny Joy,Corporate,United States,San Francisco,California,94110,West,4,2012.52,483.04,2016-04-02,SILVER,denny.joy@example.com,2019-12-31 22:00:00
+TA-21385,Tom Ashbrook,Home Office,United States,New York City,New York,10024,East,4,14595.62,4703.79,2017-10-22,PLATINUM,tom.ashbrook@example.com,2019-12-31 22:00:00
+SC-20020,Sam Craven,Consumer,United States,Plano,Texas,75023,Central,5,3362.96,-317.05,2015-11-10,GOLD,sam.craven@example.com,2019-12-31 22:00:00
+AB-10165,Alan Barnes,Consumer,United States,Los Angeles,California,90045,West,8,1113.84,220.81,2017-12-05,SILVER,alan.barnes@example.com,2019-12-31 22:00:00
+TT-21460,Tonja Turnell,Home Office,United States,Richmond,Indiana,47374,Central,7,5364.81,1124.5,2017-12-18,PLATINUM,tonja.turnell@example.com,2019-12-31 22:00:00
+AJ-10780,Anthony Jacobs,Corporate,United States,Baltimore,Maryland,21215,East,7,4867.34,150.71,2017-10-16,GOLD,anthony.jacobs@example.com,2019-12-31 22:00:00
+LC-16930,Linda Cazamias,Corporate,United States,Phoenix,Arizona,85023,West,8,4492.95,288.27,2017-11-19,GOLD,linda.cazamias@example.com,2019-12-31 22:00:00
+EB-14170,Evan Bailliet,Consumer,United States,Seattle,Washington,98115,West,6,1186.33,282.17,2017-10-09,SILVER,evan.bailliet@example.com,2019-12-31 22:00:00
+GM-14440,Gary McGarr,Consumer,United States,Knoxville,Tennessee,37918,South,7,3582.82,347.27,2017-10-08,GOLD,gary.mcgarr@example.com,2019-12-31 22:00:00
+RM-19675,Robert Marley,Home Office,United States,Monroe,Louisiana,71203,South,5,5979.1,1902.54,2017-12-24,PLATINUM,robert.marley@example.com,2019-12-31 22:00:00
+NP-18670,Nora Paige,Consumer,United States,Lakewood,New Jersey,,East,5,3908.4,514.6,2017-11-02,GOLD,nora.paige@example.com,2019-12-31 22:00:00
+RA-19915,Russell Applegate,Consumer,United States,Highland Park,Illinois,60035,Central,9,4793.54,304.87,2017-12-18,GOLD,russell.applegate@example.com,2019-12-31 22:00:00
+SC-20680,Steve Carroll,Home Office,United States,Holland,Michigan,49423,Central,6,,370.16,2017-08-26,SILVER,steve.carroll@example.com,2019-12-31 22:00:00
+EH-14185,Evan Henry,Consumer,United States,Decatur,Alabama,35601,South,6,923.88,242.11,2017-09-16,BRONZE,evan.henry@example.com,2019-12-31 22:00:00
+GG-14650,Greg Guthrie,Corporate,United States,Los Angeles,California,90049,West,9,2224.0,12.7,2017-11-17,SILVER,greg.guthrie@example.com,2019-12-31 22:00:00
+KB-16240,Karen Bern,Corporate,United States,Saint Cloud,Minnesota,56301,Central,7,3152.62,763.91,2017-12-26,GOLD,karen.bern@example.com,2019-12-31 22:00:00
+CK-12760,Cyma Kinney,Corporate,United States,New York City,New York,10011,East,9,1582.11,-338.43,2017-10-09,SILVER,cyma.kinney@example.com,2019-12-31 22:00:00
+SF-20065,Sandra Flanagan,Consumer,United States,Clifton,New Jersey,07011,East,7,763.55,228.16,2017-11-01,BRONZE,sandra.flanagan@example.com,2019-12-31 22:00:00
+TS-21610,Troy Staebel,,United States,Freeport,Illinois,61032,Central,7,2820.42,-294.7,2017-11-05,GOLD,troy.staebel@example.com,2019-12-31 22:00:00
+MZ-17335,Maria Zettner,Home Office,United States,Phoenix,Arizona,85023,West,4,593.61,85.02,2017-11-30,BRONZE,maria.zettner@example.com,2019-12-31 22:00:00
+MC-17575,Matt Collins,Consumer,United States,Fayetteville,North Carolina,28314,South,8,1303.89,210.75,2017-12-03,SILVER,matt.collins@example.com,2019-12-31 22:00:00
+CK-12205,Chloris Kastensmidt,Consumer,United States,Columbus,Ohio,,East,13,3154.86,141.28,2017-11-21,GOLD,chloris.kastensmidt@example.com,2019-12-31 22:00:00
+CJ-12010,Caroline Jumper,Consumer,United States,New York City,New York,10009,East,8,11164.97,858.74,2017-06-24,PLATINUM,caroline.jumper@example.com,2019-12-31 22:00:00
+RC-19825,Roy Collins,Consumer,United States,Pasadena,California,91104,West,6,966.41,63.99,2016-12-26,BRONZE,roy.collins@example.com,2019-12-31 22:00:00
+DS-13030,Darrin Sayre,Home Office,United States,Aurora,Colorado,80013,West,4,1762.21,193.33,2017-09-28,SILVER,darrin.sayre@example.com,2019-12-31 22:00:00
+RH-19510,Rick Huthwaite,Home Office,United States,Providence,Rhode Island,02908,East,6,6979.18,1289.45,2016-09-19,PLATINUM,rick.huthwaite@example.com,2019-12-31 22:00:00
+JD-15790,John Dryer,Consumer,United States,Coppell,Texas,75019,Central,5,2152.35,-266.55,2017-09-04,SILVER,john.dryer@example.com,2019-12-31 22:00:00
+LH-17155,Logan Haushalter,Consumer,United States,Los Angeles,California,90032,West,9,1739.69,316.52,2016-12-10,SILVER,logan.haushalter@example.com,2019-12-31 22:00:00
+HJ-14875,Heather Jas,Home Office,United States,Mesa,Arizona,85204,West,5,358.1,98.65,2017-08-26,BRONZE,heather.jas@example.com,2019-12-31 22:00:00
+Co-12640,Corey-Lock,Consumer,United States,Lawton,Oklahoma,73505,Central,5,1300.08,205.63,2016-06-29,SILVER,coreylock@example.com,2019-12-31 22:00:00
+CA-12310,Christine Abelman,Corporate,United States,Bristol,Connecticut,06010,East,4,1421.95,246.02,2017-12-17,SILVER,christine.abelman@example.com,2019-12-31 22:00:00
+TB-21400,Tom Boeckenhauer,Consumer,United States,Seattle,Washington,98103,West,7,9133.99,2798.37,2017-06-11,PLATINUM,tom.boeckenhauer@example.com,2019-12-31 22:00:00
+PS-18760,Pamela Stobb,Consumer,United States,Los Angeles,California,90008,West,6,2181.48,-134.44,2017-09-14,SILVER,pamela.stobb@example.com,2019-12-31 22:00:00
+CG-12520,Claire Gute,Consumer,United States,Dallas,Texas,75217,Central,3,1148.78,169.93,2017-01-26,SILVER,claire.gute@example.com,2019-12-31 22:00:00
+AJ-10960,Astrea Jones,Consumer,United States,New York City,New York,10035,East,3,629.25,60.43,2017-10-17,BRONZE,astrea.jones@example.com,2019-12-31 22:00:00
+DB-13615,Doug Bickford,Consumer,United States,Los Angeles,California,90045,West,7,1989.05,438.8,2017-11-27,SILVER,doug.bickford@example.com,2019-12-31 22:00:00
+PS-18970,Paul Stevenson,Home Office,United States,Seattle,Washington,98105,West,8,1278.64,198.51,2017-10-22,SILVER,paul.stevenson@example.com,2019-12-31 22:00:00
+FA-14230,Frank Atkinson,Corporate,United States,Denver,Colorado,80219,West,7,2984.05,520.52,2017-09-24,GOLD,frank.atkinson@example.com,2019-12-31 22:00:00
+GA-14725,Guy Armstrong,Consumer,United States,Columbia,Missouri,65203,central  ,11,1398.38,136.71,2017-12-25,SILVER,guy.armstrong@example.com,2019-12-31 22:00:00
+JP-15520,Jeremy Pistek,Consumer,United States,San Francisco,California,94110,West,7,3635.59,757.18,2017-12-22,GOLD,jeremy.pistek@example.com,2019-12-31 22:00:00
+CA-12265,Christina Anderson,Consumer,United States,Chattanooga,Tennessee,37421,South,9,2648.29,279.62,2017-11-04,GOLD,christina.anderson@example.com,2019-12-31 22:00:00
+CV-12805,Cynthia Voltz,Corporate,United States,Austin,Texas,78745,Central,9,2370.31,99.0,2017-12-25,SILVER,cynthia.voltz@example.com,2019-12-31 22:00:00
+DE-13255,Deanra Eno,Home Office,United States,Springfield,Ohio,45503,East,5,2550.87,464.47,2016-01-11,GOLD,deanra.eno@example.com,2019-12-31 22:00:00
+KM-16720,Kunst Miller,Consumer,United States,New York City,New York,10035,East,8,4909.47,745.77,2017-12-02,GOLD,kunst.miller@example.com,2019-12-31 22:00:00
+EB-13705,Ed Braxton,Corporate,United States,Akron,Ohio,44312,East,9,3644.98,13.62,2017-11-12,GOLD,ed.braxton@example.com,2019-12-31 22:00:00
+KB-16315,Karl Braun,Consumer,United States,Akron,Ohio,44312,East,9,1569.46,49.72,2017-03-09,SILVER,karl.braun@example.com,2019-12-31 22:00:00
+TS-21505,Tony Sayre,Consumer,United States,Cleveland,Ohio,44105,East,6,2243.27,11.38,2017-12-19,SILVER,tony.sayre@example.com,2019-12-31 22:00:00
+CC-12145,Charles Crestani,Consumer,United States,San Diego,California,92105,West,7,2471.65,392.28,2017-09-15,SILVER,charles.crestani@example.com,2019-12-31 22:00:00
+RE-19405,Ricardo Emerson,Consumer,United States,Kent,Ohio,44240,East,1,48.36,6.04,2014-12-29,BRONZE,ricardo.emerson@example.com,2019-12-31 22:00:00
+JR-15670,Jim Radford,Consumer,United States,Colorado Springs,Colorado,80906,West,2,1156.66,-785.16,2016-05-16,SILVER,jim.radford@example.com,2019-12-31 22:00:00
+SC-20800,Stuart Calhoun,Consumer,United States,Houston,Texas,77041,Central,4,279.26,51.83,2017-11-30,BRONZE,stuart.calhoun@example.com,2019-12-31 22:00:00
+SC-20095,Sanjit Chand,Consumer,United States,Costa Mesa,California,92627,West,9,14142.33,5757.41,2017-01-15,PLATINUM,sanjit.chand@example.com,2019-12-31 22:00:00
+XP-21865,Xylona Preis,Consumer,United States,Westland,Michigan,48185,Central,11,2374.66,621.23,2017-11-17,SILVER,xylona.preis@example.com,2019-12-31 22:00:00
+DL-13315,Delfina Latchford,Consumer,United States,New York City,New York,10035,,8,1458.26,288.87,2017-12-08,SILVER,delfina.latchford@example.com,2019-12-31 22:00:00
+RF-19840,Roy Französisch,Consumer,United States,Chesapeake,Virginia,23320,South,8,945.22,280.03,2017-12-24,BRONZE,roy.franzosisch@example.com,2019-12-31 22:00:00
+YS-21880,Yana Sorensen,Corporate,United States,Seattle,Washington,98103,West,8,6720.44,1778.29,2017-12-21,PLATINUM,yana.sorensen@example.com,2019-12-31 22:00:00
+SP-20545,Sibella Parks,Corporate,United States,Chicago,Illinois,,Central,6,1306.09,-118.78,2017-02-06,SILVER,sibella.parks@example.com,2019-12-31 22:00:00
+CC-12685,Craig Carroll,  CONSUMER ,United States,Henderson,Kentucky,42420,South,4,2854.12,850.16,2015-10-23,GOLD,craig.carroll@example.com,2019-12-31 22:00:00
+RB-19570,Rob Beeghly,Consumer,United States,Columbus,Indiana,47201,Central,5,528.55,76.89,2017-12-05,BRONZE,rob.beeghly@example.com,2019-12-31 22:00:00
+TZ-21580,Tracy Zic,Consumer,United States,Los Angeles,California,90045,West,4,1707.29,224.89,2017-11-25,SILVER,,2019-12-31 22:00:00
+RW-19690,Robert Waldorf,Consumer,United States,Springfield,Missouri,65807,Central,5,3495.65,707.55,2017-10-12,GOLD,robert.waldorf@example.com,2019-12-31 22:00:00
+JL-15505,Jeremy Lonsdale,Consumer,United States,Westminster,California,92683,West,6,3173.87,591.72,2017-11-11,GOLD,jeremy.lonsdale@example.com,2019-12-31 22:00:00
+DW-13540,Don Weiss,Consumer,United States,Seattle,Washington,98105,West,5,361.28,69.67,2017-09-23,BRONZE,don.weiss@example.com,2019-12-31 23:45:00
+MH-17290,Marc Harrigan,,United States,Philadelphia,Pennsylvania,19140,East,6,2394.02,28.76,2017-09-02,SILVER,marc.harrigan@example.com,2019-12-31 22:00:00
+EM-13810,Eleni McCrary,Corporate,United States,New York City,New York,10009,East,5,2567.01,-133.83,2017-08-20,GOLD,eleni.mccrary@example.com,2019-12-31 22:00:00
+SR-20425,Sharelle Roach,Home Office,United States,Louisville,Colorado,80027,West,5,3233.48,-3333.91,2017-12-22,GOLD,sharelle.roach@example.com,2019-12-31 22:00:00
+KN-16705,Kristina Nunn,Home Office,United States,Seattle,Washington,98105,West,8,2280.58,329.76,2017-09-23,SILVER,kristina.nunn@example.com,2019-12-31 22:00:00
+MD-17860,Michael Dominguez,Corporate,United States,,Texas,78415,Central,5,1204.91,-4.04,2017-11-24,SILVER,michael.dominguez@example.com,2019-12-31 22:00:00
+BT-11440,Bobby Trafton,Consumer,United States,New York City,New York,10035,East,4,603.88,-77.53,2016-06-18,BRONZE,bobby.trafton@example.com,2019-12-31 22:00:00
+DP-13390,Dennis Pardue,  HOME OFFICE ,United States,North Las Vegas,Nevada,89031,West,9,5480.72,1571.83,2017-01-06,PLATINUM,dennis.pardue@example.com,2019-12-31 22:00:00
+TH-21550,Tracy Hopkins,Home Office,United States,Columbia,Maryland,21044,East,7,4234.1,-571.97,2017-10-19,GOLD,tracy.hopkins@example.com,2019-12-31 22:00:00
+PR-18880,Patrick Ryan,Consumer,United States,Oakland,California,94601,West,5,1840.18,247.62,2017-11-24,SILVER,patrick.ryan@example.com,2019-12-31 22:00:00
+JJ-15445,Jennifer Jackson,Consumer,United States,New York City,New York,10035,East,5,709.18,200.56,2016-09-03,BRONZE,jennifer.jackson@example.com,2019-12-31 22:00:00
+TP-21130,Theone Pippenger,Consumer,United States,Detroit,Michigan,48227,Central,9,4676.76,1129.13,2017-12-22,GOLD,theone.pippenger@example.com,2019-12-31 23:45:00
+DR-12880,Dan Reichenbach,  CORPORATE ,United States,Inglewood,California,90301,West,9,6528.03,1641.86,2017-12-27,PLATINUM,dan.reichenbach@example.com,2019-12-31 22:00:00
+SJ-20500,Shirley Jackson,Consumer,United States,Fairfield,Connecticut,06824,East,5,1318.78,68.1,2017-04-21,SILVER,shirley.jackson@example.com,2019-12-31 22:00:00
+HA-14920,Helen Andreada,Consumer,United States,Laredo,Texas,78041,Central,8,2584.16,99.14,2017-12-10,GOLD,helen.andreada@example.com,2019-12-31 22:00:00
+RM-19375,Raymond Messe,Consumer,United States,,Vermont,05408,East,6,1453.47,392.15,2017-01-19,SILVER,raymond.messe@example.com,2019-12-31 22:00:00
+JW-15220,Jane Waco,Corporate,United States,Lawrence,Massachusetts,01841,East,6,7721.71,2173.71,2017-11-18,PLATINUM,jane.waco@example.com,2019-12-31 22:00:00
+EG-13900,Emily Grady,Consumer,United States,Oceanside,New York,11572,East,5,1923.62,104.27,2017-12-08,SILVER,emily.grady@example.com,2019-12-31 23:45:00
+JF-15190,Jamie Frazer,Consumer,United States,Long Beach,California,90805,West,7,2279.59,575.13,2017-10-26,SILVER,jamie.frazer@example.com,2019-12-31 22:00:00
+EH-13945,Eric Hoffmann,Consumer,United States,Houston,Texas,,Central,8,684.17,53.54,2017-05-27,BRONZE,eric.hoffmann@example.com,2019-12-31 22:00:00
+RB-19795,Ross Baird,Home Office,United States,Philadelphia,Pennsylvania,19120,East,8,5633.32,-461.73,2017-11-28,PLATINUM,ross.baird@example.com,2019-12-31 22:00:00
+RD-19660,Robert Dilbeck,Home Office,United States,Independence,Missouri,64055,Central,5,2786.63,835.77,2017-09-07,GOLD,robert.dilbeck@example.com,2019-12-31 22:00:00
+FG-14260,Frank Gastineau,Home Office,United States,Lawrence,Massachusetts,01841,East,7,1383.14,394.74,2017-11-26,SILVER,frank.gastineau@example.com,2019-12-31 22:00:00
+JK-15325,Jason Klamczynski,Corporate,United States,Dallas,Texas,75220,Central,3,383.81,55.33,2017-03-18,BRONZE,jason.klamczynski@example.com,2019-12-31 22:00:00
+JL-15175,James Lanier,Home Office,United States,Chandler,Arizona,85224,West,5,1571.52,209.28,2017-12-24,SILVER,,2019-12-31 22:00:00
+DM-13345,Denise Monton,Corporate,United States,San Francisco,California,94109,West,8,4074.47,1319.06,2017-12-08,GOLD,denise.monton@example.com,2019-12-31 22:00:00
+EB-13750, Edward Becker  ,Corporate,United States,New York City,New York,,East,10,3236.31,-80.29,2017-11-25,GOLD,,2019-12-31 22:00:00
+SP-20620,Stefania Perrino,Corporate,United States,Philadelphia,Pennsylvania,19134,East,9,5440.32,-270.43,2017-11-13,PLATINUM,stefania.perrino@example.com,2019-12-31 22:00:00
+LS-16975,Lindsay Shagiari,Home Office,United States,Dallas,Texas,75081,Central,9,2988.67,262.64,2017-12-10,GOLD,lindsay.shagiari@example.com,2019-12-31 22:00:00
+JC-16105,Julie Creighton,Corporate,United States,Rochester,New York,14609,East,5,858.58,201.6,2017-11-03,BRONZE,julie.creighton@example.com,2019-12-31 22:00:00
+MG-17875,Michael Grace,Home Office,United States,Arlington,Virginia,22204,South,5,1242.83,-470.77,2017-09-05,SILVER,michael.grace@example.com,2019-12-31 22:00:00
+RF-19345,Randy Ferguson,Corporate,United States,Marietta,Georgia,30062,South,8,3309.15,633.71,2016-12-05,GOLD,randy.ferguson@example.com,2019-12-31 22:00:00
+MH-17620,Matt Hagelstein,Corporate,United States,San Francisco,California,94110,west  ,4,1315.44,122.36,2017-07-28,SILVER,matt.hagelstein@example.com,2019-12-31 23:45:00
+BF-10975,Barbara Fisher,Corporate,United States,Charlotte,North Carolina,28205,South,7,599.8,227.44,2017-09-30,BRONZE,barbara.fisher@example.com,2019-12-31 22:00:00
+VM-21835,Vivian Mathis,Consumer,United States,Boca Raton,Florida,33433,South,5,380.69,116.64,2017-09-04,BRONZE,vivian.mathis@example.com,2019-12-31 22:00:00
+RA-19945,Ryan Akin,Consumer,United States,Dallas,Texas,75217,Central,5,1686.92,-445.7,2017-10-30,SILVER,ryan.akin@example.com,2019-12-31 22:00:00
+TB-21595,Troy Blackwell,Consumer,United States,Portland,Oregon,,West,5,1387.56,-136.41,2017-03-20,SILVER,troy.blackwell@example.com,2019-12-31 22:00:00
+RH-19600,Rob Haberlin,Consumer,United States,Carol Stream,Illinois,60188,Central,3,2085.74,172.63,2016-07-14,SILVER,rob.haberlin@example.com,2019-12-31 22:00:00
+TB-21175,Thomas Boland,Corporate,United States,Henderson,Kentucky,42420,South,4,3589.3,829.16,2017-11-02,GOLD,thomas.boland@example.com,2019-12-31 22:00:00
+NC-18535,Nick Crebassa,Corporate,United States,San Francisco,California,94122,West,7,8241.74,1314.76,2017-12-24,PLATINUM,nick.crebassa@example.com,2019-12-31 22:00:00
+CR-12730,Craig Reiter,Consumer,United States,Columbus,Ohio,43229,East,4,1600.55,306.92,2017-10-13,SILVER,craig.reiter@example.com,2019-12-31 22:00:00
+NW-18400,Natalie Webber,Consumer,United States,Philadelphia,Pennsylvania,19120,East,7,7234.01,1023.12,2017-07-11,PLATINUM,natalie.webber@example.com,2019-12-31 22:00:00
+BG-11035,Barry Gonzalez,Consumer,United States,Austin,Texas,78745,Central,8,2798.95,-711.43,2017-12-02,GOLD,barry.gonzalez@example.com,2019-12-31 22:00:00
+DW-13585,Dorothy Wardle,Corporate,United States,Columbus,Ohio,43229,East,7,1204.85,-266.9,2017-05-02,SILVER,dorothy.wardle@example.com,2019-12-31 22:00:00
+SL-20155,Sara Luxemburg,Home Office,United States,Durham,North Carolina,27707,South,7,3053.01,527.97,2017-10-21,GOLD,sara.luxemburg@example.com,2019-12-31 22:00:00
+CM-12235,Chris McAfee,Consumer,United States,Little Rock,Arkansas,72209,South,5,2305.71,365.04,2016-12-10,SILVER,chris.mcafee@example.com,2019-12-31 22:00:00
+MM-17260,Magdelene Morse,  CONSUMER ,United States,New Rochelle,New York,10801,East,4,1314.02,178.4,2017-07-15,SILVER,magdelene.morse@example.com,2019-12-31 22:00:00
+AI-10855,Arianne Irving,Consumer,United States,Los Angeles,California,90036,West,10,4375.79,867.73,2017-12-17,GOLD,arianne.irving@example.com,2019-12-31 22:00:00
+MS-17830,Melanie Seite,Consumer,United States,Laredo,Texas,78041,Central,4,370.35,19.43,2016-10-04,BRONZE,melanie.seite@example.com,2019-12-31 22:00:00
+CS-11845,Cari Sayre,Corporate,United States,Seattle,Washington,98103,West,5,1278.95,185.38,2017-09-30,SILVER,cari.sayre@example.com,2019-12-31 22:00:00
+RP-19855,Roy Phan,Corporate,United States,Los Angeles,California,90032,West,8,2170.72,594.59,2017-12-02,SILVER,roy.phan@example.com,2019-12-31 22:00:00
+TC-20980,Tamara Chand,Corporate,United States,Lafayette,Indiana,47905,Central,5,19052.22,8981.32,2016-11-26,PLATINUM,tamara.chand@example.com,2019-12-31 22:00:00
+TB-21190,Thomas Brumley,Home Office,United States,Fayetteville,Arkansas,72701,South,4,816.17,179.0,2017-11-11,BRONZE,thomas.brumley@example.com,2019-12-31 22:00:00
+JB-16000,Joy Bell-,Consumer,United States,Brownsville,Texas,78521,Central,7,644.12,126.76,2017-11-17,BRONZE,joy.bell@example.com,2019-12-31 22:00:00
+BN-11515,Bradley Nguyen,Consumer,United States,Lakeville,Minnesota,55044,Central,5,1459.34,340.71,2017-12-21,SILVER,,2019-12-31 22:00:00
+NG-18355,Nat Gilpin,Corporate,United States,New York City,New York,10011,East,5,1869.58,313.63,2017-11-12,SILVER,nat.gilpin@example.com,2019-12-31 22:00:00
+DW-13480,Dianna Wilson,Home Office,United States,Lakeville,Minnesota,55044,Central,5,5271.63,1348.76,2017-05-27,PLATINUM,dianna.wilson@example.com,2019-12-31 22:00:00
+NR-18550,Nick Radford,Consumer,United States,Pembroke Pines,Florida,33024,South,5,2367.28,-25.15,2017-06-03,SILVER,nick.radford@example.com,2019-12-31 22:00:00
+SG-20890,Susan Gilcrest,Corporate,United States,Mcallen,Texas,78501,Central,3,47.95,-3.71,2017-05-18,BRONZE,susan.gilcrest@example.com,2019-12-31 22:00:00
+LH-16750,Larry Hughes,Consumer,United States,Chandler,Arizona,85224,West,3,287.43,12.63,2017-08-01,BRONZE,larry.hughes@example.com,2019-12-31 22:00:00
+NB-18655,Nona Balk,Corporate,United States,Milwaukee,Wisconsin,,Central,9,1972.6,117.64,2017-12-11,SILVER,nona.balk@example.com,2019-12-31 22:00:00
+TP-21565,Tracy Poddar,  CORPORATE ,United States,Eugene,Oregon,97405,West,4,1936.64,139.23,2017-01-14,SILVER,tracy.poddar@example.com,2019-12-31 22:00:00
+DH-13675,Duane Huffman,Home Office,United States,Miami,Florida,33180,South,4,1043.1,116.67,2015-11-15,SILVER,duane.huffman@example.com,2019-12-31 22:00:00
+JM-15580,Jill Matthias,Consumer,United States,Los Angeles,California,90045,West,5,303.95,113.12,2017-12-30,BRONZE,jill.matthias@example.com,2019-12-31 22:00:00
+JO-15280,Jas O'Carroll,Consumer,United States,Los Angeles,California,90049,West,6,1934.27,202.14,2017-09-29,SILVER,jas.ocarroll@example.com,2019-12-31 22:00:00
+TB-21250,Tim Brockman,Consumer,United States,Salem,Oregon,97301,West,7,1602.38,260.62,2017-01-15,SILVER,,2019-12-31 22:00:00
+DL-12865,Dan Lawera,Consumer,United States,,California,90805,west  ,8,1503.11,322.24,2017-09-21,SILVER,dan.lawera@example.com,2019-12-31 22:00:00
+AB-10015,Aaron Bergman,Consumer,United States,Seattle,Washington,98103,West,3,886.16,129.35,2016-11-10,BRONZE,aaron.bergman@example.com,2019-12-31 22:00:00
+RH-19495,Rick Hansen,Consumer,United States,New York City,New York,10024,East,5,3621.38,563.79,2017-11-28,GOLD,rick.hansen@example.com,2019-12-31 22:00:00
+PB-19105,Peter Bühler,Consumer,United States,Smyrna,Georgia,30080,South,4,688.32,218.16,2017-11-03,BRONZE,peter.buhler@example.com,2019-12-31 22:00:00
+PV-18985,Paul Van Hugh,Home Office,United States,League City,Texas,77573,Central,5,2876.05,434.53,2017-10-02,GOLD,paul.van.hugh@example.com,2019-12-31 22:00:00
+MW-18220,Mitch Webber,,United States,New York City,New York,10011,East,7,5341.9,1238.42,2017-12-13,PLATINUM,mitch.webber@example.com,2019-12-31 22:00:00
+SW-20275,Scott Williamson,Consumer,United States,New York City,New York,10009,East,6,1966.65,332.87,2017-11-30,SILVER,scott.williamson@example.com,2019-12-31 22:00:00
+SE-20110,Sanjit Engle,Consumer,United States,Arlington,Virginia,22204,South,11,12209.44,2650.68,2017-12-21,PLATINUM,sanjit.engle@example.com,2019-12-31 22:00:00
+BP-11050,Barry Pond,Corporate,United States,Chicago,Illinois,60623,Central,5,983.42,209.78,2017-10-08,BRONZE,barry.pond@example.com,2019-12-31 22:00:00
+SW-20455,Shaun Weien,Consumer,United States,San Diego,California,92024,West,7,2921.54,793.65,2017-07-21,GOLD,shaun.weien@example.com,2019-12-31 22:00:00
+NP-18700,Nora Preis,Consumer,United States,Chicago,Illinois,60623,Central,7,7903.18,631.23,2017-08-14,PLATINUM,nora.preis@example.com,2019-12-31 22:00:00
+JS-15685,Jim Sink,,United States,Miramar,Florida,33023,South,4,1131.06,-54.87,2017-11-18,SILVER,jim.sink@example.com,2019-12-31 22:00:00
+MG-17650,Matthew Grinstein,Home Office,United States,Jackson,Michigan,49201,Central,7,3785.28,341.9,2017-12-01,GOLD,matthew.grinstein@example.com,2019-12-31 22:00:00
+AR-10510,Andrew Roberts,Consumer,United States,Philadelphia,Pennsylvania,19134,East,5,264.86,43.67,2017-12-16,BRONZE,andrew.roberts@example.com,2019-12-31 22:00:00
+AH-10465,Amy Hunt,Consumer,United States,Dallas,Texas,75217,Central,5,2495.39,-196.12,2017-05-14,SILVER,amy.hunt@example.com,2019-12-31 22:00:00
+DC-13285,Debra Catini,Consumer,United States,Cottage Grove,Minnesota,55016,Central,5,1174.62,132.07,2017-12-07,SILVER,debra.catini@example.com,2019-12-31 22:00:00
+CC-12550,Clay Cheatham,Consumer,United States,Los Angeles,California,90008,West,3,113.83,33.87,2017-12-03,BRONZE,clay.cheatham@example.com,2019-12-31 22:00:00
+AH-10030,Aaron Hawkins,Corporate,United States,Los Angeles,California,90004,West,7,1744.7,365.22,2017-12-18,SILVER,aaron.hawkins@example.com,2019-12-31 22:00:00
+TS-21085,Thais Sissman,Consumer,United States,Ormond Beach,Florida,32174,South,2,4.83,-3.32,2017-01-07,BRONZE,,2019-12-31 22:00:00
+DP-13105,Dave Poirier,Corporate,United States,Hempstead,New York,11550,East,8,2215.0,563.18,2017-12-24,SILVER,dave.poirier@example.com,2019-12-31 22:00:00
+MC-17590,Matt Collister,Corporate,United States,Arlington,Texas,76017,Central,6,2426.07,288.98,2017-11-09,SILVER,matt.collister@example.com,2019-12-31 22:00:00
+JK-15625,Jim Karlsson,Consumer,United States,New York City,New York,10024,East,7,3760.03,750.95,2017-10-30,GOLD,jim.karlsson@example.com,2019-12-31 22:00:00
+FM-14380,Fred McMath,Consumer,United States,Aurora,Colorado,80013,West,9,2523.27,191.49,2017-08-07,GOLD,fred.mcmath@example.com,2019-12-31 22:00:00
+KB-16600,Ken Brennan,Corporate,United States,Houston,Texas,77041,Central,7,983.92,293.55,2017-12-29,BRONZE,ken.brennan@example.com,2019-12-31 22:00:00
+SC-20440,Shaun Chance,Corporate,United States,Lancaster,Pennsylvania,17602,East,7,1875.0,379.56,2017-11-24,SILVER,shaun.chance@example.com,2019-12-31 22:00:00
+JM-15535,Jessica Myrick,Consumer,United States,New York City,New York,10035,East,7,1733.44,356.54,2017-09-19,SILVER,,2019-12-31 22:00:00
+PG-18895,Paul Gonzalez,Consumer,United States,Los Angeles,California,90008,West,9,1987.16,334.52,2017-11-03,SILVER,paul.gonzalez@example.com,2019-12-31 22:00:00
+ME-17725,Max Engle,Consumer,United States,Dallas,Texas,75220,Central,8,1908.45,77.81,2017-12-02,SILVER,max.engle@example.com,2019-12-31 22:00:00
+CD-11920,Carlos Daly,Consumer,United States,New York City,New York,10035,East,5,2033.97,426.66,2017-11-20,SILVER,carlos.daly@example.com,2019-12-31 22:00:00
+AY-10555,Andy Yotov,Corporate,United States,Los Angeles,California,90049,West,4,,103.35,2017-12-16,BRONZE,andy.yotov@example.com,2019-12-31 22:00:00
+LS-16945,Linda Southworth,Corporate,United States,Dallas,Texas,75220,Central,6,2845.27,-318.77,2017-07-05,GOLD,linda.southworth@example.com,2019-12-31 22:00:00
+RL-19615,Rob Lucas,Consumer,United States,Chicago,Illinois,60610,Central,8,6234.91,488.15,2017-08-31,PLATINUM,rob.lucas@example.com,2019-12-31 22:00:00
+CC-12100,Chad Cunningham,Home Office,United States,Los Angeles,California,90049,West,6,1770.94,208.59,2016-09-29,SILVER,,2019-12-31 22:00:00
+LA-16780,Laura Armstrong,Corporate,United States,Hackensack,New Jersey,07601,East,11,0.0,2059.12,2017-07-29,BRONZE,laura.armstrong@example.com,2019-12-31 23:45:00
+ML-17410, Maris LaWare  ,Consumer,United States,Phoenix,Arizona,85023,West,6,2921.5,-76.18,2017-11-06,GOLD,maris.laware@example.com,2019-12-31 22:00:00
+BB-10990,Barry Blumstein,  CORPORATE ,United States,Inglewood,California,90301,West,5,744.34,11.58,2017-09-16,BRONZE,barry.blumstein@example.com,2019-12-31 22:00:00
+AC-10660,Anna Chung,Consumer,United States,Parma,Ohio,44134,East,5,657.32,-28.7,2017-03-23,BRONZE,anna.chung@example.com,2019-12-31 22:00:00
+CM-12115,Chad McGuire,Consumer,United States,New York City,New York,10011,East,4,1661.61,409.07,2017-12-22,SILVER,chad.mcguire@example.com,2019-12-31 22:00:00
+AM-10360,Alice McCarthy,Corporate,United States,Los Angeles,California,90032,West,5,814.01,194.99,2017-12-02,BRONZE,alice.mccarthy@example.com,2019-12-31 22:00:00
+MC-17845,Michael Chen,Consumer,United States,Jackson,Mississippi,39212,South,7,3805.71,698.42,2017-12-29,GOLD,michael.chen@example.com,2019-12-31 22:00:00
+JK-15640,Jim Kriz,  HOME OFFICE ,United States,Seattle,Washington,98105,West,9,4760.43,1172.53,2017-07-03,GOLD,jim.kriz@example.com,2019-12-31 22:00:00
+DA-13450,Dianna Arnett,Home Office,United States,Lancaster,Ohio,43130,East,4,156.76,56.79,2017-01-12,BRONZE,dianna.arnett@example.com,2019-12-31 22:00:00
+TS-21340,Toby Swindell,Consumer,United States,Los Angeles,California,90036,west  ,5,974.78,-184.98,2017-05-18,BRONZE,toby.swindell@example.com,2019-12-31 22:00:00
+DK-13375,Dennis Kane,Consumer,United States,Seattle,Washington,98105,West,8,3318.49,377.08,2017-12-11,GOLD,dennis.kane@example.com,2019-12-31 22:00:00
+AS-10090,Adam Shillingsburg,Consumer,United States,Springfield,Missouri,65807,Central,9,3255.31,64.54,2017-12-02,GOLD,adam.shillingsburg@example.com,2019-12-31 22:00:00
+IM-15055,Ionia McGrath,,United States,San Francisco,California,94122,West,3,2872.63,975.77,2016-11-16,GOLD,ionia.mcgrath@example.com,2019-12-31 22:00:00
+TG-21640,Trudy Glocke,Consumer,United States,Long Beach,California,90805,West,4,2074.66,365.72,2017-09-07,SILVER,trudy.glocke@example.com,2019-12-31 22:00:00
+SU-20665,Stephanie Ulpright,Home Office,United States,Chicago,Illinois,60610,Central,7,2595.36,763.47,2017-12-10,GOLD,stephanie.ulpright@example.com,2019-12-31 22:00:00
+SW-20245,Scot Wooten,Consumer,United States,Greenville,North Carolina,27834,South,7,1085.08,-19.61,2017-10-10,SILVER,scot.wooten@example.com,2019-12-31 22:00:00
+GB-14575,Giulietta Baptist,Consumer,United States,Columbia,South Carolina,29203,South,5,4716.29,1135.84,2017-12-17,GOLD,giulietta.baptist@example.com,2019-12-31 22:00:00
+SM-20905,Susan MacKendrick,Consumer,United States,Newark,Ohio,43055,East,1,1043.04,-237.29,2016-05-03,SILVER,susan.mackendrick@example.com,2019-12-31 22:00:00
+EB-13975,Erica Bern,Corporate,United States,Fairfield,California,,West,4,1643.26,162.88,2017-12-30,SILVER,erica.bern@example.com,2019-12-31 22:00:00
+SW-20350,Sean Wendt,Home Office,United States,Cleveland,Ohio,44105,East,3,1019.04,95.84,2017-07-21,SILVER,sean.wendt@example.com,2019-12-31 22:00:00
+LH-16900,Lena Hernandez,Consumer,United States,Greenville,North Carolina,27834,South,9,2295.33,526.07,2017-12-09,SILVER,lena.hernandez@example.com,2019-12-31 22:00:00
+LC-17140,Logan Currie,Consumer,United States,Philadelphia,Pennsylvania,19140,East,9,2633.58,231.13,2017-12-17,GOLD,logan.currie@example.com,2019-12-31 22:00:00
+PB-19105,Peter Bühler,Consumer,United States,Smyrna,Georgia,30080,South,4,722.74,218.16,2017-11-03,BRONZE,peter.buhler@example.com,2019-12-31 23:45:00
+EM-13960,Eric Murdock,Consumer,United States,Quincy,Illinois,62301,Central,5,933.7,102.3,2017-08-01,BRONZE,eric.murdock@example.com,2019-12-31 22:00:00
+DD-13570,Dorothy Dickinson,Consumer,United States,Los Angeles,California,90049,West,6,269.54,36.43,2017-11-19,BRONZE,dorothy.dickinson@example.com,2019-12-31 22:00:00
+CM-12445,Chuck Magee,Consumer,United States,Redlands,California,92374,West,3,287.99,64.43,2016-10-20,BRONZE,chuck.magee@example.com,2019-12-31 22:00:00
+NC-18415,Nathan Cano,Consumer,United States,Jacksonville,North Carolina,28540,South,6,2218.99,-2204.81,2017-11-19,SILVER,nathan.cano@example.com,2019-12-31 22:00:00
+SZ-20035,Sam Zeldin,Home Office,United States,Houston,Texas,77036,central  ,11,3625.33,366.43,2017-11-25,GOLD,sam.zeldin@example.com,2019-12-31 22:00:00
+JP-16135,Julie Prescott,Home Office,United States,Columbus,Georgia,31907,South,9,1707.71,309.71,2017-09-19,SILVER,julie.prescott@example.com,2019-12-31 22:00:00
+SM-20950,Suzanne McNair,Corporate,United States,Philadelphia,Pennsylvania,19134,East,12,5563.39,581.57,2017-12-05,PLATINUM,suzanne.mcnair@example.com,2019-12-31 22:00:00
+LT-16765,Larry Tron,Consumer,United States,Escondido,California,92025,West,3,329.88,59.04,2017-12-04,BRONZE,larry.tron@example.com,2019-12-31 22:00:00
+TT-21265,Tim Taslimi,Corporate,United States,Indianapolis,Indiana,46203,Central,3,439.5,93.92,2016-11-19,BRONZE,tim.taslimi@example.com,2019-12-31 22:00:00
+BS-11380,Bill Stewart,Corporate,United States,Denver,Colorado,80219,West,5,3887.83,-17.53,2017-12-02,GOLD,bill.stewart@example.com,2019-12-31 22:00:00
+NH-18610,Nicole Hansen,Corporate,United States,Detroit,Michigan,48227,central  ,7,2673.29,760.17,2017-06-24,GOLD,nicole.hansen@example.com,2019-12-31 22:00:00
+JM-15250,Janet Martin,Consumer,United States,Huntsville,Texas,77340,Central,6,3159.12,19.82,2017-11-23,GOLD,janet.martin@example.com,2019-12-31 22:00:00
+AA-10375,Allen Armold,Consumer,United States,Atlanta,Georgia,30318,South,9,1056.39,277.38,2017-12-11,SILVER,allen.armold@example.com,2019-12-31 22:00:00
+LC-16960,Lindsay Castell,Home Office,United States,Tampa,Florida,33614,South,4,3246.63,299.48,2016-10-20,GOLD,lindsay.castell@example.com,2019-12-31 22:00:00
+NF-18475,Neil Französisch,Home Office,United States,Jacksonville,Florida,32216,South,4,377.16,85.93,2016-07-23,BRONZE,neil.franzosisch@example.com,2019-12-31 22:00:00
+BF-11020,Barry Französisch,  CORPORATE ,United States,Arlington,Texas,76017,Central,8,2888.51,302.02,2017-10-17,GOLD,barry.franzosisch@example.com,2019-12-31 22:00:00
+DH-13075,Dave Hallsten,Corporate,United States,Fairfield,California,94533,West,6,4932.87,1193.74,2017-03-28,GOLD,dave.hallsten@example.com,2019-12-31 22:00:00
+AH-10690,Anna Häberlin,Corporate,United States,Plantation,Florida,33317,South,12,7888.29,1298.02,2016-11-15,PLATINUM,anna.haberlin@example.com,2019-12-31 22:00:00
+VB-21745,Victoria Brennan,Corporate,United States,San Antonio,Texas,78207,Central,6,2005.6,371.24,2017-11-06,SILVER,victoria.brennan@example.com,2019-12-31 22:00:00
+MG-18205,Mitch Gastineau,Corporate,United States,Jacksonville,Florida,32216,South,1,16.74,-1.25,2017-04-10,BRONZE,mitch.gastineau@example.com,2019-12-31 22:00:00
+KF-16285,Karen Ferguson,Home Office,United States,Sandy Springs,Georgia,30328,South,7,10604.27,1660.14,2017-09-24,PLATINUM,karen.ferguson@example.com,2019-12-31 22:00:00
+LC-17050,Liz Carlisle,  CONSUMER ,United States,Los Angeles,California,90004,West,5,2095.06,86.78,2017-11-06,SILVER,liz.carlisle@example.com,2019-12-31 22:00:00
+JG-15310, Jason Gross  ,Corporate,United States,Newark,Ohio,43055,East,6,2240.58,3.8,2017-12-28,SILVER,jason.gross@example.com,2019-12-31 22:00:00
+BM-11575,Brendan Murry,Corporate,United States,Chicago,Illinois,60653,central  ,6,808.16,95.58,2017-09-21,BRONZE,brendan.murry@example.com,2019-12-31 22:00:00
+JA-15970,Joseph Airdo,Consumer,United States,Detroit,Michigan,48227,Central,8,6491.03,-819.42,2017-09-29,PLATINUM,joseph.airdo@example.com,2019-12-31 22:00:00
+NG-18430,Nathan Gelder,Consumer,United States,Austin,Texas,78745,central  ,5,1395.94,217.09,2017-11-12,SILVER,nathan.gelder@example.com,2019-12-31 22:00:00
+JC-15385,Jenna Caffey,Consumer,United States,Kent,Washington,98031,West,1,,502.92,2017-07-08,SILVER,jenna.caffey@example.com,2019-12-31 22:00:00
+VD-21670,Valerie Dominguez,Consumer,United States,Pleasant Grove,Utah,84062,,6,6442.25,1617.79,2016-05-28,PLATINUM,valerie.dominguez@example.com,2019-12-31 22:00:00
+DW-13540,Don Weiss,Consumer,United States,Seattle,Washington,98105,West,5,344.08,69.67,2017-09-23,BRONZE,don.weiss@example.com,2019-12-31 22:00:00
+AC-10615,Ann Chong,Corporate,United States,New York City,New York,10009,East,5,2537.69,298.83,2017-12-24,GOLD,ann.chong@example.com,2019-12-31 22:00:00
+GZ-14545,George Zrebassa,Corporate,United States,Los Angeles,California,90036,West,4,2454.62,828.66,2017-07-26,SILVER,george.zrebassa@example.com,2019-12-31 22:00:00
+PM-19135,Peter McVee,,United States,Dover,New Hampshire,03820,East,4,4115.66,526.75,2017-11-09,GOLD,peter.mcvee@example.com,2019-12-31 22:00:00
+JL-15835,John Lee,Consumer,United States,Richmond,Kentucky,40475,South,11,9799.92,228.91,2017-12-09,PLATINUM,john.lee@example.com,2019-12-31 22:00:00
+EM-14200,Evan Minnotte,Home Office,United States,Virginia Beach,Virginia,23464,,3,366.82,21.77,2017-07-25,BRONZE,evan.minnotte@example.com,2019-12-31 22:00:00
+CR-12580,Clay Rozendal,Home Office,United States,Elmhurst,Illinois,60126,Central,4,2148.85,74.4,2017-11-03,SILVER,clay.rozendal@example.com,2019-12-31 22:00:00
+KD-16615,Ken Dana,Corporate,United States,Anaheim,California,92804,West,5,2355.69,539.72,2017-03-16,SILVER,ken.dana@example.com,2019-12-31 23:45:00
+RK-19300,Ralph Kennedy,Consumer,United States,South Bend,Indiana,46614,Central,3,1460.19,269.69,2017-09-02,SILVER,ralph.kennedy@example.com,2019-12-31 22:00:00
+MB-17305,Maria Bertelson,Consumer,United States,Columbus,Ohio,43229,East,10,1548.7,212.42,2017-11-12,SILVER,maria.bertelson@example.com,2019-12-31 22:00:00
+GT-14635,Grant Thornton,Corporate,United States,Long Beach,New York,11561,East,3,9818.77,-4108.66,2017-11-04,PLATINUM,grant.thornton@example.com,2019-12-31 23:45:00
+MG-17695,Maureen Gnade,Consumer,United States,Philadelphia,Pennsylvania,19134,East,3,1342.28,-398.79,2016-06-23,SILVER,maureen.gnade@example.com,2019-12-31 22:00:00
+Dl-13600,Dorris liebe,Corporate,United States,Seattle,Washington,98105,West,5,755.6,175.24,2017-09-02,BRONZE,dorris.liebe@example.com,2019-12-31 22:00:00
+NK-18490,Neil Knudson,,United States,San Francisco,California,94110,West,7,572.05,121.22,2017-10-21,BRONZE,neil.knudson@example.com,2019-12-31 22:00:00
+NF-18595,Nicole Fjeld,Home Office,United States,New York City,New York,10009,East,7,2031.47,388.21,2017-09-07,SILVER,nicole.fjeld@example.com,2019-12-31 22:00:00
+SF-20965,Sylvia Foulston,Corporate,United States,Bedford,Texas,76021,Central,9,3336.54,539.94,2017-11-12,GOLD,sylvia.foulston@example.com,2019-12-31 22:00:00
+DB-12970,Darren Budd,Corporate,United States,Houston,Texas,77036,Central,5,2839.23,213.0,2017-05-03,GOLD,darren.budd@example.com,2019-12-31 22:00:00
+VP-21730,Victor Preis,Home Office,United States,New York City,New York,10011,East,3,993.9,205.39,2017-11-30,BRONZE,victor.preis@example.com,2019-12-31 22:00:00
+SM-20005, Sally Matthias  ,Consumer,United States,Houston,Texas,,Central,4,244.49,-26.59,2016-11-04,BRONZE,sally.matthias@example.com,2019-12-31 22:00:00
+LS-17245,Lynn Smith,Consumer,United States,Utica,New York,13501,East,6,1008.14,348.36,2017-11-26,SILVER,lynn.smith@example.com,2019-12-31 22:00:00
+SC-20845,Sung Chung,Consumer,United States,Louisville,Colorado,80027,West,2,280.63,31.18,2017-08-21,BRONZE,sung.chung@example.com,2019-12-31 22:00:00
+MH-17440,Mark Haberlin,Corporate,United States,Jackson,Mississippi,39212,south  ,4,400.02,61.43,2016-12-19,BRONZE,mark.haberlin@example.com,2019-12-31 22:00:00
+AT-10435,Alyssa Tate,Home Office,United States,Los Angeles,California,90004,West,6,1171.81,100.88,2017-12-09,SILVER,alyssa.tate@example.com,2019-12-31 22:00:00
+LS-17230,Lycoris Saunders,Consumer,United States,Grand Prairie,Texas,75051,Central,3,368.88,39.2,2015-11-14,BRONZE,lycoris.saunders@example.com,2019-12-31 22:00:00
+NF-18385,Natalie Fritzler,Consumer,United States,Newark,Ohio,43055,East,7,8322.83,-1695.97,2017-10-12,PLATINUM,,2019-12-31 22:00:00
+TG-21310,Toby Gnade,Consumer,United States,Mesa,Arizona,85204,West,5,3058.37,682.17,2017-01-27,GOLD,toby.gnade@example.com,2019-12-31 22:00:00
+EB-14110,Eugene Barchas,Consumer,United States,Philadelphia,Pennsylvania,19134,East,6,3071.13,184.77,2017-09-08,GOLD,eugene.barchas@example.com,2019-12-31 22:00:00
+AG-10390,Allen Goldenen,Consumer,United States,Cincinnati,Ohio,45231,East,5,200.94,69.28,2017-09-07,BRONZE,allen.goldenen@example.com,2019-12-31 22:00:00
+GW-14605,Giulietta Weimer,Consumer,United States,Henderson,Kentucky,42420,South,7,2189.02,-268.54,2017-12-02,SILVER,,2019-12-31 22:00:00
+LF-17185,Luke Foster,Consumer,United States,San Antonio,Texas,78207,Central,7,3930.51,-3583.98,2017-12-08,GOLD,luke.foster@example.com,2019-12-31 22:00:00
+CM-12385,Christopher Martinez,Consumer,United States,Atlanta,Georgia,30318,South,4,8954.02,3899.89,2017-11-23,PLATINUM,christopher.martinez@example.com,2019-12-31 22:00:00
+ER-13855,Elpida Rittenbach,Corporate,United States,Charlotte,North Carolina,28205,South,3,1245.79,-295.74,2016-11-04,SILVER,elpida.rittenbach@example.com,2019-12-31 22:00:00
+DB-13120,David Bremer,Corporate,United States,Rochester,New York,14609,East,7,2973.09,-1421.77,2017-11-12,GOLD,david.bremer@example.com,2019-12-31 22:00:00
+JL-15235,Janet Lee,Consumer,United States,Newark,Delaware,19711,East,5,2203.7,54.52,2017-09-02,SILVER,janet.lee@example.com,2019-12-31 22:00:00
+MK-18160,Mike Kennedy,Consumer,United States,San Francisco,California,94122,West,4,1031.6,227.83,2017-05-04,SILVER,mike.kennedy@example.com,2019-12-31 22:00:00
+KA-16525,Kelly Andreada,,United States,New York City,New York,10035,East,7,1519.51,234.92,2017-11-24,SILVER,kelly.andreada@example.com,2019-12-31 22:00:00
+MC-17635,Matthew Clasen,Corporate,United States,Los Angeles,California,90032,West,4,795.15,-247.94,2017-06-24,BRONZE,matthew.clasen@example.com,2019-12-31 22:00:00
+JB-16045,Julia Barnett,Home Office,United States,Columbus,Georgia,31907,South,5,2518.11,201.52,2017-12-23,GOLD,julia.barnett@example.com,2019-12-31 22:00:00
+TT-21070,Ted Trevino,Consumer,United States,Seattle,Washington,98103,West,7,4915.6,751.96,2017-11-29,GOLD,ted.trevino@example.com,2019-12-31 22:00:00
+GP-14740,Guy Phonely,Corporate,United States,Leominster,Massachusetts,01453,East,2,236.53,31.84,2015-11-26,BRONZE,guy.phonely@example.com,2019-12-31 22:00:00
+RW-19630,Rob Williams,Corporate,United States,Chicago,Illinois,60610,Central,9,3279.75,698.83,2017-10-02,GOLD,rob.williams@example.com,2019-12-31 22:00:00
+CC-12220,Chris Cortes,Consumer,United States,,Washington,98103,West,12,3913.42,393.96,2017-12-10,GOLD,chris.cortes@example.com,2019-12-31 22:00:00
+SA-20830,Sue Ann Reed,Consumer,United States,Fresno,California,93727,West,10,4767.34,610.15,2017-10-28,GOLD,sue.ann.reed@example.com,2019-12-31 22:00:00
+BP-11095,Bart Pistole,Corporate,United States,Los Angeles,California,90008,West,12,2442.04,433.98,2017-12-13,SILVER,bart.pistole@example.com,2019-12-31 22:00:00
+JH-16180,Justin Hirsh,Consumer,United States,Philadelphia,Pennsylvania,19140,East,4,,-96.95,2016-11-21,SILVER,justin.hirsh@example.com,2019-12-31 22:00:00
+BG-11740,Bruce Geld,Consumer,United States,Los Angeles,California,90008,West,6,1006.36,119.35,2017-11-03,SILVER,bruce.geld@example.com,2019-12-31 22:00:00
+LE-16810,Laurel Elliston,Consumer,United States,Chicago,Illinois,60653,Central,6,1469.45,161.76,2017-12-09,SILVER,laurel.elliston@example.com,2019-12-31 22:00:00
+HP-14815,Harold Pawlan,Home Office,United States,Fort Worth,Texas,76106,Central,7,1990.31,373.86,2017-11-30,SILVER,harold.pawlan@example.com,2019-12-31 22:00:00
+DK-13150,David Kendrick,Corporate,United States,New York City,New York,10009,East,2,797.83,249.94,2017-12-20,BRONZE,david.kendrick@example.com,2019-12-31 22:00:00
+LO-17170,Lori Olson,Corporate,United States,Peoria,Illinois,61604,Central,5,644.35,150.17,2017-12-28,BRONZE,lori.olson@example.com,2019-12-31 22:00:00
+CA-12055,Cathy Armstrong,Home Office,United States,Houston,Texas,77036,Central,5,1679.72,211.26,2016-11-24,SILVER,cathy.armstrong@example.com,2019-12-31 22:00:00
+PW-19240,Pierre Wener,Consumer,United States,Wilmington,Delaware,19805,East,7,3922.42,1290.35,2016-09-22,GOLD,pierre.wener@example.com,2019-12-31 22:00:00
+AG-10330,Alex Grayson,Consumer,United States,Houston,Texas,77095,Central,5,660.97,-5.14,2017-12-22,BRONZE,alex.grayson@example.com,2019-12-31 22:00:00
+SM-20320,Sean Miller,Home Office,United States,Jacksonville,Florida,32216,South,5,25043.05,-1980.74,2017-10-12,PLATINUM,sean.miller@example.com,2019-12-31 22:00:00
+BD-11620,Brian DeCherney,  CONSUMER ,United States,Lawton,Oklahoma,73505,Central,6,1538.11,206.76,2017-10-22,SILVER,brian.decherney@example.com,2019-12-31 22:00:00
+BS-11590,Brendan Sweed,Corporate,United States,Columbus,Ohio,43229,East,6,2454.93,381.78,2017-11-25,SILVER,brendan.sweed@example.com,2019-12-31 22:00:00
+EM-14065,Erin Mull,Consumer,United States,Jacksonville,North Carolina,28540,South,4,228.99,40.15,2017-11-13,BRONZE,erin.mull@example.com,2019-12-31 22:00:00
+LC-16960,Lindsay Castell,Home Office,United States,Tampa,Florida,33614,South,4,3408.96,299.48,2016-10-20,GOLD,lindsay.castell@example.com,2019-12-31 23:45:00
+KM-16225,Kalyca Meade,Corporate,United States,Baltimore,Maryland,21215,East,6,2260.96,635.11,2017-12-16,SILVER,kalyca.meade@example.com,2019-12-31 22:00:00
+BP-11230,Benjamin Patterson,Consumer,United States,Broken Arrow,Oklahoma,74012,Central,5,1181.49,-197.27,2017-11-21,SILVER,benjamin.patterson@example.com,2019-12-31 22:00:00
