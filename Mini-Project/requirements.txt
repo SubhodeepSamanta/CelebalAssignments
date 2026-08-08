@@ -1,0 +1,4 @@
+# Only the cleaning and analysis stages need a third-party package.
+# Data generation (src/generate_data.py), the reporting CLI (src/report_tool.py)
+# and the database itself are pure standard library.
+pandas>=2.1

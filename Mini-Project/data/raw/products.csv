@@ -1,0 +1,501 @@
+product_id,product_name,category,subcategory,cost_price
+PROD0001,Everline Smartwatch M997,Electronics,Wearables,150.84
+PROD0002,Riverstone Throw M894,Home,Bedding,835.03
+PROD0003,Halcyon Picture Book X364,Books,Children,47.82
+PROD0004,Riverstone Camera M522,Electronics,Cameras,551.12
+PROD0005,Riverstone Cookware Set M195,Home,Kitchen,418.20
+PROD0006,Halcyon   Textbook   M462,Books,Academic,3.20
+PROD0007,Halcyon Loafers Z304,Clothing,Footwear,12.09
+PROD0008,Riverstone Blouse S954,Clothing,Womenswear,135.49
+PROD0009,Lumen Runners X792,Clothing,Footwear,10.89
+PROD0010,Northbay Anthology L480,Books,Fiction,34.55
+PROD0011,Halcyon Sheet Set S882,Home,Bedding,713.05
+PROD0012,Northbay Pillow Set Q918,Home,Bedding,44.42
+PROD0013,Everline Picture Book M503,Books,Children,52.71
+PROD0014,Umbra Shorts Z108,Clothing,Activewear,171.24
+PROD0015,Umbra Phone M727,Electronics,Smartphones,218.92
+PROD0016,Solace Bookcase L727,Home,Furniture,248.98
+PROD0017,Pinegate Vase L817,Home,Decor,33.41
+PROD0018,Meridian Rug S685,Home,Decor,640.04
+PROD0019,riverstone tailored trousers q542   ,Clothing,Womenswear,117.43
+PROD0020,Vantage Essays L925,Books,Non-Fiction,3.82
+PROD0021,Everline Phone Q837,Electronics,Smartphones,260.31
+PROD0022,Zephyr Duvet X807,Home,Bedding,74.83
+PROD0023,Halcyon Overcoat Z198,Clothing,Menswear,13.87
+PROD0024,Foxglove Problem Set Q929,Books,Academic,5.94
+PROD0025,  WAYPOINT FLOOR LAMP Z720 ,Home,Decor,12.16
+PROD0026,Waypoint Tailored Trousers M789,Clothing,Womenswear,172.29
+PROD0027,Trident Activity Book L746,Books,Children,47.07
+PROD0028,Cobalt Tailored Trousers Z727,Clothing,Womenswear,72.56
+PROD0029,Riverstone Short Stories M424,Books,Fiction,3.21
+PROD0030,Solace Vase L899,Home,Decor,306.36
+PROD0031,Arclight   Pillow   Set   S845,Home,Bedding,139.58
+PROD0032,pinegate runners s506   ,Clothing,Footwear,158.26
+PROD0033,  FOXGLOVE ULTRABOOK X126 ,Electronics,Laptops,63.14
+PROD0034,Vantage Anthology X770,Books,Fiction,3.39
+PROD0035,Trident Casebook L741,Books,Academic,5.23
+PROD0036,Arclight Blouse X779,Clothing,Womenswear,49.98
+PROD0037,Foxglove Vase M661,Home,Decor,656.18
+PROD0038,Foxglove Essays S705,Books,Non-Fiction,56.25
+PROD0039,Foxglove Early Reader M455,Books,Children,16.72
+PROD0040,Trident Field Guide M522,Books,Non-Fiction,38.34
+PROD0041,Everline Armchair S452,Home,Furniture,76.48
+PROD0042,Halcyon Throw M109,Home,Bedding,236.37
+PROD0043,Foxglove Textbook M293,Books,Academic,21.32
+PROD0044,Zephyr Picture Book L325,Books,Children,10.38
+PROD0045,Everline Chef Knife Q926,Home,Kitchen,145.24
+PROD0046,Cobalt Rug S973,Home,Decor,354.41
+PROD0047,Meridian Phone Q563,Electronics,Smartphones,76.80
+PROD0048,Vantage Duvet X647,Home,Bedding,34.41
+PROD0049,Solace Handset S832,Electronics,Smartphones,1319.79
+PROD0050,Arclight Novel L322,Books,Fiction,5.31
+PROD0051,Waypoint Throw L813,Home,Bedding,80.27
+PROD0052,Northbay Earbuds M894,Electronics,Audio,65.21
+PROD0053,Pinegate Novel M936,Books,Fiction,17.89
+PROD0054,Riverstone Anthology L889,Books,Fiction,3.56
+PROD0055,Pinegate Biography L852,Books,Non-Fiction,32.18
+PROD0056,Halcyon Smartwatch L797,Electronics,Wearables,607.97
+PROD0057,Foxglove Floor Lamp Q225,Home,Decor,27.46
+PROD0058,Waypoint Pillow Set X984,Home,Bedding,342.98
+PROD0059,umbra knit sweater x271   ,Clothing,Menswear,15.17
+PROD0060,Arclight Chef Knife X695,Home,Kitchen,127.58
+PROD0061,Riverstone Biography S611,Books,Non-Fiction,9.45
+PROD0062,Northbay Ring Tracker X464,Electronics,Wearables,183.57
+PROD0063,Umbra Chinos Q907,Clothing,Menswear,9.80
+PROD0064,Zephyr Duvet M841,Home,Bedding,460.63
+PROD0065,Meridian Sandals Q401,Clothing,Footwear,143.97
+PROD0066,Waypoint   Essays   M849,Books,Non-Fiction,19.34
+PROD0067,  FOXGLOVE CASEBOOK S170 ,Books,Academic,44.71
+PROD0068,Foxglove Track Jacket M564,Clothing,Activewear,19.78
+PROD0069,Arclight Smartwatch Q977,Electronics,Wearables,218.57
+PROD0070,Foxglove Armchair L294,Home,Furniture,84.75
+PROD0071,Cobalt Field Guide Z429,Books,Non-Fiction,22.42
+PROD0072,Northbay Notebook S282,Electronics,Laptops,382.24
+PROD0073,Lumen Phone X684,Electronics,Smartphones,69.82
+PROD0074,Solace Early Reader X475,Books,Children,16.86
+PROD0075,Halcyon Chinos X579,Clothing,Menswear,8.01
+PROD0076,Waypoint   Soundbar   Z159,Electronics,Audio,431.31
+PROD0077,Kestrel Cookware Set S631,Home,Kitchen,462.13
+PROD0078,Zephyr   Workstation   S297,Electronics,Laptops,720.81
+PROD0079,Lumen Cardigan Z690,Clothing,Womenswear,55.74
+PROD0080,Lumen Throw S911,Home,Bedding,420.42
+PROD0081,Foxglove Leggings Q553,Clothing,Activewear,46.21
+PROD0082,Waypoint Rug L882,Home,Decor,250.43
+PROD0083,Foxglove Casebook S484,Books,Academic,22.10
+PROD0084,Zephyr Vase X843,Home,Decor,826.80
+PROD0085,Trident Earbuds X407,Electronics,Audio,488.81
+PROD0086,Solace Wrap Dress Q623,Clothing,Womenswear,130.08
+PROD0087,Vantage Overcoat S371,Clothing,Menswear,8.13
+PROD0088,Kestrel Desk Q509,Home,Furniture,48.02
+PROD0089,Orbita Knit Sweater L945,Clothing,Menswear,92.41
+PROD0090,Zephyr Smartwatch X898,Electronics,Wearables,565.90
+PROD0091,Cobalt Soundbar X990,Electronics,Audio,191.34
+PROD0092,Northbay Knit Sweater M636,Clothing,Menswear,71.09
+PROD0093,Umbra Earbuds Q814,Electronics,Audio,405.34
+PROD0094,Meridian Cardigan Q689,Clothing,Womenswear,8.24
+PROD0095,Vantage Handset S444,Electronics,Smartphones,271.36
+PROD0096,foxglove camera l368   ,Electronics,Cameras,451.24
+PROD0097,Vantage Action Cam S592,Electronics,Cameras,353.98
+PROD0098,Foxglove Leggings Q853,Clothing,Activewear,30.33
+PROD0099,Umbra Cardigan Z689,Clothing,Womenswear,8.52
+PROD0100,Waypoint Ultrabook M295,Electronics,Laptops,618.42
+PROD0101,Trident Floor Lamp S458,Home,Decor,294.19
+PROD0102,pinegate biography z482   ,Books,Non-Fiction,12.39
+PROD0103,Riverstone Oxford Shirt Q251,Clothing,Menswear,9.40
+PROD0104,Trident Stand Mixer L582,Home,Kitchen,96.49
+PROD0105,Pinegate Earbuds Q635,Electronics,Audio,102.80
+PROD0106,  ARCLIGHT PILLOW SET L696 ,Home,Bedding,325.58
+PROD0107,Pinegate Speaker Z732,Electronics,Audio,87.28
+PROD0108,kestrel stand mixer l776   ,Home,Kitchen,176.71
+PROD0109,trident floor lamp z495   ,Home,Decor,656.25
+PROD0110,Umbra Training Tee L987,Clothing,Activewear,46.85
+PROD0111,Foxglove Handset Z122,Electronics,Smartphones,98.37
+PROD0112,Umbra Handset L502,Electronics,Smartphones,1181.48
+PROD0113,Waypoint Overcoat Z409,Clothing,Menswear,24.74
+PROD0114,Zephyr Ankle Boots X668,Clothing,Footwear,116.75
+PROD0115,Vantage Dining Table X847,Home,Furniture,26.02
+PROD0116,Vantage Essays L419,Books,Non-Fiction,11.34
+PROD0117,Vantage Pillow Set Q654,Home,Bedding,243.01
+PROD0118,Cobalt Blouse S771,Clothing,Womenswear,20.98
+PROD0119,Orbita Runners M959,Clothing,Footwear,8.46
+PROD0120,Cobalt Knit Sweater M553,Clothing,Menswear,103.53
+PROD0121,Vantage Armchair S126,Home,Furniture,524.78
+PROD0122,Arclight Bookcase M181,Home,Furniture,296.80
+PROD0123,Halcyon Essays Z765,Books,Non-Fiction,15.53
+PROD0124,Halcyon Dining Table S267,Home,Furniture,636.49
+PROD0125,Solace Wrap Dress L327,Clothing,Womenswear,8.09
+PROD0126,Halcyon Cardigan Z432,Clothing,Womenswear,8.44
+PROD0127,Zephyr Biography Z420,Books,Non-Fiction,11.79
+PROD0128,Meridian Short Stories X998,Books,Fiction,16.56
+PROD0129,Foxglove Training Tee L628,Clothing,Activewear,173.94
+PROD0130,Trident Handset M572,Electronics,Smartphones,148.77
+PROD0131,Everline Training Tee S574,Clothing,Activewear,19.67
+PROD0132,Orbita Novel Q812,Books,Fiction,30.89
+PROD0133,Arclight Shorts S564,Clothing,Activewear,32.66
+PROD0134,Orbita Track Jacket Z850,Clothing,Activewear,8.86
+PROD0135,waypoint ultrabook x636   ,Electronics,Laptops,71.32
+PROD0136,Northbay Field Guide S443,Books,Non-Fiction,9.73
+PROD0137,Northbay Blouse L415,Clothing,Womenswear,134.23
+PROD0138,Lumen Pillow Set S307,Home,Bedding,69.76
+PROD0139,Meridian Smartwatch L975,Electronics,Wearables,804.14
+PROD0140,Riverstone Short Stories S702,Books,Fiction,22.07
+PROD0141,Arclight Picture Book S660,Books,Children,11.02
+PROD0142,northbay bookcase z457   ,Home,Furniture,13.16
+PROD0143,Trident Smartphone M189,Electronics,Smartphones,1006.50
+PROD0144,Orbita Notebook Z391,Electronics,Laptops,255.57
+PROD0145,Northbay Track Jacket X886,Clothing,Activewear,99.16
+PROD0146,Kestrel Vase L963,Home,Decor,110.80
+PROD0147,Solace Headphones M639,Electronics,Audio,315.49
+PROD0148,Northbay Essays X685,Books,Non-Fiction,28.67
+PROD0149,Trident Action Cam L723,Electronics,Cameras,718.61
+PROD0150,Vantage Rug Q676,Home,Decor,227.51
+PROD0151,Riverstone Picture Book Z397,Books,Children,15.00
+PROD0152,Lumen Knit Sweater Z968,Clothing,Menswear,9.57
+PROD0153,Waypoint Track Jacket Q925,Clothing,Activewear,32.72
+PROD0154,Solace Overcoat X415,Clothing,Menswear,72.57
+PROD0155,Umbra Floor Lamp M505,Home,Decor,507.45
+PROD0156,Halcyon Handset L916,Electronics,Smartphones,96.34
+PROD0157,Meridian Smartphone Q443,Electronics,Smartphones,328.42
+PROD0158,Everline Picture Book M678,Books,Children,51.34
+PROD0159,Waypoint Cookware Set X252,Home,Kitchen,40.14
+PROD0160,Foxglove Kettle S684,Home,Kitchen,94.28
+PROD0161,Umbra Field Guide Z132,Books,Non-Fiction,21.20
+PROD0162,Waypoint Pillow Set L949,Home,Bedding,16.10
+PROD0163,Lumen Bookcase M903,Home,Furniture,227.25
+PROD0164,Everline Handset X918,Electronics,Smartphones,1157.77
+PROD0165,Everline Field Guide M894,Books,Non-Fiction,4.48
+PROD0166,Everline Armchair Z235,Home,Furniture,510.94
+PROD0167,Arclight Oxford Shirt M145,Clothing,Menswear,39.07
+PROD0168,Lumen   Headphones   Q884,Electronics,Audio,310.81
+PROD0169,Pinegate Cookware Set M305,Home,Kitchen,277.42
+PROD0170,Meridian Ankle Boots Z220,Clothing,Footwear,18.18
+PROD0171,Arclight Armchair Q673,Home,Furniture,27.22
+PROD0172,Umbra Smartphone M244,Electronics,Smartphones,409.01
+PROD0173,Umbra Desk Q554,Home,Furniture,30.30
+PROD0174,Northbay Smartphone X492,Electronics,Smartphones,60.55
+PROD0175,Meridian Notebook Q464,Electronics,Laptops,265.52
+PROD0176,Meridian Floor Lamp Q234,Home,Decor,581.93
+PROD0177,Meridian Camcorder L337,Electronics,Cameras,67.95
+PROD0178,Waypoint Tailored Trousers L287,Clothing,Womenswear,131.78
+PROD0179,Kestrel Floor Lamp L215,Home,Decor,167.75
+PROD0180,Trident Pillow Set M718,Home,Bedding,173.83
+PROD0181,Umbra Oxford Shirt Q765,Clothing,Menswear,31.63
+PROD0182,Cobalt Soundbar S735,Electronics,Audio,395.31
+PROD0183,kestrel cardigan m313   ,Clothing,Womenswear,170.28
+PROD0184,  FOXGLOVE ACTIVITY BOOK Z341 ,Books,Children,19.37
+PROD0185,Lumen   Knit   Sweater   Q710,Clothing,Menswear,96.52
+PROD0186,Orbita Problem Set M515,Books,Academic,18.61
+PROD0187,Zephyr Ring Tracker M606,Electronics,Wearables,70.17
+PROD0188,Arclight Notebook S776,Electronics,Laptops,106.77
+PROD0189,Meridian Shorts S310,Clothing,Activewear,50.78
+PROD0190,Cobalt Rug Z452,Home,Decor,270.11
+PROD0191,Zephyr Ring Tracker S972,Electronics,Wearables,60.03
+PROD0192,Arclight Stand Mixer Z673,Home,Kitchen,111.19
+PROD0193,riverstone stand mixer l819   ,Home,Kitchen,651.29
+PROD0194,Zephyr Problem Set L658,Books,Academic,29.98
+PROD0195,Foxglove Blouse L963,Clothing,Womenswear,41.42
+PROD0196,Vantage Pillow Set X173,Home,Bedding,26.54
+PROD0197,Cobalt   Handset   S186,Electronics,Smartphones,713.15
+PROD0198,Orbita Shorts L621,Clothing,Activewear,131.48
+PROD0199,Orbita Picture Book L719,Books,Children,9.97
+PROD0200,Riverstone Ring Tracker Z613,Electronics,Wearables,349.27
+PROD0201,Northbay Sheet Set X681,Home,Bedding,762.83
+PROD0202,Kestrel Problem Set S847,Books,Academic,3.47
+PROD0203,  RIVERSTONE DUVET L745 ,Home,Bedding,219.97
+PROD0204,Northbay Fitness Band M647,Electronics,Wearables,875.88
+PROD0205,Umbra Camcorder L461,Electronics,Cameras,295.89
+PROD0206,Solace Rug X744,Home,Decor,29.43
+PROD0207,Trident Essays Z739,Books,Non-Fiction,19.73
+PROD0208,  EVERLINE EARBUDS X971 ,Electronics,Audio,332.44
+PROD0209,Solace Rug M114,Home,Decor,22.41
+PROD0210,vantage ring tracker z557   ,Electronics,Wearables,88.82
+PROD0211,Halcyon Bookcase S918,Home,Furniture,58.34
+PROD0212,Vantage Earbuds L870,Electronics,Audio,1353.49
+PROD0213,orbita activity book s691   ,Books,Children,5.42
+PROD0214,Northbay Stand Mixer S575,Home,Kitchen,347.26
+PROD0215,Foxglove Early Reader S488,Books,Children,7.07
+PROD0216,Cobalt Early Reader X395,Books,Children,6.01
+PROD0217,Northbay Early Reader X644,Books,Children,27.28
+PROD0218,Umbra Sheet Set M373,Home,Bedding,311.85
+PROD0219,Meridian Soundbar Z867,Electronics,Audio,587.08
+PROD0220,Umbra Blouse Q110,Clothing,Womenswear,48.80
+PROD0221,  EVERLINE NOTEBOOK X801 ,Electronics,Laptops,60.08
+PROD0222,Solace Problem Set S134,Books,Academic,5.03
+PROD0223,Pinegate Ring Tracker Q753,Electronics,Wearables,67.03
+PROD0224,Vantage Workstation L772,Electronics,Laptops,66.13
+PROD0225,  TRIDENT OVERCOAT L776 ,Clothing,Menswear,85.41
+PROD0226,Cobalt Camcorder Z783,Electronics,Cameras,1182.62
+PROD0227,solace floor lamp x491   ,Home,Decor,28.19
+PROD0228,Solace Problem Set S551,Books,Academic,59.49
+PROD0229,Zephyr Camera S760,Electronics,Cameras,1340.08
+PROD0230,Pinegate Short Stories Q758,Books,Fiction,3.80
+PROD0231,Northbay Camera X172,Electronics,Cameras,701.38
+PROD0232,Vantage Throw Z755,Home,Bedding,12.14
+PROD0233,Vantage Ultrabook Z437,Electronics,Laptops,605.44
+PROD0234,Halcyon Short Stories L513,Books,Fiction,16.26
+PROD0235,Halcyon Fitness Band X680,Electronics,Wearables,110.76
+PROD0236,Northbay Vase Z762,Home,Decor,394.39
+PROD0237,Kestrel Speaker L878,Electronics,Audio,397.92
+PROD0238,Zephyr Armchair Z295,Home,Furniture,31.58
+PROD0239,Halcyon Sheet Set X747,Home,Bedding,710.20
+PROD0240,Arclight Biography Z707,Books,Non-Fiction,3.75
+PROD0241,Halcyon Track Jacket Q954,Clothing,Activewear,29.52
+PROD0242,Umbra Novel Z143,Books,Fiction,3.04
+PROD0243,Everline Anthology L794,Books,Fiction,4.87
+PROD0244,Vantage Wrap Dress L769,Clothing,Womenswear,152.83
+PROD0245,Northbay Action Cam S818,Electronics,Cameras,1141.51
+PROD0246,Trident Oxford Shirt X567,Clothing,Menswear,11.59
+PROD0247,Lumen Oxford Shirt L709,Clothing,Menswear,118.50
+PROD0248,Umbra Knit Sweater Z794,Clothing,Menswear,114.57
+PROD0249,Foxglove Casebook S429,Books,Academic,3.55
+PROD0250,Kestrel Overcoat X380,Clothing,Menswear,62.50
+PROD0251,Foxglove Track Jacket S549,Clothing,Activewear,11.40
+PROD0252,orbita knit sweater x598   ,Clothing,Menswear,10.04
+PROD0253,  TRIDENT NOTEBOOK L810 ,Electronics,Laptops,60.03
+PROD0254,Solace Essays Q561,Books,Non-Fiction,4.77
+PROD0255,Northbay Essays Q284,Books,Non-Fiction,52.52
+PROD0256,Waypoint Short Stories L104,Books,Fiction,23.42
+PROD0257,Waypoint Wrap Dress Q619,Clothing,Womenswear,9.55
+PROD0258,Solace Leggings X298,Clothing,Activewear,104.88
+PROD0259,Halcyon Handset S263,Electronics,Smartphones,643.40
+PROD0260,Pinegate Ultrabook L357,Electronics,Laptops,570.42
+PROD0261,Foxglove Duvet S261,Home,Bedding,12.89
+PROD0262,Riverstone Camera Z555,Electronics,Cameras,371.10
+PROD0263,Riverstone Sheet Set X433,Home,Bedding,37.39
+PROD0264,Pinegate Knit Sweater L325,Clothing,Menswear,15.25
+PROD0265,cobalt camera s321   ,Electronics,Cameras,472.10
+PROD0266,Meridian Biography Z298,Books,Non-Fiction,10.07
+PROD0267,Northbay Wall Mirror Z682,Home,Decor,38.37
+PROD0268,Meridian Soundbar L275,Electronics,Audio,76.77
+PROD0269,Orbita Bookcase Q666,Home,Furniture,693.10
+PROD0270,Pinegate   Knit   Sweater   Q584,Clothing,Menswear,32.41
+PROD0271,Riverstone Problem Set S435,Books,Academic,3.01
+PROD0272,Vantage Essays Q105,Books,Non-Fiction,47.31
+PROD0273,  EVERLINE SHORT STORIES X535 ,Books,Fiction,3.05
+PROD0274,Lumen   Early   Reader   L607,Books,Children,38.83
+PROD0275,Cobalt Oxford Shirt S235,Clothing,Menswear,55.75
+PROD0276,Arclight Floor Lamp L785,Home,Decor,50.12
+PROD0277,Meridian Armchair L890,Home,Furniture,421.38
+PROD0278,Meridian Track Jacket Z748,Clothing,Activewear,12.20
+PROD0279,Umbra Workstation Q133,Electronics,Laptops,223.99
+PROD0280,Kestrel Pillow Set Q443,Home,Bedding,487.58
+PROD0281,Waypoint Ring Tracker X213,Electronics,Wearables,1244.08
+PROD0282,Waypoint Textbook M279,Books,Academic,13.59
+PROD0283,Vantage Smartwatch M344,Electronics,Wearables,689.48
+PROD0284,Pinegate Action Cam Z879,Electronics,Cameras,745.53
+PROD0285,Everline Ankle Boots Z533,Clothing,Footwear,25.37
+PROD0286,Meridian Cookware Set L613,Home,Kitchen,14.05
+PROD0287,Foxglove Action Cam M562,Electronics,Cameras,690.43
+PROD0288,Kestrel Kettle X500,Home,Kitchen,34.56
+PROD0289,Lumen Runners S382,Clothing,Footwear,164.60
+PROD0290,Everline Phone Z123,Electronics,Smartphones,346.94
+PROD0291,Halcyon Pillow Set M530,Home,Bedding,841.64
+PROD0292,Arclight Novel S954,Books,Fiction,6.79
+PROD0293,Halcyon Sheet Set Q781,Home,Bedding,278.57
+PROD0294,Trident Picture Book S908,Books,Children,7.15
+PROD0295,Northbay Desk S461,Home,Furniture,192.12
+PROD0296,Foxglove Pillow Set M286,Home,Bedding,816.70
+PROD0297,Northbay   Wrap   Dress   M688,Clothing,Womenswear,11.10
+PROD0298,Pinegate Leggings Q824,Clothing,Activewear,16.91
+PROD0299,Waypoint Earbuds L652,Electronics,Audio,1336.06
+PROD0300,Zephyr Runners L886,Clothing,Footwear,9.67
+PROD0301,Arclight Leggings Z659,Clothing,Activewear,153.86
+PROD0302,Vantage Rug Q846,Home,Decor,183.77
+PROD0303,Halcyon Casebook X242,Books,Academic,28.13
+PROD0304,  MERIDIAN EARBUDS M194 ,Electronics,Audio,60.39
+PROD0305,Everline Chef Knife S900,Home,Kitchen,309.33
+PROD0306,Kestrel Dining Table Q503,Home,Furniture,12.21
+PROD0307,  WAYPOINT TRAINING TEE L251 ,Clothing,Activewear,21.81
+PROD0308,Trident Textbook M459,Books,Academic,10.02
+PROD0309,Pinegate Duvet Z554,Home,Bedding,672.80
+PROD0310,Cobalt Early Reader Z524,Books,Children,6.70
+PROD0311,  HALCYON OVERCOAT Q443 ,Clothing,Menswear,10.41
+PROD0312,Arclight Smartwatch L754,Electronics,Wearables,784.43
+PROD0313,Vantage Throw S290,Home,Bedding,31.17
+PROD0314,Trident Textbook Q411,Books,Academic,18.54
+PROD0315,Vantage Picture Book M407,Books,Children,5.13
+PROD0316,Cobalt Short Stories S603,Books,Fiction,25.38
+PROD0317,Halcyon Overcoat X713,Clothing,Menswear,9.60
+PROD0318,Halcyon   Sheet   Set   Z937,Home,Bedding,265.45
+PROD0319,Solace Headphones S695,Electronics,Audio,367.95
+PROD0320,Vantage Smartphone M267,Electronics,Smartphones,169.01
+PROD0321,Northbay Speaker M398,Electronics,Audio,202.58
+PROD0322,Orbita Ring Tracker X713,Electronics,Wearables,96.25
+PROD0323,Solace Ankle Boots Z814,Clothing,Footwear,135.39
+PROD0324,  VANTAGE COOKWARE SET X240 ,Home,Kitchen,235.75
+PROD0325,Umbra   Vase   S204,Home,Decor,524.34
+PROD0326,Foxglove Blouse Q806,Clothing,Womenswear,45.99
+PROD0327,Lumen Camera S117,Electronics,Cameras,303.33
+PROD0328,Vantage Problem Set L711,Books,Academic,7.38
+PROD0329,Lumen Armchair S231,Home,Furniture,429.87
+PROD0330,Vantage Blouse X535,Clothing,Womenswear,20.84
+PROD0331,Cobalt Ultrabook X301,Electronics,Laptops,60.21
+PROD0332,Northbay Workstation L221,Electronics,Laptops,864.59
+PROD0333,Lumen Stand Mixer X716,Home,Kitchen,14.26
+PROD0334,Arclight Tailored Trousers X249,Clothing,Womenswear,12.19
+PROD0335,Everline Wall Mirror Q169,Home,Decor,101.40
+PROD0336,Pinegate Ring Tracker Z296,Electronics,Wearables,799.54
+PROD0337,Lumen Armchair S616,Home,Furniture,719.14
+PROD0338,Meridian   Textbook   Z209,Books,Academic,28.85
+PROD0339,Pinegate Sandals Q333,Clothing,Footwear,173.00
+PROD0340,Lumen Short Stories L212,Books,Fiction,34.29
+PROD0341,  FOXGLOVE TRACK JACKET Z141 ,Clothing,Activewear,102.66
+PROD0342,Trident Soundbar L714,Electronics,Audio,343.63
+PROD0343,Trident Throw L293,Home,Bedding,45.64
+PROD0344,Orbita Camcorder X790,Electronics,Cameras,1226.95
+PROD0345,Kestrel Anthology X246,Books,Fiction,10.44
+PROD0346,  ORBITA PICTURE BOOK X472 ,Books,Children,28.60
+PROD0347,Lumen Sandals S958,Clothing,Footwear,13.00
+PROD0348,Solace Early Reader Z509,Books,Children,6.42
+PROD0349,Halcyon Throw Q385,Home,Bedding,375.94
+PROD0350,Halcyon Track Jacket L336,Clothing,Activewear,9.29
+PROD0351,  KESTREL OXFORD SHIRT L794 ,Clothing,Menswear,9.08
+PROD0352,Umbra Smartphone S410,Electronics,Smartphones,221.89
+PROD0353,Halcyon Workstation L306,Electronics,Laptops,599.09
+PROD0354,Foxglove Sheet Set M928,Home,Bedding,197.07
+PROD0355,Zephyr Notebook L422,Electronics,Laptops,1372.77
+PROD0356,Orbita Picture Book Q775,Books,Children,13.31
+PROD0357,trident bookcase z498   ,Home,Furniture,198.09
+PROD0358,Foxglove Short Stories Z652,Books,Fiction,19.48
+PROD0359,Everline Picture Book X500,Books,Children,19.06
+PROD0360,Waypoint Throw M428,Home,Bedding,291.24
+PROD0361,Waypoint Notebook M928,Electronics,Laptops,480.46
+PROD0362,Waypoint Soundbar M521,Electronics,Audio,219.98
+PROD0363,Riverstone Chef Knife Z419,Home,Kitchen,369.44
+PROD0364,Umbra Notebook S120,Electronics,Laptops,1043.74
+PROD0365,Everline Kettle L373,Home,Kitchen,173.57
+PROD0366,Zephyr Camcorder Q499,Electronics,Cameras,476.60
+PROD0367,Pinegate Stand Mixer M608,Home,Kitchen,568.04
+PROD0368,Cobalt Desk S608,Home,Furniture,316.56
+PROD0369,Northbay Fitness Band M687,Electronics,Wearables,105.12
+PROD0370,Lumen Biography Q444,Books,Non-Fiction,23.24
+PROD0371,Cobalt Kettle S455,Home,Kitchen,266.29
+PROD0372,Cobalt Speaker Z652,Electronics,Audio,357.62
+PROD0373,Everline Desk L787,Home,Furniture,139.80
+PROD0374,Halcyon Chinos S776,Clothing,Menswear,69.77
+PROD0375,Cobalt Casebook Q844,Books,Academic,52.42
+PROD0376,Vantage Fitness Band S254,Electronics,Wearables,99.13
+PROD0377,Pinegate Duvet L373,Home,Bedding,137.07
+PROD0378,Zephyr Bookcase S216,Home,Furniture,56.48
+PROD0379,  MERIDIAN TAILORED TROUSERS L673 ,Clothing,Womenswear,8.06
+PROD0380,Pinegate Picture Book S379,Books,Children,24.86
+PROD0381,Foxglove Overcoat S759,Clothing,Menswear,16.76
+PROD0382,Kestrel Camera M716,Electronics,Cameras,840.63
+PROD0383,Waypoint Kettle Z773,Home,Kitchen,717.27
+PROD0384,Vantage   Action   Cam   S214,Electronics,Cameras,1238.13
+PROD0385,Everline Ring Tracker M608,Electronics,Wearables,604.74
+PROD0386,Umbra Handset Q854,Electronics,Smartphones,495.26
+PROD0387,Vantage Biography X279,Books,Non-Fiction,52.22
+PROD0388,Northbay Ankle Boots L646,Clothing,Footwear,36.18
+PROD0389,Halcyon Kettle Z352,Home,Kitchen,82.67
+PROD0390,Trident Desk X760,Home,Furniture,107.54
+PROD0391,Riverstone Workstation M665,Electronics,Laptops,653.63
+PROD0392,Waypoint Casebook Z224,Books,Academic,24.28
+PROD0393,Solace Shorts M192,Clothing,Activewear,29.48
+PROD0394,Meridian Loafers Z424,Clothing,Footwear,13.57
+PROD0395,Halcyon Novel L854,Books,Fiction,6.30
+PROD0396,Orbita Textbook Z367,Books,Academic,30.45
+PROD0397,Meridian Speaker Z128,Electronics,Audio,259.63
+PROD0398,Vantage   Smartphone   X510,Electronics,Smartphones,545.17
+PROD0399,Lumen Runners S355,Clothing,Footwear,21.43
+PROD0400,Meridian Track Jacket L994,Clothing,Activewear,111.16
+PROD0401,Trident Ankle Boots S186,Clothing,Footwear,11.65
+PROD0402,Riverstone Problem Set X123,Books,Academic,4.34
+PROD0403,Solace Chinos Z972,Clothing,Menswear,170.36
+PROD0404,Solace Knit Sweater S191,Clothing,Menswear,31.04
+PROD0405,Arclight Armchair Z638,Home,Furniture,800.19
+PROD0406,Lumen Activity Book S830,Books,Children,40.56
+PROD0407,Trident   Tailored   Trousers   Z606,Clothing,Womenswear,160.24
+PROD0408,Pinegate Biography M844,Books,Non-Fiction,11.96
+PROD0409,Arclight Leggings M368,Clothing,Activewear,11.97
+PROD0410,Meridian Track Jacket X110,Clothing,Activewear,146.87
+PROD0411,Zephyr Essays Z317,Books,Non-Fiction,45.11
+PROD0412,Kestrel Activity Book X670,Books,Children,32.05
+PROD0413,Halcyon Notebook M720,Electronics,Laptops,179.15
+PROD0414,Zephyr Workstation M504,Electronics,Laptops,125.53
+PROD0415,Orbita Armchair M273,Home,Furniture,838.79
+PROD0416,Kestrel Textbook M827,Books,Academic,45.80
+PROD0417,Northbay Field Guide S611,Books,Non-Fiction,5.95
+PROD0418,Solace Rug Q949,Home,Decor,762.24
+PROD0419,Umbra Wall Mirror Z603,Home,Decor,154.82
+PROD0420,Northbay Leggings S287,Clothing,Activewear,8.27
+PROD0421,Meridian Action Cam L218,Electronics,Cameras,129.32
+PROD0422,Foxglove Anthology L568,Books,Fiction,12.44
+PROD0423,Lumen Novel M195,Books,Fiction,42.44
+PROD0424,Everline Loafers M676,Clothing,Footwear,11.99
+PROD0425,Cobalt Chinos X352,Clothing,Menswear,49.85
+PROD0426,  TRIDENT NOVEL Z796 ,Books,Fiction,46.82
+PROD0427,Umbra Camera S129,Electronics,Cameras,213.57
+PROD0428,Halcyon Action Cam L743,Electronics,Cameras,951.01
+PROD0429,Meridian Stand Mixer M849,Home,Kitchen,89.18
+PROD0430,Umbra Tailored Trousers X861,Clothing,Womenswear,132.47
+PROD0431,Kestrel Fitness Band L361,Electronics,Wearables,1262.28
+PROD0432,Kestrel Cardigan X972,Clothing,Womenswear,167.05
+PROD0433,Trident Cardigan Z870,Clothing,Womenswear,29.49
+PROD0434,Trident Knit Sweater Z717,Clothing,Menswear,20.04
+PROD0435,everline ankle boots s601   ,Clothing,Footwear,78.22
+PROD0436,Cobalt Early Reader X874,Books,Children,14.16
+PROD0437,cobalt problem set x141   ,Books,Academic,22.48
+PROD0438,halcyon pillow set q744   ,Home,Bedding,387.77
+PROD0439,Halcyon Headphones M252,Electronics,Audio,312.40
+PROD0440,Trident Sandals Q148,Clothing,Footwear,125.68
+PROD0441,Cobalt Workstation L196,Electronics,Laptops,369.13
+PROD0442,Kestrel Casebook Q116,Books,Academic,8.86
+PROD0443,Zephyr Camera X185,Electronics,Cameras,90.64
+PROD0444,Meridian Casebook Z560,Books,Academic,7.46
+PROD0445,Pinegate Wall Mirror S180,Home,Decor,836.28
+PROD0446,Arclight Stand Mixer L219,Home,Kitchen,153.40
+PROD0447,Zephyr Handset Z862,Electronics,Smartphones,589.67
+PROD0448,Waypoint Casebook Z789,Books,Academic,22.81
+PROD0449,Arclight Textbook S214,Books,Academic,3.27
+PROD0450,Halcyon Phone Z248,Electronics,Smartphones,1019.19
+PROD0451,Kestrel Leggings M888,Clothing,Activewear,125.85
+PROD0452,Lumen Biography S256,Books,Non-Fiction,14.03
+PROD0453,Riverstone Activity Book S401,Books,Children,13.90
+PROD0454,Cobalt   Novel   L968,Books,Fiction,8.10
+PROD0455,Halcyon Problem Set Q705,Books,Academic,3.04
+PROD0456,Arclight Essays L690,Books,Non-Fiction,30.19
+PROD0457,Halcyon Kettle X606,Home,Kitchen,60.95
+PROD0458,Orbita Duvet M843,Home,Bedding,414.00
+PROD0459,Everline Leggings S701,Clothing,Activewear,24.43
+PROD0460,Zephyr Sheet Set L953,Home,Bedding,22.18
+PROD0461,Pinegate Pillow Set M807,Home,Bedding,555.15
+PROD0462,Orbita Camera Q603,Electronics,Cameras,74.83
+PROD0463,Trident Camcorder S314,Electronics,Cameras,1237.84
+PROD0464,Waypoint Ultrabook Z262,Electronics,Laptops,200.52
+PROD0465,Cobalt Overcoat X732,Clothing,Menswear,115.26
+PROD0466,Solace Knit Sweater M903,Clothing,Menswear,56.41
+PROD0467,Vantage Cookware Set Z994,Home,Kitchen,511.82
+PROD0468,Meridian Ultrabook X208,Electronics,Laptops,1193.19
+PROD0469,Orbita Smartwatch Z220,Electronics,Wearables,61.25
+PROD0470,Meridian Ankle Boots Q610,Clothing,Footwear,10.93
+PROD0471,Vantage Handset X968,Electronics,Smartphones,574.32
+PROD0472,Riverstone Training Tee L449,Clothing,Activewear,168.72
+PROD0473,Cobalt Desk M744,Home,Furniture,15.94
+PROD0474,Riverstone   Cardigan   S921,Clothing,Womenswear,100.20
+PROD0475,Everline Activity Book Z470,Books,Children,50.22
+PROD0476,Everline Camera X186,Electronics,Cameras,79.32
+PROD0477,Cobalt Wall Mirror X502,Home,Decor,131.37
+PROD0478,Everline   Phone   M529,Electronics,Smartphones,1129.30
+PROD0479,Waypoint Problem Set X946,Books,Academic,30.80
+PROD0480,Pinegate Dining Table Q739,Home,Furniture,417.54
+PROD0481,Zephyr Casebook S408,Books,Academic,46.86
+PROD0482,Vantage Ultrabook Q653,Electronics,Laptops,401.84
+PROD0483,Everline Desk M875,Home,Furniture,16.76
+PROD0484,Riverstone Overcoat M843,Clothing,Menswear,8.07
+PROD0485,Solace Short Stories Z619,Books,Fiction,31.69
+PROD0486,Meridian Stand Mixer M686,Home,Kitchen,13.10
+PROD0487,Foxglove Camera Q339,Electronics,Cameras,184.02
+PROD0488,Zephyr Wall Mirror Q855,Home,Decor,67.91
+PROD0489,Waypoint Chinos L200,Clothing,Menswear,22.79
+PROD0490,Kestrel Training Tee X535,Clothing,Activewear,121.68
+PROD0491,Waypoint Training Tee Z638,Clothing,Activewear,13.83
+PROD0492,Halcyon Early Reader Z533,Books,Children,45.17
+PROD0493,Orbita Activity Book S617,Books,Children,31.67
+PROD0494,Everline Leggings Q220,Clothing,Activewear,89.25
+PROD0495,Foxglove Leggings M221,Clothing,Activewear,41.18
+PROD0496,Trident Anthology X635,Books,Fiction,3.55
+PROD0497,Trident Overcoat M597,Clothing,Menswear,27.47
+PROD0498,Cobalt Smartphone X412,Electronics,Smartphones,78.33
+PROD0499,Arclight Dining Table X660,Home,Furniture,33.19
+PROD0500,Halcyon Kettle Q417,Home,Kitchen,666.37
