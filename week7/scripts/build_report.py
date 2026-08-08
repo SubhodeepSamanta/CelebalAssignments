@@ -1,13 +1,3 @@
-"""
-build_report.py
----------------
-Renders report/assignment_summary.pdf from output/run_summary.json, so the report can never
-drift away from what the notebook actually produced.
-
-Run (after executing the notebook):
-    python scripts/build_report.py
-"""
-
 import json
 import os
 
@@ -78,7 +68,6 @@ def main():
         f"Delta Lake MERGE · SCD Type 1 &amp; Type 2 · executed {s['executed_at_utc']} · engine: {s['engine']}",
         SUB))
 
-    # ---------------- objective ----------------
     story.append(Paragraph("1. Objective and dataset", H2))
     story.append(Paragraph(
         "Build an incremental (batch) data pipeline on Delta Lake: land a customer snapshot in a "
@@ -95,7 +84,6 @@ def main():
          "change feed: updates to existing customers, brand-new customers, 5 duplicated source rows"],
     ], [52 * mm, 16 * mm, 92 * mm], align_right=[1]))
 
-    # ---------------- pipeline ----------------
     story.append(Paragraph("2. Pipeline", H2))
     story.append(Paragraph(
         "A three-layer medallion design. Every write is a Delta commit, so each table carries an "
@@ -108,7 +96,6 @@ def main():
         ["Gold", "gold_customer_scd2", "SCD Type 2 — full history with effective dates"],
     ], [20 * mm, 46 * mm, 94 * mm]))
 
-    # ---------------- cleaning ----------------
     story.append(Paragraph("3. Cleaning", H2))
     story.append(Paragraph(
         "One shared function cleans both the master snapshot and the incremental feed, which "
@@ -135,7 +122,6 @@ def main():
 
     story.append(PageBreak())
 
-    # ---------------- merge ----------------
     story.append(Paragraph("4. The MERGE operations", H2))
     story.append(Paragraph(
         "Before merging, every incoming row is compared against the target using an MD5 hash of the "
@@ -186,7 +172,6 @@ def main():
         ["current rows", f"{s2['current_rows']:,}", "one per customer, matches SCD1"],
     ], [34 * mm, 42 * mm, 84 * mm], align_right=[1]))
 
-    # ---------------- validation ----------------
     story.append(Paragraph("5. Validation", H2))
     story.append(Paragraph(
         f"{v['scd1_checks_passed'] + v['scd2_checks_passed'] + v['suite_checks_passed']} assertions run "
@@ -203,7 +188,6 @@ def main():
 
     story.append(PageBreak())
 
-    # ---------------- results ----------------
     story.append(Paragraph("6. Results", H2))
     story.append(table([
         ["", "Rows", "Distinct customers"],
@@ -226,7 +210,6 @@ def main():
         story.append(Paragraph("Figure 1 — merge metrics, row counts through the pipeline, "
                                "sales by region and customer mix by loyalty tier.", SMALL))
 
-    # ---------------- discussion ----------------
     story.append(Paragraph("7. Discussion", H2))
     story.append(Paragraph(
         "<b>Why MERGE rather than a full overwrite.</b> Rewriting the whole table each batch is "

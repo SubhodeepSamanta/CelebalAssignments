@@ -1,9 +1,3 @@
--- 9. Days between consecutive orders per customer, with an "At Risk" flag.
--- LAG pulls the previous order date onto the current row; JULIANDAY turns the
--- two text dates into numbers that can be subtracted.
--- The average is a second window over the same partition, so the per-order
--- detail and the customer-level verdict come back in one result set.
-
 WITH ordered AS (
     SELECT
         customer_id,

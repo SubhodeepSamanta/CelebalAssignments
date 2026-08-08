@@ -1,7 +1,3 @@
--- 3. Month-wise order count for the last 12 months.
--- The window is derived from the newest order in the data, not from today's
--- date, so the result stays stable however long after loading it is run.
-
 WITH window_start AS (
     SELECT DATE(MAX(order_date), 'start of month', '-11 months') AS first_month
     FROM orders

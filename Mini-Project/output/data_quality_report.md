@@ -1,6 +1,6 @@
 # Data quality report
 
-Generated 2026-08-08 10:25:06 | reference date 2026-08-01
+Generated 2026-08-08 13:02:35 | reference date 2026-08-01
 
 ## Row counts
 

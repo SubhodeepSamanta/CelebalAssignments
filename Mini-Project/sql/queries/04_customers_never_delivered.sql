@@ -1,7 +1,3 @@
--- 4. Customers who placed orders but never had any item delivered.
--- HAVING is used rather than NOT EXISTS so the count of what they did place
--- comes back in the same pass.
-
 SELECT
     c.customer_id,
     c.customer_name,

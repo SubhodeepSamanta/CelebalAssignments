@@ -1,22 +1,3 @@
-"""
-generate_datasets.py
---------------------
-Builds the two CSV inputs used by the Delta Lake assignment from the raw
-"Sample - Superstore" transactional export.
-
-    data/superstore_raw.csv        (input : ~10k order lines)
-        |
-        +--> data/customer_master.csv        full customer dimension snapshot
-        |                                    (intentionally contains nulls,
-        |                                     duplicates and dirty strings)
-        |
-        +--> data/customer_incremental.csv   next-day change feed
-                                             (updates + brand-new customers
-                                              + duplicate source rows)
-
-Run:  python scripts/generate_datasets.py
-"""
-
 from __future__ import annotations
 
 import os
@@ -61,11 +42,7 @@ COLUMNS = [
 ]
 
 
-# --------------------------------------------------------------------------- #
-# helpers
-# --------------------------------------------------------------------------- #
 def slugify(name: str) -> str:
-    """Claire Gute -> claire.gute"""
     txt = unicodedata.normalize("NFKD", str(name)).encode("ascii", "ignore").decode()
     txt = re.sub(r"[^a-zA-Z ]", "", txt).strip().lower()
     return ".".join(txt.split())
@@ -81,21 +58,15 @@ def loyalty_tier(sales: float) -> str:
     return "BRONZE"
 
 
-# --------------------------------------------------------------------------- #
-# 1. aggregate the transactional export into a customer dimension
-# --------------------------------------------------------------------------- #
 def build_customer_dimension() -> pd.DataFrame:
     orders = pd.read_csv(RAW, encoding="latin-1")
     orders.columns = [c.strip() for c in orders.columns]
     orders["Order Date"] = pd.to_datetime(orders["Order Date"], format="%m/%d/%Y")
 
-    # most frequent location per customer (a customer can order from many cities)
     def mode_or_first(s: pd.Series):
         m = s.mode()
         return m.iloc[0] if len(m) else s.iloc[0]
 
-    # a customer can ship to several cities - keep the single most frequent
-    # (city, state, postal_code, region) combination so the address stays valid
     orders["_loc"] = list(
         zip(orders["City"], orders["State"], orders["Postal Code"], orders["Region"])
     )
@@ -140,9 +111,6 @@ def build_customer_dimension() -> pd.DataFrame:
     return dim[COLUMNS].sort_values("customer_id").reset_index(drop=True)
 
 
-# --------------------------------------------------------------------------- #
-# 2. dirty the snapshot so the notebook has something real to clean
-# --------------------------------------------------------------------------- #
 def dirty_master(clean: pd.DataFrame) -> pd.DataFrame:
     df = clean.copy()
     n = len(df)
@@ -151,7 +119,6 @@ def dirty_master(clean: pd.DataFrame) -> pd.DataFrame:
     def pick(k):
         return rng.choice(n, size=k, replace=False)
 
-    # -- NULLs ---------------------------------------------------------------
     df.loc[pick(18), "segment"] = np.nan
     df.loc[pick(12), "city"] = np.nan
     df.loc[pick(30), "postal_code"] = np.nan
@@ -160,7 +127,6 @@ def dirty_master(clean: pd.DataFrame) -> pd.DataFrame:
     df.loc[pick(40), "email"] = np.nan
     df.loc[pick(6), "loyalty_tier"] = np.nan
 
-    # -- dirty strings: stray whitespace + inconsistent casing ---------------
     for idx in pick(35):
         val = df.at[idx, "segment"]
         if isinstance(val, str):
@@ -172,14 +138,11 @@ def dirty_master(clean: pd.DataFrame) -> pd.DataFrame:
     for idx in pick(20):
         df.at[idx, "customer_name"] = f" {df.at[idx, 'customer_name']}  "
 
-    # -- rows with an unusable business key ----------------------------------
     orphan = df.sample(3, random_state=SEED).copy()
     orphan["customer_id"] = np.nan
 
-    # -- exact duplicate rows (classic double-load) --------------------------
     exact_dupes = df.sample(45, random_state=SEED).copy()
 
-    # -- same customer_id, later record_updated_at (late arriving records) ---
     late = df.sample(25, random_state=SEED + 1).copy()
     late["record_updated_at"] = f"{SNAPSHOT_DATE} 23:45:00"
     late["total_sales"] = (late["total_sales"].fillna(0) * 1.05).round(2)
@@ -189,13 +152,9 @@ def dirty_master(clean: pd.DataFrame) -> pd.DataFrame:
     return dirty.sample(frac=1.0, random_state=SEED).reset_index(drop=True)
 
 
-# --------------------------------------------------------------------------- #
-# 3. incremental change feed
-# --------------------------------------------------------------------------- #
 def build_incremental(clean: pd.DataFrame) -> pd.DataFrame:
     rng = np.random.default_rng(SEED + 7)
 
-    # ---- (a) 100 existing customers whose attributes actually changed ------
     changed = clean.sample(100, random_state=SEED + 2).copy()
     changed["total_sales"] = (
         changed["total_sales"] * rng.uniform(1.05, 1.60, size=len(changed))
@@ -207,7 +166,6 @@ def build_incremental(clean: pd.DataFrame) -> pd.DataFrame:
     changed["last_order_date"] = INCREMENT_DATE
     changed["loyalty_tier"] = changed["total_sales"].apply(loyalty_tier)
 
-    # a subset also relocates / changes segment -> good SCD Type 2 evidence
     movers = changed.sample(30, random_state=SEED + 3).index
     new_cities = [
         ("Austin", "Texas", "78701", "Central"),
@@ -224,13 +182,9 @@ def build_incremental(clean: pd.DataFrame) -> pd.DataFrame:
     seg_map = {"Consumer": "Corporate", "Corporate": "Home Office", "Home Office": "Consumer"}
     changed.loc[seg_changers, "segment"] = changed.loc[seg_changers, "segment"].map(seg_map)
 
-    # ---- (b) 12 existing customers re-sent with NO attribute change --------
-    # (sampled from customers that are NOT in `changed`, so every customer_id
-    #  in the feed carries exactly one intended business outcome)
     untouched = clean[~clean["customer_id"].isin(changed["customer_id"])]
     unchanged = untouched.sample(12, random_state=SEED + 5).copy()
 
-    # ---- (c) 45 brand new customers ---------------------------------------
     first = [
         "Aarav", "Diya", "Rohan", "Meera", "Kabir", "Ananya", "Vivaan", "Isha",
         "Arjun", "Sara", "Neel", "Priya", "Dev", "Tara", "Yash", "Nisha",
@@ -290,20 +244,15 @@ def build_incremental(clean: pd.DataFrame) -> pd.DataFrame:
     incr = pd.concat([changed, unchanged, new_customers], ignore_index=True)
     incr["record_updated_at"] = f"{INCREMENT_DATE} 06:30:00"
 
-    # ---- (d) 5 duplicated source rows -------------------------------------
-    # MERGE raises "multiple source rows matched the same target row" if these
-    # are not de-duplicated first -> the notebook demonstrates the fix.
     dupes = incr.sample(5, random_state=SEED + 6).copy()
     incr = pd.concat([incr, dupes], ignore_index=True)
 
-    # ---- (e) a couple of nulls so cleaning is required here too ------------
     incr.loc[incr.sample(4, random_state=SEED + 8).index, "email"] = np.nan
     incr.loc[incr.sample(3, random_state=SEED + 9).index, "city"] = np.nan
 
     return incr[COLUMNS].sample(frac=1.0, random_state=SEED).reset_index(drop=True)
 
 
-# --------------------------------------------------------------------------- #
 def main() -> None:
     clean_dim = build_customer_dimension()
     print(f"customer dimension built from superstore : {len(clean_dim):,} customers")

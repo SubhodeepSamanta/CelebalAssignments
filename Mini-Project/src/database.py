@@ -1,13 +1,3 @@
-"""
-Builds the SQLite database from the cleaned CSVs.
-
-The schema in sql/schema.sql carries primary keys, foreign keys and CHECK
-constraints, so this load doubles as a test: if cleaning missed something the
-insert raises IntegrityError instead of quietly storing bad data.
-
-Run:  python -m src.database
-"""
-
 from __future__ import annotations
 
 import sqlite3

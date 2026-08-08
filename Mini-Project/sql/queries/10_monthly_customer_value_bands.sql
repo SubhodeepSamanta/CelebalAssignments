@@ -1,8 +1,3 @@
--- 10. Multi-level CTE: monthly revenue per customer, banded, then counted.
---   monthly_revenue -> one row per customer per month
---   banded          -> High (>10000) / Medium (5000-10000) / Low (<5000)
---   final SELECT    -> how many customers sit in each band each month
-
 WITH monthly_revenue AS (
     SELECT
         customer_id,

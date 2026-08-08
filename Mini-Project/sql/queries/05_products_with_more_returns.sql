@@ -1,7 +1,3 @@
--- 5. Products that were ordered but had more returns than purchases.
--- Purchases and returns live in the same column, separated by the sign of
--- quantity, so a conditional SUM splits them in one pass over the table.
-
 WITH movement AS (
     SELECT
         p.product_id,

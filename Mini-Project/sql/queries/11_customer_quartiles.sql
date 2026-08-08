@@ -1,9 +1,3 @@
--- 11. NTILE segmentation: customers split into four quartiles by lifetime value.
--- NTILE fills groups by position, not by value, so the quartiles always come
--- out the same size even if the money is lopsided.
--- The label is applied in a second step because a window function cannot be
--- referenced by alias inside the same SELECT.
-
 WITH lifetime AS (
     SELECT
         customer_id,

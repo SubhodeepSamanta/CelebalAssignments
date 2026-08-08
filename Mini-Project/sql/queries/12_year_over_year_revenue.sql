@@ -1,8 +1,3 @@
--- 12. Year-over-year revenue comparison by calendar month.
--- A LEFT JOIN of the monthly totals onto themselves, offset by one year.
--- Months with no prior-year row return NULL rather than being dropped, and the
--- growth percentage guards against a zero denominator.
-
 WITH monthly AS (
     SELECT
         CAST(STRFTIME('%Y', order_date) AS INTEGER) AS year,

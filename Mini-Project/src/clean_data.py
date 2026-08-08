@@ -1,15 +1,3 @@
-"""
-Part 2 - cleaning and validation.
-
-Reads data/raw/, applies one cleaning function per table, and writes
-data/clean/ plus a report of everything that was wrong.
-
-Rows that cannot be trusted are not silently deleted: they are written to
-data/quarantine/ so the drop can be audited.
-
-Run:  python -m src.clean_data
-"""
-
 from __future__ import annotations
 
 import json
@@ -23,13 +11,10 @@ from src import config
 EMAIL_PATTERN = re.compile(r"^[^@\s]+@[^@\s.]+(\.[^@\s.]+)+$")
 NULL_TOKENS = {"", "null", "none", "nan", "na", "n/a", "-"}
 
-# tried in order; the first format that parses a value wins
 DATE_FORMATS = ["%Y-%m-%d %H:%M:%S", "%Y-%m-%d", "%d-%m-%Y %H:%M:%S", "%d-%m-%Y", "%d/%m/%Y"]
 
 
 class QualityReport:
-    """Collects every issue found so the run can be summarised at the end."""
-
     def __init__(self) -> None:
         self.issues: list[dict] = []
         self.row_counts: dict[str, dict[str, int]] = {}
@@ -84,7 +69,6 @@ class QualityReport:
 
 
 def tidy(series: pd.Series) -> pd.Series:
-    """Trim, collapse runs of whitespace, and keep the result as a string dtype."""
     return series.astype("string").str.replace(r"\s+", " ", regex=True).str.strip()
 
 
@@ -94,7 +78,6 @@ def blank_to_na(series: pd.Series) -> pd.Series:
 
 
 def parse_dates(series: pd.Series) -> pd.Series:
-    """Parse a column that mixes several date formats; unparseable becomes NaT."""
     values = blank_to_na(series)
     parsed = pd.Series(pd.NaT, index=series.index, dtype="datetime64[ns]")
     for fmt in DATE_FORMATS:
@@ -106,7 +89,6 @@ def parse_dates(series: pd.Series) -> pd.Series:
 
 
 def read_raw(name: str) -> pd.DataFrame:
-    """Read everything as text so pandas cannot silently coerce a bad value."""
     return pd.read_csv(config.RAW_DIR / f"{name}.csv", dtype=str, keep_default_na=False)
 
 
@@ -120,14 +102,12 @@ def _drop(df: pd.DataFrame, mask: pd.Series, report: QualityReport | None,
 
 
 def validate_emails(customers: pd.DataFrame) -> list[str]:
-    """Return the customer_ids whose email address is not usable."""
     email = blank_to_na(customers["email"])
     valid = email.notna() & email.str.match(EMAIL_PATTERN).fillna(False)
     return customers.loc[~valid, "customer_id"].tolist()
 
 
 def check_referential_integrity(order_items: pd.DataFrame, orders: pd.DataFrame) -> pd.DataFrame:
-    """Return the order_items rows whose order_id does not exist in orders."""
     known = set(orders["order_id"])
     return order_items.loc[~order_items["order_id"].isin(known)].copy()
 
@@ -165,7 +145,6 @@ def clean_customers(customers: pd.DataFrame, report: QualityReport | None = None
 
 
 def clean_products(products: pd.DataFrame, report: QualityReport | None = None) -> pd.DataFrame:
-    """Normalise product names (trim, collapse spaces, title case) and prices."""
     raw_rows = len(products)
     df = products.copy()
 
@@ -193,13 +172,6 @@ def clean_products(products: pd.DataFrame, report: QualityReport | None = None) 
 
 
 def clean_orders(orders: pd.DataFrame, report: QualityReport | None = None) -> pd.DataFrame:
-    """
-    Fix the mixed date formats and normalise the missing customer_ids.
-
-    Orders without a customer_id are kept, not dropped: the money was still
-    taken, so removing them would understate revenue. The id becomes a real
-    NULL, which makes every join to customers exclude them automatically.
-    """
     raw_rows = len(orders)
     df = orders.copy()
 
@@ -239,10 +211,6 @@ def clean_orders(orders: pd.DataFrame, report: QualityReport | None = None) -> p
 
 def clean_order_items(items: pd.DataFrame, orders: pd.DataFrame, products: pd.DataFrame,
                       report: QualityReport | None = None) -> pd.DataFrame:
-    """
-    Coerce the numeric columns, clamp the discount, and enforce both foreign
-    keys against the already-cleaned orders and products.
-    """
     raw_rows = len(items)
     df = items.copy()
 
@@ -296,9 +264,6 @@ def clean_all() -> tuple[dict[str, pd.DataFrame], QualityReport]:
     products = clean_products(read_raw("products"), report)
     orders = clean_orders(raw_orders, report)
 
-    # measured against the raw orders as well, so the genuinely orphaned rows
-    # are separated from the ones that only became orphans when their order
-    # was quarantined above
     true_orphans = check_referential_integrity(raw_items, raw_orders)
     report.log("order_items", "order_id never existed in the raw orders file",
                len(true_orphans), "row dropped (subset of the check below)")

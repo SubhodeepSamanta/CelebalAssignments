@@ -1,8 +1,3 @@
--- 16. Products frequently bought together.
--- Self-join a basket onto itself on order_id. The a.product_id < b.product_id
--- condition does two jobs at once: it drops the self-pairs (A-A) and it keeps
--- only one direction of every pair, so A-B appears but B-A does not.
-
 WITH basket AS (
     SELECT DISTINCT oi.order_id, oi.product_id
     FROM order_items oi

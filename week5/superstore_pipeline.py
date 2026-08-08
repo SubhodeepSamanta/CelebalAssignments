@@ -4,7 +4,6 @@ from pyspark.sql import functions as F
 spark = SparkSession.builder.appName("week5-superstore").master("local[*]").getOrCreate()
 spark.sparkContext.setLogLevel("ERROR")
 
-# escape needed because some product names have quotes inside them
 df = spark.read.csv("data/Sample - Superstore.csv", header=True, inferSchema=True, escape='"')
 
 print("rows:", df.count(), "| columns:", len(df.columns))
@@ -66,7 +65,6 @@ revenue = (
 )
 revenue.show(15)
 
-# spark's csv writer needs winutils on windows so using pandas here
 revenue.toPandas().to_csv("output/state_revenue.csv", index=False)
 print("saved to output/state_revenue.csv")
 

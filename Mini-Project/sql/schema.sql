@@ -1,8 +1,3 @@
--- Physical model for the cleaned data.
--- The constraints are the second line of defence: if the cleaning stage in
--- src/clean_data.py ever lets something through, the load in src/database.py
--- fails loudly instead of poisoning the reports.
-
 PRAGMA foreign_keys = ON;
 
 DROP VIEW  IF EXISTS revenue_lines;
@@ -28,7 +23,6 @@ CREATE TABLE products (
     cost_price   REAL NOT NULL CHECK (cost_price > 0)
 );
 
--- customer_id is nullable on purpose: an order with no customer still took money.
 CREATE TABLE orders (
     order_id    TEXT PRIMARY KEY,
     customer_id TEXT REFERENCES customers (customer_id),
@@ -53,9 +47,6 @@ CREATE INDEX idx_orders_date     ON orders (order_date);
 CREATE INDEX idx_items_order     ON order_items (order_id);
 CREATE INDEX idx_items_product   ON order_items (product_id);
 
--- Every line item joined to its order and product, with the revenue formula
--- written once. Return lines carry a negative quantity, so their revenue is
--- negative and nets off against the sale automatically.
 CREATE VIEW order_lines AS
 SELECT
     oi.item_id,
@@ -79,7 +70,5 @@ FROM order_items oi
 JOIN orders   o ON o.order_id   = oi.order_id
 JOIN products p ON p.product_id = oi.product_id;
 
--- Cancelled orders never billed, so they are excluded from anything that
--- reports money. Use order_lines instead when the question is about volume.
 CREATE VIEW revenue_lines AS
 SELECT * FROM order_lines WHERE status <> 'CANCELLED';

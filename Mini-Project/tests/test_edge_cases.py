@@ -1,13 +1,3 @@
-"""
-Part 5 - edge case tests.
-
-Each function covers one of the four questions in the brief and checks it twice:
-once against the cleaning functions, and once against the database constraints
-that would catch it if cleaning ever regressed.
-
-Run:  python tests/test_edge_cases.py      (or pytest tests, if pytest is installed)
-"""
-
 from __future__ import annotations
 
 import sqlite3
@@ -38,7 +28,6 @@ def make_items(rows: list[list[str]]) -> pd.DataFrame:
 
 
 def memory_db() -> sqlite3.Connection:
-    """Empty database with the real schema and one valid parent row per table."""
     connection = sqlite3.connect(":memory:")
     connection.executescript(config.SCHEMA_PATH.read_text(encoding="utf-8"))
     connection.execute("PRAGMA foreign_keys = ON")
@@ -57,7 +46,6 @@ def raises_integrity_error(connection: sqlite3.Connection, sql: str) -> bool:
 
 
 def test_order_item_references_a_missing_order():
-    """An order_item whose order_id was never issued must not reach the database."""
     orders = make_orders([["ORD001", "CUST001", "2026-01-05 10:00:00", "DELIVERED", "NORTH"]])
     items = make_items([
         ["ITEM001", "ORD001", "PROD001", "2", "10.00", "0"],
@@ -79,7 +67,6 @@ def test_order_item_references_a_missing_order():
 
 
 def test_discount_percent_above_100():
-    """A discount over 100 is clamped, so a sale can never produce negative revenue."""
     orders = make_orders([["ORD001", "CUST001", "2026-01-05 10:00:00", "DELIVERED", "NORTH"]])
     items = make_items([
         ["ITEM001", "ORD001", "PROD001", "2", "50.00", "150"],
@@ -103,7 +90,6 @@ def test_discount_percent_above_100():
 
 
 def test_quantity_is_zero():
-    """A line for zero units is not a transaction, so it is dropped."""
     orders = make_orders([["ORD001", "CUST001", "2026-01-05 10:00:00", "DELIVERED", "NORTH"]])
     items = make_items([
         ["ITEM001", "ORD001", "PROD001", "0", "50.00", "10"],
@@ -125,7 +111,6 @@ def test_quantity_is_zero():
 
 
 def test_order_date_in_the_future():
-    """Future-dated orders are quarantined; a past date on the same batch survives."""
     future = (config.REFERENCE_DATE.replace(year=config.REFERENCE_DATE.year + 1)
               .strftime(config.TIMESTAMP_FORMAT))
     orders = make_orders([
@@ -158,7 +143,7 @@ def main() -> int:
             print(f"FAIL  {test.__name__}")
             traceback.print_exc()
         else:
-            print(f"pass  {test.__name__:<44} {test.__doc__.strip().splitlines()[0]}")
+            print(f"pass  {test.__name__}")
     print(f"\n{len(tests) - failures}/{len(tests)} passed")
     return 1 if failures else 0
 

@@ -1,8 +1,3 @@
--- 13. First and most recent purchased category per customer.
--- LAST_VALUE needs the explicit frame: the default frame stops at the current
--- row, which would make LAST_VALUE return the current row every time.
--- item_id breaks ties when a customer bought two categories at the same instant.
-
 WITH purchases AS (
     SELECT customer_id, order_date, item_id, category
     FROM revenue_lines

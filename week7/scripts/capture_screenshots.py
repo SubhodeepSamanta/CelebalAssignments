@@ -1,19 +1,3 @@
-"""
-capture_screenshots.py
-----------------------
-Renders every tagged cell of the *executed* notebook into a PNG under screenshots/.
-
-A cell is captured by adding a tag to its metadata:
-
-    "tags": ["shot:03_scd1/03_merge_execution_metrics"]
-
-The rendered image contains the real code and the real output that cell produced when
-the notebook was executed - nothing is mocked or retyped.
-
-Run (after executing the notebook):
-    python scripts/capture_screenshots.py
-"""
-
 from __future__ import annotations
 
 import json
@@ -29,16 +13,15 @@ ROOT = os.path.dirname(HERE)
 NOTEBOOK = os.path.join(ROOT, "notebooks", "delta_scd_assignment.ipynb")
 SHOTS = os.path.join(ROOT, "screenshots")
 
-# ---- look & feel ---------------------------------------------------------- #
 FONT_MONO = "/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf"
 FONT_MONO_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf"
 FONT_UI = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
 FONT_UI_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
-FS = 14           # monospace font size
-LH = 20           # line height
-PAD = 18          # inner padding
-MAX_COLS = 210    # widest line we will lay out
+FS = 14
+LH = 20
+PAD = 18
+MAX_COLS = 210
 MAX_OUT_LINES = 110
 
 BG = (255, 255, 255)
@@ -96,11 +79,10 @@ def cell_output_text(cell) -> str:
         elif kind == "error":
             parts.append("\n".join(out.get("traceback", [])))
     text = "".join(parts)
-    return re.sub(r"\x1b\[[0-9;]*m", "", text)  # strip ANSI colour codes
+    return re.sub(r"\x1b\[[0-9;]*m", "", text)
 
 
 def colourise(line: str):
-    """Split a code line into (text, colour) runs."""
     runs, pos = [], 0
     for m in TOKEN_RE.finditer(line):
         if m.start() > pos:
@@ -165,12 +147,10 @@ def render(title, subtitle, code_lines, out_lines, exec_count, path, fonts):
     img = Image.new("RGB", (int(width), int(height)), BG)
     d = ImageDraw.Draw(img)
 
-    # title bar
     d.rectangle([0, 0, width, title_h], fill=TITLE_BG)
     d.text((PAD, 9), title, font=fonts["ui_b"], fill=TITLE_FG)
     d.text((PAD, 30), subtitle, font=fonts["ui_s"], fill=(160, 172, 190))
 
-    # code area
     y = title_h
     d.rectangle([0, y, width, y + code_h], fill=CODE_BG)
     d.line([0, y, width, y], fill=BORDER)
@@ -186,7 +166,6 @@ def render(title, subtitle, code_lines, out_lines, exec_count, path, fonts):
     y += code_h
     d.line([0, y, width, y], fill=BORDER)
 
-    # output area
     if out_lines:
         y += 8
         d.rectangle([0, y, width, y + out_h], fill=BG)
@@ -247,7 +226,6 @@ def main():
 
     print(f"\n{len(made)} screenshots written under screenshots/")
 
-    # index file so the folder is self-describing on GitHub
     index = ["# Screenshots", "",
              "Each image is a render of a cell from the executed notebook -",
              "the code shown and the output below it are exactly what ran.", ""]

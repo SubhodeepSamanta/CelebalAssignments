@@ -1,14 +1,3 @@
-"""
-Part 1 - data generation.
-
-Writes the four raw CSVs into data/raw/ using only the standard library.
-The data is deliberately messy; every defect is injected by one of the
-inject_* functions and the counts are printed so the cleaning stage can be
-checked against a known answer.
-
-Run:  python -m src.generate_data
-"""
-
 from __future__ import annotations
 
 import csv
@@ -177,13 +166,6 @@ def build_orders(rng: random.Random, customers: list[dict]) -> list[dict]:
 
 
 def build_order_items(rng: random.Random, orders: list[dict], products: list[dict]) -> list[dict]:
-    """
-    Line items. Referential integrity holds by construction because order_ids
-    are only ever read out of the `orders` list; the broken references the
-    cleaner has to catch are appended later by inject_item_defects().
-
-    RETURNED orders are credit notes, so all of their lines are negative.
-    """
     ids = [p["product_id"] for p in products]
     purchase_weights = {pid: rng.random() ** 2 * 10 + 0.15 for pid in ids}
     unit_price = {

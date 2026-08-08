@@ -1,7 +1,3 @@
--- 6. Return rate per category = returned items / total items.
--- ABS() is what makes the denominator "total items moved": without it the
--- returns would cancel out part of the purchases and inflate the rate.
-
 SELECT
     p.category,
     SUM(CASE WHEN oi.quantity < 0 THEN -oi.quantity ELSE 0 END) AS units_returned,

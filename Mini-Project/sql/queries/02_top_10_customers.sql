@@ -1,5 +1,3 @@
--- 2. Top 10 customers by total order value.
-
 SELECT
     c.customer_id,
     c.customer_name,

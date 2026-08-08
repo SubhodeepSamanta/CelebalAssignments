@@ -1,7 +1,3 @@
--- 1. Total revenue per category.
--- revenue = quantity * unit_price * (1 - discount_percent / 100), summed per line.
--- Return lines are negative, so this is net revenue rather than gross sales.
-
 SELECT
     category,
     COUNT(DISTINCT order_id)    AS orders,

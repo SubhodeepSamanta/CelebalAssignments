@@ -1,8 +1,3 @@
--- 7. Running total of revenue per region, ordered by date.
--- Aggregate to one row per region per day first, otherwise the window would
--- run over individual line items and the running total would step several
--- times within the same day.
-
 WITH daily AS (
     SELECT
         region_code,

@@ -1,10 +1,3 @@
--- 15. Cohort analysis: retention by registration month, months 0 to 3.
--- Customers are grouped by the month they registered, then counted in each of
--- the first four months in which they placed an order.
--- month_index is calendar months apart, computed as
---   (year difference * 12) + month difference
--- rather than days / 30, so a cohort boundary is a real month boundary.
-
 WITH cohort AS (
     SELECT
         customer_id,

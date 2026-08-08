@@ -1,12 +1,3 @@
-"""
-Shared configuration.
-
-Every stage of the pipeline imports its paths and its constants from here, so
-there is exactly one place to edit if the folder layout or the data volume moves.
-Importing this module has no side effects other than creating output folders on
-demand via ensure_dirs().
-"""
-
 from datetime import date, datetime
 from pathlib import Path
 
@@ -43,6 +34,5 @@ REFERENCE_DATE = datetime(2026, 8, 1, 23, 59, 59)
 
 
 def ensure_dirs() -> None:
-    """Create the directories the pipeline writes into. Safe to call repeatedly."""
     for folder in (RAW_DIR, CLEAN_DIR, QUARANTINE_DIR, OUTPUT_DIR, RESULTS_DIR):
         folder.mkdir(parents=True, exist_ok=True)

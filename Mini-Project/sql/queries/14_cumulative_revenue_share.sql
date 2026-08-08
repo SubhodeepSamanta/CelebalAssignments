@@ -1,7 +1,3 @@
--- 14. What share of revenue comes from the top N% of customers.
--- Three windows over the same ordering: a rank, a running sum, and the grand
--- total. Dividing the running sum by the grand total gives the Pareto curve.
-
 WITH customer_revenue AS (
     SELECT
         customer_id,

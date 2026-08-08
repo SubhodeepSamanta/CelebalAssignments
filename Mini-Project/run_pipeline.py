@@ -1,12 +1,3 @@
-"""
-Runs the whole project end to end.
-
-    python run_pipeline.py                     every stage
-    python run_pipeline.py clean load analyse  only these, in this order
-
-Stages: generate -> clean -> load -> analyse -> test
-"""
-
 from __future__ import annotations
 
 import subprocess
@@ -17,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
 
-from src import clean_data, database, generate_data, run_analysis  # noqa: E402
+from src import clean_data, database, generate_data, run_analysis
 
 
 def run_tests() -> None:

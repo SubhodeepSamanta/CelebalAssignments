@@ -1,16 +1,3 @@
-"""
-Part 4 - command line reporting tool.
-
-Standard library only: sqlite3, argparse, datetime. No pandas.
-
-    python -m src.report_tool --type monthly --start 2026-01-01 --end 2026-06-30
-    python -m src.report_tool                  (prompts for the three inputs)
-
-Prints totals for the chosen window, a breakdown at the chosen grain, the top
-three products, and the same figures for the immediately preceding window of
-equal length.
-"""
-
 from __future__ import annotations
 
 import argparse
@@ -56,7 +43,6 @@ def parse_date(text: str) -> date:
 
 
 def previous_window(start: date, end: date) -> tuple[date, date]:
-    """The window of identical length that ends the day before `start`."""
     length = (end - start).days + 1
     return start - timedelta(days=length), start - timedelta(days=1)
 

@@ -1,13 +1,3 @@
-"""
-Part 3 - runs the SQL analysis.
-
-Executes every file in sql/queries/ against the database, prints a preview and
-writes the full result to output/query_results/.
-
-Run:  python -m src.run_analysis        all sixteen
-      python -m src.run_analysis 7 13   only those numbers
-"""
-
 from __future__ import annotations
 
 import sys

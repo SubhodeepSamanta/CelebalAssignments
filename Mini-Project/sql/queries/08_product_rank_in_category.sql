@@ -1,7 +1,3 @@
--- 8. Rank products by total revenue within each category.
--- DENSE_RANK is required by the brief: products on the same revenue must share
--- a rank, and the next product must not have its rank skipped.
-
 WITH product_revenue AS (
     SELECT
         category,
