@@ -8,17 +8,17 @@ Implementation of an enterprise cloud ETL pipeline using **Azure Data Factory (A
 
 | Screenshot / File | Target Task | Pipeline Activity & Description |
 |---|---|---|
-| [`01-resource-group.png`](file:///c:/Users/USER/Desktop/CelebalAssignments/week4/ScreenShots/01-resource-group.png) | Task 1 | Created Azure Resource Group `rg-superstore-pipeline` in Malaysia West region |
-| [`02-storage-container.png`](file:///c:/Users/USER/Desktop/CelebalAssignments/week4/ScreenShots/02-storage-container.png) | Task 2 | Storage Account `stsuperstoreadf` & Blob Container `superstore-container` created with uploaded CSV |
-| [`03-adf-overview.png`](file:///c:/Users/USER/Desktop/CelebalAssignments/week4/ScreenShots/03-adf-overview.png) | Task 3 | Provisioned Azure Data Factory instance `adf-superstore-pipelineSS` |
-| [`04-linked-service.png`](file:///c:/Users/USER/Desktop/CelebalAssignments/week4/ScreenShots/04-linked-service.png) | Task 3 | Linked Service `ls_blob_superstore` established with successful connection test |
-| [`05-datasets.png`](file:///c:/Users/USER/Desktop/CelebalAssignments/week4/ScreenShots/05-datasets.png) | Task 3 | Source dataset `ds_superstore_source` & Sink dataset `ds_superstore_destination` configured |
-| [`06-get-metadata.png`](file:///c:/Users/USER/Desktop/CelebalAssignments/week4/ScreenShots/06-get-metadata.png) | Task 3 | `Get Metadata` activity configured to inspect file size and row existence |
-| [`07-pipeline-design.png`](file:///c:/Users/USER/Desktop/CelebalAssignments/week4/ScreenShots/07-pipeline-design.png) | Task 4 | `Copy Data` activity pipeline design (`pl_copy_superstore_data`) |
-| [`08-pipeline-succeeded.png`](file:///c:/Users/USER/Desktop/CelebalAssignments/week4/ScreenShots/08-pipeline-succeeded.png) | Task 5 | Successful execution status for the data copying run |
-| [`09-iam-roles.png`](file:///c:/Users/USER/Desktop/CelebalAssignments/week4/ScreenShots/09-iam-roles.png) | Task 6 | IAM Role assignments (`Reader`, `Contributor`, `Storage Blob Data Contributor`) |
-| [`10-mini-project-combined.png`](file:///c:/Users/USER/Desktop/CelebalAssignments/week4/ScreenShots/10-mini-project-combined.png) | Mini-Project | Chained **Get Metadata → Copy Data** end-to-end pipeline in a single successful Debug run |
-| [`Week4_Assignment4_Report.pdf`](file:///c:/Users/USER/Desktop/CelebalAssignments/week4/Report/Week4_Assignment4_Report.pdf) | Deliverable | Full written technical report with step-by-step documentation and embedded screenshots |
+| [`01-resource-group.png`](ScreenShots/01-resource-group.png) | Task 1 | Created Azure Resource Group `rg-superstore-pipeline` in Malaysia West region |
+| [`02-storage-container.png`](ScreenShots/02-storage-container.png) | Task 2 | Storage Account `stsuperstoreadf` & Blob Container `superstore-container` created with uploaded CSV |
+| [`03-adf-overview.png`](ScreenShots/03-adf-overview.png) | Task 3 | Provisioned Azure Data Factory instance `adf-superstore-pipelineSS` |
+| [`04-linked-service.png`](ScreenShots/04-linked-service.png) | Task 3 | Linked Service `ls_blob_superstore` established with successful connection test |
+| [`05-datasets.png`](ScreenShots/05-datasets.png) | Task 3 | Source dataset `ds_superstore_source` & Sink dataset `ds_superstore_destination` configured |
+| [`06-get-metadata.png`](ScreenShots/06-get-metadata.png) | Task 3 | `Get Metadata` activity configured to inspect file size and row existence |
+| [`07-pipeline-design.png`](ScreenShots/07-pipeline-design.png) | Task 4 | `Copy Data` activity pipeline design (`pl_copy_superstore_data`) |
+| [`08-pipeline-succeeded.png`](ScreenShots/08-pipeline-succeeded.png) | Task 5 | Successful execution status for the data copying run |
+| [`09-iam-roles.png`](ScreenShots/09-iam-roles.png) | Task 6 | IAM Role assignments (`Reader`, `Contributor`, `Storage Blob Data Contributor`) |
+| [`10-mini-project-combined.png`](ScreenShots/10-mini-project-combined.png) | Mini-Project | Chained **Get Metadata → Copy Data** end-to-end pipeline in a single successful Debug run |
+| [`Week4_Assignment4_Report.pdf`](Report/Week4_Assignment4_Report.pdf) | Deliverable | Full written technical report with step-by-step documentation and embedded screenshots |
 
 ---
 

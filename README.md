@@ -1,28 +1,44 @@
+<div align="center">
+
 # Celebal Technologies — Data Engineering & Infrastructure Internship
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
-[![SQL](https://img.shields.io/badge/SQL-SQLite%20%7C%20PostgreSQL-orange.svg)](https://www.sqlite.org/)
-[![Apache Spark](https://img.shields.io/badge/Apache%20Spark-3.5-red.svg)](https://spark.apache.org/)
-[![Delta Lake](https://img.shields.io/badge/Delta%20Lake-3.0-blueviolet.svg)](https://delta.io/)
-[![Azure ADF](https://img.shields.io/badge/Azure-Data%20Factory-0089D6.svg)](https://azure.microsoft.com/services/data-factory/)
+*End-to-End Enterprise Data Architecture, Distributed Systems, Delta Lakehouse & Cloud ETL Pipelines*
 
-![Data Engineering Pipeline Architecture](file:///c:/Users/USER/Desktop/CelebalAssignments/assets/architecture_overview.png)
+<p align="center">
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.10%2B-blue.svg" alt="Python" /></a>
+  <a href="https://www.sqlite.org/"><img src="https://img.shields.io/badge/SQL-SQLite%20%7C%20PostgreSQL-orange.svg" alt="SQL" /></a>
+  <a href="https://spark.apache.org/"><img src="https://img.shields.io/badge/Apache%20Spark-3.5-red.svg" alt="Apache Spark" /></a>
+  <a href="https://delta.io/"><img src="https://img.shields.io/badge/Delta%20Lake-3.0-blueviolet.svg" alt="Delta Lake" /></a>
+  <a href="https://azure.microsoft.com/services/data-factory/"><img src="https://img.shields.io/badge/Azure-Data%20Factory-0089D6.svg" alt="Azure Data Factory" /></a>
+</p>
 
-This repository serves as the master portfolio for the **Celebal Technologies Data Engineering Internship**. The work spans exploratory data analysis, relational schema design, advanced SQL window analytics, distributed computing with PySpark, cloud ETL orchestration with Azure Data Factory, Lakehouse storage with Delta Lake (SCD Type 1 & 2), and a production-grade Capstone E-Commerce Analytics System.
+<br/>
+
+<p align="center">
+  <img src="assets/architecture_overview.png" alt="Data Engineering Pipeline Architecture" width="100%" />
+</p>
+
+<br/>
 
 ---
 
-## Engineer Profile
+### **Subhodeep Samanta**
+*Full-Stack Engineer | Infrastructure & AI Systems*
 
-**Subhodeep Samanta**  
-*Full-Stack Engineer | Infrastructure & AI Systems*  
 📍 Dehradun, Uttarakhand · 📞 +91 6291445216 · ✉️ [subhodeepsamanta2005@gmail.com](mailto:subhodeepsamanta2005@gmail.com)  
 🌐 [Portfolio](https://subhodeepsamanta.github.io) · 💻 [GitHub](https://github.com/subhodeepsamanta) · 🔗 [LinkedIn](https://linkedin.com/in/subhodeepsamanta) · ⚡ [LeetCode](https://leetcode.com/subhodeepsamanta)
 
-### Professional Summary
+</div>
+
+---
+
+## 💡 Professional Summary
+
 Full-stack engineer building AI systems, distributed infrastructure, and edge computing solutions. Experienced in building autonomous agents, custom P2P networking protocols, and production software for enterprise clients — with hands-on expertise spanning ARM migration, database optimization, distributed stream processing, and data pipeline design.
 
-### Technical Competencies Matrix
+---
+
+## 🛠️ Technical Competencies Matrix
 
 | Domain | Technologies & Frameworks |
 |---|---|
@@ -34,7 +50,7 @@ Full-stack engineer building AI systems, distributed infrastructure, and edge co
 
 ---
 
-## Repository Curriculum & Architecture Map
+## 📂 Repository Curriculum & Architecture Map
 
 ```
 CelebalAssignments/
@@ -51,7 +67,7 @@ CelebalAssignments/
 
 ---
 
-## Global Data Pipeline Architecture
+## 🔄 Global Data Pipeline Architecture
 
 ```mermaid
 flowchart TD
@@ -91,13 +107,13 @@ flowchart TD
 
 ---
 
-## Deep-Dive Technical Modules
+## 🚀 Deep-Dive Technical Modules
 
 ---
 
 ### Week 1 — Myntra E-Commerce Dataset: EDA & Data Cleaning
 
-[📁 View Week 1 Subdirectory](file:///c:/Users/USER/Desktop/CelebalAssignments/week1/README.md)
+[📁 View Week 1 Subdirectory](week1/README.md)
 
 #### Business Scope & Dataset
 Exploratory Data Analysis (EDA) and data preprocessing on an e-commerce shopping dataset containing **1,000 product records across 96 categories**. The goal was to transform unstructured catalog text into a clean tabular structure suitable for machine learning and pricing optimization.
@@ -128,7 +144,7 @@ flowchart LR
 
 ### Week 2 — Superstore Sales: Relational SQL Analysis & Profitability Audit
 
-[📁 View Week 2 Subdirectory](file:///c:/Users/USER/Desktop/CelebalAssignments/week2/README.md)
+[📁 View Week 2 Subdirectory](week2/README.md)
 
 #### Business Scope & Dataset
 Relational database analysis of the Sample Superstore dataset containing **9,994 transactional order line items** spanning four years (January 2014 to December 2017).
@@ -162,7 +178,7 @@ ORDER BY total_loss_amount ASC;
 
 ### Week 3 — Advanced SQL Analytics: CTEs, Window Functions & Customer Ranking
 
-[📁 View Week 3 Subdirectory](file:///c:/Users/USER/Desktop/CelebalAssignments/week3/README.md)
+[📁 View Week 3 Subdirectory](week3/README.md)
 
 #### Business Scope & Analytical Concepts
 Implementation of complex SQL analytics utilizing Common Table Expressions (CTEs), Window Functions (`DENSE_RANK()`, `ROW_NUMBER()`, `NTILE()`), and subqueries against SQLite to evaluate customer lifetime value and order frequency distributions.
@@ -205,7 +221,7 @@ ORDER BY Total_Sales DESC;
 
 ### Week 4 — Azure Cloud Infrastructure & ADF Pipeline Orchestration
 
-[📁 View Week 4 Subdirectory](file:///c:/Users/USER/Desktop/CelebalAssignments/week4/README.md)
+[📁 View Week 4 Subdirectory](week4/README.md)
 
 #### Cloud Architecture & Ingestion Pipeline
 Deploying a cloud data integration pipeline using **Azure Data Factory (ADF)** and **Azure Blob Storage** to automate Superstore dataset ingestion.
@@ -235,7 +251,7 @@ flowchart LR
 
 ### Week 5 — PySpark Distributed DataFrames: Transformations & Aggregations
 
-[📁 View Week 5 Subdirectory](file:///c:/Users/USER/Desktop/CelebalAssignments/week5/README.md)
+[📁 View Week 5 Subdirectory](week5/README.md)
 
 #### MapReduce vs. Apache Spark Compute Paradigm
 MapReduce incurs severe disk I/O latency by persisting intermediate map outputs to HDFS before reduce stages. Apache Spark keeps intermediate partitions in RAM using resilient distributed datasets (RDDs) and DataFrame DAG lineage, resulting in **10x–100x speed improvements** for iterative algorithms.
@@ -278,9 +294,11 @@ state_revenue.show(10)
 
 ### Week 6 — Spark Core Architecture, Lazy Evaluation & Parquet Optimization
 
-[📁 View Week 6 Subdirectory](file:///c:/Users/USER/Desktop/CelebalAssignments/week6/README.md)
+[📁 View Week 6 Subdirectory](week6/README.md)
 
-![Spark & Delta Lake Architecture](file:///c:/Users/USER/Desktop/CelebalAssignments/assets/spark_delta_lakehouse.png)
+<p align="center">
+  <img src="assets/spark_delta_lakehouse.png" alt="Spark & Delta Lake Architecture" width="100%" />
+</p>
 
 #### Cluster Process Layers
 1. **Driver Process**: Executes the `main()` application, initializes `SparkSession`, translates code into logical DAG plans, schedules stages and tasks, and tracks application state.
@@ -303,7 +321,7 @@ Spark DataFrames are immutable. When an executor node crashes and loses an in-me
 
 ### Week 7 — Delta Lake Lakehouse Architecture: Incremental SCD Type 1 & 2
 
-[📁 View Week 7 Subdirectory](file:///c:/Users/USER/Desktop/CelebalAssignments/week7/README.md)
+[📁 View Week 7 Subdirectory](week7/README.md)
 
 #### Medallion Architecture
 - **Bronze Layer**: Raw CSV files ingested verbatim as string columns (`dtype=str`) with ACID transaction logging (`_delta_log/`).
@@ -335,9 +353,11 @@ flowchart TD
 
 ### Week 8 — Capstone: End-to-End E-Commerce Analytics System
 
-[📁 View Mini-Project Subdirectory](file:///c:/Users/USER/Desktop/CelebalAssignments/Mini-Project/README.md)
+[📁 View Mini-Project Subdirectory](Mini-Project/README.md)
 
-![E-Commerce Analytics System](file:///c:/Users/USER/Desktop/CelebalAssignments/assets/ecommerce_analytics_system.png)
+<p align="center">
+  <img src="assets/ecommerce_analytics_system.png" alt="E-Commerce Analytics System" width="100%" />
+</p>
 
 #### System Overview & 5-Stage Architecture
 
@@ -404,19 +424,11 @@ Metric            This period     Previous     Change
 Total orders             2,165         1,182   +83.2%
 Revenue           2,172,981.84  1,159,304.60   +87.4%
 Unique customers           619           456   +35.7%
-
-Top 3 products by revenue
-------------------------------------------------------------------------------
-Product                    Units    Revenue  
--------------------------  -----  ---------
-Meridian Soundbar Z867       124  99,109.16
-Zephyr Workstation S297       44  63,260.97
-Vantage Cookware Set Z994     99  61,089.41
 ```
 
 ---
 
-## Getting Started & Execution Guide
+## ⚙️ Getting Started & Execution Guide
 
 ### Prerequisites
 - Python 3.10 or higher
@@ -455,6 +467,6 @@ python tests/test_edge_cases.py
 
 ---
 
-## License & Attribution
+## 📜 License & Attribution
 
 Developed by **Subhodeep Samanta** as part of the Celebal Technologies Data Engineering Internship program.
