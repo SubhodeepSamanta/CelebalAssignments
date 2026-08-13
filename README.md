@@ -62,7 +62,8 @@ CelebalAssignments/
 ├── week5/          PySpark Distributed DataFrames — In-Memory Computations
 ├── week6/          Spark Architecture, Catalyst Optimizer & Parquet Storage
 ├── week7/          Delta Lake Lakehouse Architecture — SCD Type 1 & 2 Merges
-└── Mini-Project/   Capstone: End-to-End E-Commerce Order Analytics System
+├── week8/          Capstone: E-Commerce Order Analytics System (Local SQLite & Pandas)
+└── Mini-Project/   Capstone: FreshMart Retail Analytics Medallion ETL Pipeline (Databricks & PySpark)
 ```
 
 ---
@@ -351,80 +352,54 @@ flowchart TD
 
 ---
 
-### Week 8 — Capstone: End-to-End E-Commerce Analytics System
+### Week 8 — Capstone: E-Commerce Order Analytics System (SQLite & Pandas)
 
-[📁 View Mini-Project Subdirectory](Mini-Project/README.md)
+[📁 View Week 8 Subdirectory](week8/README.md)
 
-<p align="center">
-  <img src="assets/ecommerce_analytics_system.png" alt="E-Commerce Analytics System" width="100%" />
-</p>
-
-#### System Overview & 5-Stage Architecture
+#### System Overview & 5-Stage Local ETL Architecture
 
 ```mermaid
 flowchart LR
-    S1[Stage 1: Data Generator] -->|Raw CSVs + 914 Injected Defects| S2[Stage 2: Cleaning Engine]
-    S2 -->|Clean CSVs + Quarantine Logs| S3[Stage 3: Database Loader]
-    S3 -->|SQLite Warehouse| S4[Stage 4: 16 SQL Query Suite]
-    S3 -->|Database Connection| S5[Stage 5: CLI Report Tool]
-    S2 -->|Validation Rules| TEST[Edge Case Test Suite]
+    S1[Stage 1: Data Generator] -->|Raw CSVs + 914 Defects| S2[Stage 2: Quality Engine]
+    S2 -->|Clean CSVs + Quarantine Logs| S3[Stage 3: SQLite Warehouse]
+    S3 -->|Database Connection| S4[Stage 4: 16 SQL Query Suite]
+    S3 -->|CLI Engine| S5[Stage 5: Report Tool]
 ```
 
-#### Defect Injection & Quality Audit
-The generator (`src/generate_data.py`) injects **914 problem rows across 10 distinct issue categories**. The cleaning engine (`src/clean_data.py`) processes every defect according to explicit business logic:
+#### Key Highlights & Capabilities
+- **Local SQLite Engine**: Ingests multi-source raw order CSVs containing deliberate quality defects.
+- **Cleaning & Quality Audit**: Processes 914 problem rows across 10 defect categories.
+- **16 SQL Analytics Queries**: Advanced business insights utilizing CTEs, window functions, and Pareto spend distribution curves.
 
-| Defect Category | Rows Affected | Action Taken | Rationale |
-|---|---:|---|---|
-| Missing `customer_id` | 237 orders | Kept as SQL `NULL` | Preserves financial revenue totals while isolating unauthenticated guest purchases from customer metrics. |
-| Non-ISO dates (`DD-MM-YYYY`) | 190 orders | Parsed & rewritten to ISO | Standardizes time-series indexing. |
-| Future order dates | 10 orders | Dropped & quarantined | Prevents corruption of YOY and rolling time metrics. |
-| Malformed email addresses | 16 customers | Preserved; IDs logged to JSON | Preserves customer history while surfacing CRM data quality tasks. |
-| Discount > 100% | 12 line items | Clamped to 100% | Converts entry error into a $0 promotional item rather than an illegal negative refund. |
-| Quantity = 0 | 20 line items | Dropped & quarantined | Zero-quantity line items do not represent transactions. |
-| Orphan line items | 15 line items | Dropped & quarantined | Enforces referential integrity before SQLite load. |
+---
 
-#### 16 Analytical SQL Business Queries (`sql/queries/`)
+### Mini-Project — Capstone: FreshMart Retail Analytics Medallion ETL Pipeline (Databricks)
 
-```sql
--- Query 16: Product Affinity Pair Analysis (Frequently Bought Together)
-SELECT 
-    p1.product_name AS product_a,
-    p2.product_name AS product_b,
-    COUNT(*) AS times_bought_together,
-    DENSE_RANK() OVER (ORDER BY COUNT(*) DESC) AS pair_rank
-FROM order_items item1
-JOIN order_items item2 
-  ON item1.order_id = item2.order_id 
- AND item1.product_id < item2.product_id
-JOIN products p1 ON item1.product_id = p1.product_id
-JOIN products p2 ON item2.product_id = p2.product_id
-GROUP BY p1.product_name, p2.product_name
-HAVING COUNT(*) > 10
-ORDER BY times_bought_together DESC
-LIMIT 50;
+[📁 View Mini-Project Subdirectory](Mini-Project/README.md)
+
+#### System Overview & Medallion Architecture
+
+```mermaid
+flowchart LR
+    S1[Raw Ingestion: CSV & JSON Exports] -->|Append Metadata| S2[Bronze Layer Delta Tables]
+    S2 -->|Clean, Cast, Deduplicate & SHA-256 PII Mask| S3[Silver Layer Delta Tables]
+    S3 -->|Spark SQL Aggregations| S4[Gold Layer Business Aggregates]
 ```
 
-#### Command-Line Reporting Tool Output (`src/report_tool.py`)
-```
-MONTHLY REPORT   2026-02-01 to 2026-07-31   (181 days)
-==============================================================================
-Month       Orders     Revenue     Customers
----------  -------  ------------  ----------
-2026-02        254    264,530.63         199
-2026-03        361    358,722.11         252
-2026-04        355    334,916.07         246
-2026-05        419    372,917.39         274
-2026-06        390    420,629.70         264
-2026-07        386    421,265.94         262
+#### Medallion Storage & Pipeline Specifications
 
-Summary vs previous 181 days (2025-08-04 to 2026-01-31)
-------------------------------------------------------------------------------
-Metric            This period     Previous     Change
-----------------  ------------  ------------  -------
-Total orders             2,165         1,182   +83.2%
-Revenue           2,172,981.84  1,159,304.60   +87.4%
-Unique customers           619           456   +35.7%
-```
+| Layer | Path / Location | Transformations & Responsibility |
+|---|---|---|
+| 🥉 **Bronze Layer** | `/dbfs/delta/bronze/` | Raw ingestion of `orders`, `order_items`, `customers`, and `delivery` logs with `_ingested_date` and `_source_file` metadata appended. |
+| 🥈 **Silver Layer** | `/dbfs/delta/silver/` | Type casting, deduplication, net price computation, SHA-256 PII hashing on email & phone, and delivery duration calculations. |
+| 🥇 **Gold Layer** | `/dbfs/delta/gold/` | Executive BI data marts: `daily_revenue_by_city`, `product_return_summary`, `delivery_zone_performance`, and `customer_summary`. |
+
+#### Databricks Notebook Deliverables
+
+- `notebooks/nb_bronze_ingest.py`: Bronze raw ingestion module.
+- `notebooks/nb_silver_transform.py`: Silver cleaning, transformation, and PII masking module.
+- `notebooks/nb_gold_aggregate.py`: Gold business metric aggregation module.
+- `notebooks/nb_orchestrator.py`: Master orchestration notebook invoking Bronze, Silver, and Gold in sequence via `%run`.
 
 ---
 
