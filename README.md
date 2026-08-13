@@ -12,14 +12,6 @@
   <a href="https://azure.microsoft.com/services/data-factory/"><img src="https://img.shields.io/badge/Azure-Data%20Factory-0089D6.svg" alt="Azure Data Factory" /></a>
 </p>
 
-<br/>
-
-<p align="center">
-  <img src="assets/architecture_overview.png" alt="Data Engineering Pipeline Architecture" width="100%" />
-</p>
-
-<br/>
-
 ---
 
 ### **Subhodeep Samanta**
@@ -297,9 +289,6 @@ state_revenue.show(10)
 
 [📁 View Week 6 Subdirectory](week6/README.md)
 
-<p align="center">
-  <img src="assets/spark_delta_lakehouse.png" alt="Spark & Delta Lake Architecture" width="100%" />
-</p>
 
 #### Cluster Process Layers
 1. **Driver Process**: Executes the `main()` application, initializes `SparkSession`, translates code into logical DAG plans, schedules stages and tasks, and tracks application state.
