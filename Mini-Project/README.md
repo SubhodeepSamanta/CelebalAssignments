@@ -11,22 +11,6 @@
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
 </p>
 
-<br/>
-
-<p align="center">
-  <img src="../assets/spark_delta_lakehouse.png" alt="Spark & Delta Lakehouse Architecture" width="100%" />
-</p>
-
-<br/>
-
----
-
-### Subhodeep Samanta
-Full-Stack Engineer | Infrastructure & AI Systems
-
-Dehradun, Uttarakhand · +91 6291445216 · [subhodeepsamanta2005@gmail.com](mailto:subhodeepsamanta2005@gmail.com)  
-[Portfolio](https://subhodeepsamanta.github.io) · [GitHub](https://github.com/subhodeepsamanta) · [LinkedIn](https://linkedin.com/in/subhodeepsamanta) · [LeetCode](https://leetcode.com/subhodeepsamanta)
-
 </div>
 
 ---
@@ -48,38 +32,38 @@ This repository delivers an end-to-end Batch ETL Pipeline on Databricks Serverle
 ## Medallion Architecture Pipeline Flow
 
 ```mermaid
-flowchart TD
+flowchart LR
     subgraph RawSources["DBFS Raw Land Zone (/dbfs/raw/)"]
-        R1["orders.csv (Daily Orders)"]
-        R2["order_items.csv (Line Items)"]
-        R3["customers.json (CRM Snapshot)"]
-        R4["delivery.csv (Delivery Logs)"]
+        R1["orders.csv"]
+        R2["order_items.csv"]
+        R3["customers.json"]
+        R4["delivery.csv"]
     end
 
-    subgraph BronzeLayer["Bronze Layer: Raw Ingestion (/dbfs/delta/bronze/)"]
+    subgraph BronzeLayer["Bronze Layer (/dbfs/delta/bronze/)"]
         B1["raw_orders"]
         B2["raw_order_items"]
         B3["raw_customers"]
         B4["raw_delivery_logs"]
     end
 
-    subgraph SilverLayer["Silver Layer: Clean & Conform (/dbfs/delta/silver/)"]
-        S1["orders (Deduplicated, Billed Totals)"]
-        S2["order_items (Net Prices Computed)"]
-        S3["customers (SHA-256 PII Hashed)"]
-        S4["delivery_logs (Durations & Incomplete Flags)"]
+    subgraph SilverLayer["Silver Layer (/dbfs/delta/silver/)"]
+        S1["orders"]
+        S2["order_items"]
+        S3["customers"]
+        S4["delivery_logs"]
     end
 
-    subgraph GoldLayer["Gold Layer: Business Aggregates (/dbfs/delta/gold/)"]
+    subgraph GoldLayer["Gold Layer (/dbfs/delta/gold/)"]
         G1["daily_revenue_by_city"]
         G2["product_return_summary"]
         G3["delivery_zone_performance"]
         G4["customer_summary"]
     end
 
-    R1 & R2 & R3 & R4 -->|Append Ingestion Metadata| BronzeLayer
-    BronzeLayer -->|Clean, Cast & Mask PII| SilverLayer
-    SilverLayer -->|Spark SQL Business Aggregations| GoldLayer
+    RawSources -->|Append Metadata| BronzeLayer
+    BronzeLayer -->|Clean & Mask PII| SilverLayer
+    SilverLayer -->|Business Aggregations| GoldLayer
 ```
 
 ---
