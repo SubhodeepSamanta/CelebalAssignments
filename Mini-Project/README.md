@@ -11,6 +11,14 @@
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
 </p>
 
+---
+
+### Subhodeep Samanta
+Full-Stack Engineer | Infrastructure & AI Systems
+
+Dehradun, Uttarakhand · +91 6291445216 · [subhodeepsamanta2005@gmail.com](mailto:subhodeepsamanta2005@gmail.com)  
+[Portfolio](https://subhodeepsamanta.github.io) · [GitHub](https://github.com/subhodeepsamanta) · [LinkedIn](https://linkedin.com/in/subhodeepsamanta) · [LeetCode](https://leetcode.com/subhodeepsamanta)
+
 </div>
 
 ---
@@ -33,41 +41,37 @@ This repository delivers an end-to-end Batch ETL Pipeline on Databricks Serverle
 
 ```mermaid
 flowchart TD
-    subgraph Landing ["1. Raw Data Landing Zone (/dbfs/raw/)"]
-        direction LR
-        L1["orders.csv<br/>(Daily Orders)"]
-        L2["order_items.csv<br/>(Line Items)"]
-        L3["customers.json<br/>(CRM Snapshot)"]
-        L4["delivery.csv<br/>(Delivery Logs)"]
+    subgraph RawSources["DBFS Raw Land Zone (/dbfs/raw/)"]
+        R1["orders.csv (Daily Orders)"]
+        R2["order_items.csv (Line Items)"]
+        R3["customers.json (CRM Snapshot)"]
+        R4["delivery.csv (Delivery Logs)"]
     end
 
-    subgraph Bronze ["2. Bronze Layer: Raw Ingestion (/dbfs/delta/bronze/)"]
-        direction LR
-        B1[("raw_orders")]
-        B2[("raw_order_items")]
-        B3[("raw_customers")]
-        B4[("raw_delivery_logs")]
+    subgraph BronzeLayer["Bronze Layer: Raw Ingestion (/dbfs/delta/bronze/)"]
+        B1["raw_orders"]
+        B2["raw_order_items"]
+        B3["raw_customers"]
+        B4["raw_delivery_logs"]
     end
 
-    subgraph Silver ["3. Silver Layer: Clean & Conform (/dbfs/delta/silver/)"]
-        direction LR
-        S1[("orders<br/>(Deduplicated & Billed)")]
-        S2[("order_items<br/>(Net Prices Computed)")]
-        S3[("customers<br/>(SHA-256 PII Hashed)")]
-        S4[("delivery_logs<br/>(Durations & Flags)")]
+    subgraph SilverLayer["Silver Layer: Clean & Conform (/dbfs/delta/silver/)"]
+        S1["orders (Deduplicated, Billed Totals)"]
+        S2["order_items (Net Prices Computed)"]
+        S3["customers (SHA-256 PII Hashed)"]
+        S4["delivery_logs (Durations & Incomplete Flags)"]
     end
 
-    subgraph Gold ["4. Gold Layer: Business Aggregates (/dbfs/delta/gold/)"]
-        direction LR
-        G1[("daily_revenue_by_city")]
-        G2[("product_return_summary")]
-        G3[("delivery_zone_performance")]
-        G4[("customer_summary")]
+    subgraph GoldLayer["Gold Layer: Business Aggregates (/dbfs/delta/gold/)"]
+        G1["daily_revenue_by_city"]
+        G2["product_return_summary"]
+        G3["delivery_zone_performance"]
+        G4["customer_summary"]
     end
 
-    Landing ==>|"Append Operational Metadata (_ingested_date, _source_file)"| Bronze
-    Bronze ==>|"Type Casting, Deduplication & SHA-256 Masking"| Silver
-    Silver ==>|"Spark SQL Business Aggregations & Rollups"| Gold
+    R1 & R2 & R3 & R4 -->|Append Ingestion Metadata| BronzeLayer
+    BronzeLayer -->|Clean, Cast & Mask PII| SilverLayer
+    SilverLayer -->|Spark SQL Business Aggregations| GoldLayer
 ```
 
 ---
