@@ -26,7 +26,7 @@
 
 ## 💡 Professional Summary
 
-Full-stack engineer building AI systems, distributed infrastructure, and edge computing solutions. Experienced in building autonomous agents, custom P2P networking protocols, and production software for enterprise clients — with hands-on expertise spanning ARM migration, database optimization, distributed stream processing, and data pipeline design.
+Full-stack engineer building AI systems, distributed infrastructure, and edge computing solutions. Experienced in building autonomous agents, custom P2P networking protocols, and production software for enterprise clients — with hands-on expertise spanning ARM migration, database optimization, distributed stream processing, and data pipeline design. 
 
 ---
 
