@@ -32,38 +32,42 @@ This repository delivers an end-to-end Batch ETL Pipeline on Databricks Serverle
 ## Medallion Architecture Pipeline Flow
 
 ```mermaid
-flowchart LR
-    subgraph RawSources["DBFS Raw Land Zone (/dbfs/raw/)"]
-        R1["orders.csv"]
-        R2["order_items.csv"]
-        R3["customers.json"]
-        R4["delivery.csv"]
+flowchart TD
+    subgraph Landing ["1. Raw Data Landing Zone (/dbfs/raw/)"]
+        direction LR
+        L1["orders.csv<br/>(Daily Orders)"]
+        L2["order_items.csv<br/>(Line Items)"]
+        L3["customers.json<br/>(CRM Snapshot)"]
+        L4["delivery.csv<br/>(Delivery Logs)"]
     end
 
-    subgraph BronzeLayer["Bronze Layer (/dbfs/delta/bronze/)"]
-        B1["raw_orders"]
-        B2["raw_order_items"]
-        B3["raw_customers"]
-        B4["raw_delivery_logs"]
+    subgraph Bronze ["2. Bronze Layer: Raw Ingestion (/dbfs/delta/bronze/)"]
+        direction LR
+        B1[("raw_orders")]
+        B2[("raw_order_items")]
+        B3[("raw_customers")]
+        B4[("raw_delivery_logs")]
     end
 
-    subgraph SilverLayer["Silver Layer (/dbfs/delta/silver/)"]
-        S1["orders"]
-        S2["order_items"]
-        S3["customers"]
-        S4["delivery_logs"]
+    subgraph Silver ["3. Silver Layer: Clean & Conform (/dbfs/delta/silver/)"]
+        direction LR
+        S1[("orders<br/>(Deduplicated & Billed)")]
+        S2[("order_items<br/>(Net Prices Computed)")]
+        S3[("customers<br/>(SHA-256 PII Hashed)")]
+        S4[("delivery_logs<br/>(Durations & Flags)")]
     end
 
-    subgraph GoldLayer["Gold Layer (/dbfs/delta/gold/)"]
-        G1["daily_revenue_by_city"]
-        G2["product_return_summary"]
-        G3["delivery_zone_performance"]
-        G4["customer_summary"]
+    subgraph Gold ["4. Gold Layer: Business Aggregates (/dbfs/delta/gold/)"]
+        direction LR
+        G1[("daily_revenue_by_city")]
+        G2[("product_return_summary")]
+        G3[("delivery_zone_performance")]
+        G4[("customer_summary")]
     end
 
-    RawSources -->|Append Metadata| BronzeLayer
-    BronzeLayer -->|Clean & Mask PII| SilverLayer
-    SilverLayer -->|Business Aggregations| GoldLayer
+    Landing ==>|"Append Operational Metadata (_ingested_date, _source_file)"| Bronze
+    Bronze ==>|"Type Casting, Deduplication & SHA-256 Masking"| Silver
+    Silver ==>|"Spark SQL Business Aggregations & Rollups"| Gold
 ```
 
 ---
