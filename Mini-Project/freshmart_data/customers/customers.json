@@ -1,0 +1,740 @@
+[
+  {
+    "customer_id": "CUST-1001",
+    "name": "Rohan Mehta",
+    "email": "rohan.mehta@example.com",
+    "phone": "+91-9786579312",
+    "city": "Delhi",
+    "registered_on": "2023-02-01",
+    "loyalty_points": 809
+  },
+  {
+    "customer_id": "CUST-1002",
+    "name": "Sneha Patil",
+    "email": "sneha.patil@example.com",
+    "phone": "+91-9395310494",
+    "city": "Mumbai",
+    "registered_on": "2023-04-08",
+    "loyalty_points": 192
+  },
+  {
+    "customer_id": "CUST-1003",
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma@example.com",
+    "phone": "+91-9890779955",
+    "city": "Bengaluru",
+    "registered_on": "2023-02-22",
+    "loyalty_points": 808
+  },
+  {
+    "customer_id": "CUST-1004",
+    "name": "Priya Singh",
+    "email": "priya.singh@example.com",
+    "phone": "+91-9685582870",
+    "city": "Delhi",
+    "registered_on": "2023-02-19",
+    "loyalty_points": 482
+  },
+  {
+    "customer_id": "CUST-1005",
+    "name": "Vikram Malhotra",
+    "email": "vikram.malhotra@example.com",
+    "phone": "+91-9134126405",
+    "city": "Mumbai",
+    "registered_on": "2023-01-03",
+    "loyalty_points": 273
+  },
+  {
+    "customer_id": "CUST-1006",
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta@example.com",
+    "phone": "+91-9349817743",
+    "city": "Bengaluru",
+    "registered_on": "2023-09-20",
+    "loyalty_points": 77
+  },
+  {
+    "customer_id": "CUST-1007",
+    "name": "Kabir Verma",
+    "email": "kabir.verma@example.com",
+    "phone": "+91-9702632306",
+    "city": "Delhi",
+    "registered_on": "2023-04-23",
+    "loyalty_points": 715
+  },
+  {
+    "customer_id": "CUST-1008",
+    "name": "Diya Joshi",
+    "email": "diya.joshi@example.com",
+    "phone": "+91-9853041964",
+    "city": "Mumbai",
+    "registered_on": "2023-09-14",
+    "loyalty_points": 275
+  },
+  {
+    "customer_id": "CUST-1009",
+    "name": "Rahul Nair",
+    "email": "rahul.nair@example.com",
+    "phone": "+91-9582334547",
+    "city": "Bengaluru",
+    "registered_on": "2023-10-09",
+    "loyalty_points": 56
+  },
+  {
+    "customer_id": "CUST-1010",
+    "name": "Neha Iyer",
+    "email": "neha.iyer@example.com",
+    "phone": "+91-9914763211",
+    "city": "Delhi",
+    "registered_on": "2023-03-23",
+    "loyalty_points": 482
+  },
+  {
+    "customer_id": "CUST-1011",
+    "name": "Amit Patel",
+    "email": "amit.patel@example.com",
+    "phone": "+91-9465341222",
+    "city": "Mumbai",
+    "registered_on": "2023-05-05",
+    "loyalty_points": 270
+  },
+  {
+    "customer_id": "CUST-1012",
+    "name": "Kavya Reddy",
+    "email": "kavya.reddy@example.com",
+    "phone": "+91-9919795588",
+    "city": "Bengaluru",
+    "registered_on": "2023-06-04",
+    "loyalty_points": 144
+  },
+  {
+    "customer_id": "CUST-1013",
+    "name": "Siddharth Rao",
+    "email": "siddharth.rao@example.com",
+    "phone": "+91-9507943848",
+    "city": "Delhi",
+    "registered_on": "2023-02-12",
+    "loyalty_points": 402
+  },
+  {
+    "customer_id": "CUST-1014",
+    "name": "Pooja Kapoor",
+    "email": "pooja.kapoor@example.com",
+    "phone": "+91-9748245897",
+    "city": "Mumbai",
+    "registered_on": "2023-05-26",
+    "loyalty_points": 94
+  },
+  {
+    "customer_id": "CUST-1015",
+    "name": "Rohan Das",
+    "email": "rohan.das@example.com",
+    "phone": "+91-9883543549",
+    "city": "Bengaluru",
+    "registered_on": "2023-08-18",
+    "loyalty_points": 177
+  },
+  {
+    "customer_id": "CUST-1016",
+    "name": "Shruti Saxena",
+    "email": "shruti.saxena@example.com",
+    "phone": "+91-9506448205",
+    "city": "Delhi",
+    "registered_on": "2023-02-18",
+    "loyalty_points": 350
+  },
+  {
+    "customer_id": "CUST-1017",
+    "name": "Karan Bhatia",
+    "email": "karan.bhatia@example.com",
+    "phone": "+91-9990566485",
+    "city": "Mumbai",
+    "registered_on": "2023-11-20",
+    "loyalty_points": 420
+  },
+  {
+    "customer_id": "CUST-1018",
+    "name": "Tanvi Choudhury",
+    "email": "tanvi.choudhury@example.com",
+    "phone": "+91-9719927160",
+    "city": "Bengaluru",
+    "registered_on": "2023-04-23",
+    "loyalty_points": 121
+  },
+  {
+    "customer_id": "CUST-1019",
+    "name": "Aditya Roy",
+    "email": "aditya.roy@example.com",
+    "phone": "+91-9149203567",
+    "city": "Delhi",
+    "registered_on": "2023-11-08",
+    "loyalty_points": 841
+  },
+  {
+    "customer_id": "CUST-1020",
+    "name": "Meera Kulkarni",
+    "email": "meera.kulkarni@example.com",
+    "phone": "+91-9410727964",
+    "city": "Mumbai",
+    "registered_on": "2023-02-28",
+    "loyalty_points": 288
+  },
+  {
+    "customer_id": "CUST-1021",
+    "name": "Rohan Mehta",
+    "email": "rohan.mehta20@example.com",
+    "phone": "+91-9208449469",
+    "city": "Bengaluru",
+    "registered_on": "2023-07-09",
+    "loyalty_points": 514
+  },
+  {
+    "customer_id": "CUST-1022",
+    "name": "Sneha Patil",
+    "email": "sneha.patil21@example.com",
+    "phone": "+91-9782560980",
+    "city": "Delhi",
+    "registered_on": "2023-06-06",
+    "loyalty_points": 429
+  },
+  {
+    "customer_id": "CUST-1023",
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma22@example.com",
+    "phone": "+91-9481469021",
+    "city": "Mumbai",
+    "registered_on": "2023-04-22",
+    "loyalty_points": 323
+  },
+  {
+    "customer_id": "CUST-1024",
+    "name": "Priya Singh",
+    "email": "priya.singh23@example.com",
+    "phone": "+91-9853573832",
+    "city": "Bengaluru",
+    "registered_on": "2023-11-21",
+    "loyalty_points": 123
+  },
+  {
+    "customer_id": "CUST-1025",
+    "name": "Vikram Malhotra",
+    "email": "vikram.malhotra24@example.com",
+    "phone": "+91-9754049445",
+    "city": "Delhi",
+    "registered_on": "2023-11-06",
+    "loyalty_points": 596
+  },
+  {
+    "customer_id": "CUST-1026",
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta25@example.com",
+    "phone": "+91-9882893950",
+    "city": "Mumbai",
+    "registered_on": "2023-04-06",
+    "loyalty_points": 523
+  },
+  {
+    "customer_id": "CUST-1027",
+    "name": "Kabir Verma",
+    "email": "kabir.verma26@example.com",
+    "phone": "+91-9507437190",
+    "city": "Bengaluru",
+    "registered_on": "2023-05-21",
+    "loyalty_points": 754
+  },
+  {
+    "customer_id": "CUST-1028",
+    "name": "Diya Joshi",
+    "email": "diya.joshi27@example.com",
+    "phone": "+91-9698020247",
+    "city": "Delhi",
+    "registered_on": "2023-04-22",
+    "loyalty_points": 382
+  },
+  {
+    "customer_id": "CUST-1029",
+    "name": "Rahul Nair",
+    "email": "rahul.nair28@example.com",
+    "phone": "+91-9924970428",
+    "city": "Mumbai",
+    "registered_on": "2023-01-08",
+    "loyalty_points": 82
+  },
+  {
+    "customer_id": "CUST-1030",
+    "name": "Neha Iyer",
+    "email": "neha.iyer29@example.com",
+    "phone": "+91-9964411356",
+    "city": "Bengaluru",
+    "registered_on": "2023-06-13",
+    "loyalty_points": 324
+  },
+  {
+    "customer_id": "CUST-1031",
+    "name": "Amit Patel",
+    "email": "amit.patel30@example.com",
+    "phone": "+91-9171069481",
+    "city": "Delhi",
+    "registered_on": "2023-04-19",
+    "loyalty_points": 785
+  },
+  {
+    "customer_id": "CUST-1032",
+    "name": "Kavya Reddy",
+    "email": "kavya.reddy31@example.com",
+    "phone": "+91-9437882814",
+    "city": "Mumbai",
+    "registered_on": "2023-04-21",
+    "loyalty_points": 561
+  },
+  {
+    "customer_id": "CUST-1033",
+    "name": "Siddharth Rao",
+    "email": "siddharth.rao32@example.com",
+    "phone": "+91-9524806525",
+    "city": "Bengaluru",
+    "registered_on": "2023-11-15",
+    "loyalty_points": 196
+  },
+  {
+    "customer_id": "CUST-1034",
+    "name": "Pooja Kapoor",
+    "email": "pooja.kapoor33@example.com",
+    "phone": "+91-9384412928",
+    "city": "Delhi",
+    "registered_on": "2023-03-08",
+    "loyalty_points": 812
+  },
+  {
+    "customer_id": "CUST-1035",
+    "name": "Rohan Das",
+    "email": "rohan.das34@example.com",
+    "phone": "+91-9702764455",
+    "city": "Mumbai",
+    "registered_on": "2023-09-09",
+    "loyalty_points": 814
+  },
+  {
+    "customer_id": "CUST-1036",
+    "name": "Shruti Saxena",
+    "email": "shruti.saxena35@example.com",
+    "phone": "+91-9727694439",
+    "city": "Bengaluru",
+    "registered_on": "2023-07-19",
+    "loyalty_points": 458
+  },
+  {
+    "customer_id": "CUST-1037",
+    "name": "Karan Bhatia",
+    "email": "karan.bhatia36@example.com",
+    "phone": "+91-9488690734",
+    "city": "Delhi",
+    "registered_on": "2023-04-05",
+    "loyalty_points": 571
+  },
+  {
+    "customer_id": "CUST-1038",
+    "name": "Tanvi Choudhury",
+    "email": "tanvi.choudhury37@example.com",
+    "phone": "+91-9629908608",
+    "city": "Mumbai",
+    "registered_on": "2023-02-25",
+    "loyalty_points": 98
+  },
+  {
+    "customer_id": "CUST-1039",
+    "name": "Aditya Roy",
+    "email": "aditya.roy38@example.com",
+    "phone": "+91-9217734870",
+    "city": "Bengaluru",
+    "registered_on": "2023-03-21",
+    "loyalty_points": 213
+  },
+  {
+    "customer_id": "CUST-1040",
+    "name": "Meera Kulkarni",
+    "email": "meera.kulkarni39@example.com",
+    "phone": "+91-9950488748",
+    "city": "Delhi",
+    "registered_on": "2023-11-14",
+    "loyalty_points": 660
+  },
+  {
+    "customer_id": "CUST-1041",
+    "name": "Rohan Mehta",
+    "email": "rohan.mehta40@example.com",
+    "phone": "+91-9168212365",
+    "city": "Mumbai",
+    "registered_on": "2023-07-13",
+    "loyalty_points": 660
+  },
+  {
+    "customer_id": "CUST-1042",
+    "name": "Sneha Patil",
+    "email": "sneha.patil41@example.com",
+    "phone": "+91-9602564745",
+    "city": "Bengaluru",
+    "registered_on": "2023-09-09",
+    "loyalty_points": 616
+  },
+  {
+    "customer_id": "CUST-1043",
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma42@example.com",
+    "phone": "+91-9112327661",
+    "city": "Delhi",
+    "registered_on": "2023-11-24",
+    "loyalty_points": 167
+  },
+  {
+    "customer_id": "CUST-1044",
+    "name": "Priya Singh",
+    "email": "priya.singh43@example.com",
+    "phone": "+91-9831980942",
+    "city": "Mumbai",
+    "registered_on": "2023-09-25",
+    "loyalty_points": 323
+  },
+  {
+    "customer_id": "CUST-1045",
+    "name": "Vikram Malhotra",
+    "email": "vikram.malhotra44@example.com",
+    "phone": "+91-9925276609",
+    "city": "Bengaluru",
+    "registered_on": "2023-11-11",
+    "loyalty_points": 164
+  },
+  {
+    "customer_id": "CUST-1046",
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta45@example.com",
+    "phone": "+91-9415143371",
+    "city": "Delhi",
+    "registered_on": "2023-07-06",
+    "loyalty_points": 514
+  },
+  {
+    "customer_id": "CUST-1047",
+    "name": "Kabir Verma",
+    "email": "kabir.verma46@example.com",
+    "phone": "+91-9103484639",
+    "city": "Mumbai",
+    "registered_on": "2023-12-24",
+    "loyalty_points": 319
+  },
+  {
+    "customer_id": "CUST-1048",
+    "name": "Diya Joshi",
+    "email": "diya.joshi47@example.com",
+    "phone": "+91-9637500256",
+    "city": "Bengaluru",
+    "registered_on": "2023-03-17",
+    "loyalty_points": 158
+  },
+  {
+    "customer_id": "CUST-1049",
+    "name": "Rahul Nair",
+    "email": "rahul.nair48@example.com",
+    "phone": "+91-9771410980",
+    "city": "Delhi",
+    "registered_on": "2023-05-27",
+    "loyalty_points": 704
+  },
+  {
+    "customer_id": "CUST-1050",
+    "name": "Neha Iyer",
+    "email": "neha.iyer49@example.com",
+    "phone": "+91-9645098878",
+    "city": "Mumbai",
+    "registered_on": "2023-10-07",
+    "loyalty_points": 206
+  },
+  {
+    "customer_id": "CUST-1051",
+    "name": "Amit Patel",
+    "email": "amit.patel50@example.com",
+    "phone": "+91-9501486948",
+    "city": "Bengaluru",
+    "registered_on": "2023-03-18",
+    "loyalty_points": 847
+  },
+  {
+    "customer_id": "CUST-1053",
+    "name": "Kavya Reddy",
+    "email": "kavya.reddy51@example.com",
+    "phone": "+91-9669462928",
+    "city": "Delhi",
+    "registered_on": "2023-01-20",
+    "loyalty_points": 381
+  },
+  {
+    "customer_id": "CUST-1054",
+    "name": "Siddharth Rao",
+    "email": "siddharth.rao52@example.com",
+    "phone": "+91-9624636394",
+    "city": "Mumbai",
+    "registered_on": "2023-01-04",
+    "loyalty_points": 421
+  },
+  {
+    "customer_id": "CUST-1055",
+    "name": "Pooja Kapoor",
+    "email": "pooja.kapoor53@example.com",
+    "phone": "+91-9992994071",
+    "city": "Bengaluru",
+    "registered_on": "2023-05-08",
+    "loyalty_points": 109
+  },
+  {
+    "customer_id": "CUST-1056",
+    "name": "Rohan Das",
+    "email": "rohan.das54@example.com",
+    "phone": "+91-9358633907",
+    "city": "Delhi",
+    "registered_on": "2023-10-03",
+    "loyalty_points": 137
+  },
+  {
+    "customer_id": "CUST-1057",
+    "name": "Shruti Saxena",
+    "email": "shruti.saxena55@example.com",
+    "phone": "+91-9885879804",
+    "city": "Mumbai",
+    "registered_on": "2023-08-27",
+    "loyalty_points": 120
+  },
+  {
+    "customer_id": "CUST-1058",
+    "name": "Karan Bhatia",
+    "email": "karan.bhatia56@example.com",
+    "phone": "+91-9916690362",
+    "city": "Bengaluru",
+    "registered_on": "2023-09-25",
+    "loyalty_points": 178
+  },
+  {
+    "customer_id": "CUST-1059",
+    "name": "Tanvi Choudhury",
+    "email": "tanvi.choudhury57@example.com",
+    "phone": "+91-9237859296",
+    "city": "Delhi",
+    "registered_on": "2023-11-16",
+    "loyalty_points": 612
+  },
+  {
+    "customer_id": "CUST-1060",
+    "name": "Aditya Roy",
+    "email": "aditya.roy58@example.com",
+    "phone": "+91-9277303731",
+    "city": "Mumbai",
+    "registered_on": "2023-05-17",
+    "loyalty_points": 671
+  },
+  {
+    "customer_id": "CUST-1061",
+    "name": "Meera Kulkarni",
+    "email": "meera.kulkarni59@example.com",
+    "phone": "+91-9554340912",
+    "city": "Bengaluru",
+    "registered_on": "2023-04-18",
+    "loyalty_points": 823
+  },
+  {
+    "customer_id": "CUST-1062",
+    "name": "Rohan Mehta",
+    "email": "rohan.mehta60@example.com",
+    "phone": "+91-9883757523",
+    "city": "Delhi",
+    "registered_on": "2023-12-07",
+    "loyalty_points": 780
+  },
+  {
+    "customer_id": "CUST-1063",
+    "name": "Sneha Patil",
+    "email": "sneha.patil61@example.com",
+    "phone": "+91-9434702831",
+    "city": "Mumbai",
+    "registered_on": "2023-07-22",
+    "loyalty_points": 715
+  },
+  {
+    "customer_id": "CUST-1064",
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma62@example.com",
+    "phone": "+91-9500957221",
+    "city": "Bengaluru",
+    "registered_on": "2023-08-17",
+    "loyalty_points": 512
+  },
+  {
+    "customer_id": "CUST-1065",
+    "name": "Priya Singh",
+    "email": "priya.singh63@example.com",
+    "phone": "+91-9229927278",
+    "city": "Delhi",
+    "registered_on": "2023-04-08",
+    "loyalty_points": 115
+  },
+  {
+    "customer_id": "CUST-1066",
+    "name": "Vikram Malhotra",
+    "email": "vikram.malhotra64@example.com",
+    "phone": "+91-9463016623",
+    "city": "Mumbai",
+    "registered_on": "2023-01-19",
+    "loyalty_points": 617
+  },
+  {
+    "customer_id": "CUST-1067",
+    "name": "Ananya Gupta",
+    "email": "ananya.gupta65@example.com",
+    "phone": "+91-9347083821",
+    "city": "Bengaluru",
+    "registered_on": "2023-10-08",
+    "loyalty_points": 57
+  },
+  {
+    "customer_id": "CUST-1068",
+    "name": "Kabir Verma",
+    "email": "kabir.verma66@example.com",
+    "phone": "+91-9176228254",
+    "city": "Delhi",
+    "registered_on": "2023-12-21",
+    "loyalty_points": 110
+  },
+  {
+    "customer_id": "CUST-1069",
+    "name": "Diya Joshi",
+    "email": "diya.joshi67@example.com",
+    "phone": "+91-9345824382",
+    "city": "Mumbai",
+    "registered_on": "2023-02-02",
+    "loyalty_points": 388
+  },
+  {
+    "customer_id": "CUST-1070",
+    "name": "Rahul Nair",
+    "email": "rahul.nair68@example.com",
+    "phone": "+91-9176082509",
+    "city": "Bengaluru",
+    "registered_on": "2023-09-08",
+    "loyalty_points": 335
+  },
+  {
+    "customer_id": "CUST-1071",
+    "name": "Neha Iyer",
+    "email": "neha.iyer69@example.com",
+    "phone": "+91-9818309426",
+    "city": "Delhi",
+    "registered_on": "2023-08-07",
+    "loyalty_points": 602
+  },
+  {
+    "customer_id": "CUST-1072",
+    "name": "Amit Patel",
+    "email": "amit.patel70@example.com",
+    "phone": "+91-9242068772",
+    "city": "Mumbai",
+    "registered_on": "2023-12-19",
+    "loyalty_points": 640
+  },
+  {
+    "customer_id": "CUST-1073",
+    "name": "Kavya Reddy",
+    "email": "kavya.reddy71@example.com",
+    "phone": "+91-9607526663",
+    "city": "Bengaluru",
+    "registered_on": "2023-04-26",
+    "loyalty_points": 534
+  },
+  {
+    "customer_id": "CUST-1074",
+    "name": "Siddharth Rao",
+    "email": "siddharth.rao72@example.com",
+    "phone": "+91-9967043312",
+    "city": "Delhi",
+    "registered_on": "2023-07-07",
+    "loyalty_points": 146
+  },
+  {
+    "customer_id": "CUST-1075",
+    "name": "Pooja Kapoor",
+    "email": "pooja.kapoor73@example.com",
+    "phone": "+91-9204078675",
+    "city": "Mumbai",
+    "registered_on": "2023-11-14",
+    "loyalty_points": 412
+  },
+  {
+    "customer_id": "CUST-1076",
+    "name": "Rohan Das",
+    "email": "rohan.das74@example.com",
+    "phone": "+91-9554814093",
+    "city": "Bengaluru",
+    "registered_on": "2023-07-15",
+    "loyalty_points": 796
+  },
+  {
+    "customer_id": "CUST-1077",
+    "name": "Shruti Saxena",
+    "email": "shruti.saxena75@example.com",
+    "phone": "+91-9158165874",
+    "city": "Delhi",
+    "registered_on": "2023-11-21",
+    "loyalty_points": 711
+  },
+  {
+    "customer_id": "CUST-1078",
+    "name": "Karan Bhatia",
+    "email": "karan.bhatia76@example.com",
+    "phone": "+91-9205675396",
+    "city": "Mumbai",
+    "registered_on": "2023-01-13",
+    "loyalty_points": 795
+  },
+  {
+    "customer_id": "CUST-1079",
+    "name": "Tanvi Choudhury",
+    "email": "tanvi.choudhury77@example.com",
+    "phone": "+91-9464323402",
+    "city": "Bengaluru",
+    "registered_on": "2023-02-08",
+    "loyalty_points": 246
+  },
+  {
+    "customer_id": "CUST-1080",
+    "name": "Aditya Roy",
+    "email": "aditya.roy78@example.com",
+    "phone": "+91-9304235268",
+    "city": "Delhi",
+    "registered_on": "2023-09-15",
+    "loyalty_points": 193
+  },
+  {
+    "customer_id": "CUST-2201",
+    "name": "Meera Kulkarni",
+    "email": "meera.kulkarni79@example.com",
+    "phone": "+91-9552991969",
+    "city": "Mumbai",
+    "registered_on": "2023-03-09",
+    "loyalty_points": 523
+  },
+  {
+    "customer_id": "CUST-4421",
+    "name": "Rohan Mehta",
+    "email": "rohan.mehta80@example.com",
+    "phone": "+91-9368227640",
+    "city": "Bengaluru",
+    "registered_on": "2023-02-15",
+    "loyalty_points": 613
+  },
+  {
+    "customer_id": "CUST-8834",
+    "name": "Sneha Patil",
+    "email": "sneha.patil81@example.com",
+    "phone": "+91-9205128706",
+    "city": "Delhi",
+    "registered_on": "2023-01-21",
+    "loyalty_points": 603
+  }
+]

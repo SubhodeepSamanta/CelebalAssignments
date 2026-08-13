@@ -1,43 +1,42 @@
-from __future__ import annotations
-
-import subprocess
 import sys
-import time
-from pathlib import Path
+import os
 
-ROOT = Path(__file__).resolve().parent
-sys.path.insert(0, str(ROOT))
+os.environ["PYSPARK_PYTHON"] = sys.executable
+os.environ["PYSPARK_DRIVER_PYTHON"] = sys.executable
 
-from src import clean_data, database, generate_data, run_analysis
+import importlib
+from pyspark.sql import SparkSession
 
+try:
+    delta_module = importlib.import_module("delta")
+    configure_spark_with_delta_pip = getattr(delta_module, "configure_spark_with_delta_pip")
+    builder = (
+        SparkSession.builder
+        .appName("FreshMartPipeline")
+        .config("spark.sql.extensions", "io.delta.sql.DeltaSparkSessionExtension")
+        .config("spark.sql.catalog.spark_catalog", "org.apache.spark.sql.delta.catalog.DeltaCatalog")
+    )
+    spark = configure_spark_with_delta_pip(builder).getOrCreate()
+except Exception:
+    spark = SparkSession.builder.appName("FreshMartPipeline").getOrCreate()
 
-def run_tests() -> None:
-    result = subprocess.run([sys.executable, str(ROOT / "tests" / "test_edge_cases.py")])
-    if result.returncode:
-        raise SystemExit("edge case tests failed")
+spark.sparkContext.setLogLevel("ERROR")
 
+from src.data_generator import generate_customers_json
 
-STAGES = {
-    "generate": generate_data.main,
-    "clean": clean_data.main,
-    "load": database.main,
-    "analyse": run_analysis.main,
-    "test": run_tests,
-}
+generate_customers_json()
 
+raw_dir = os.path.join(os.path.dirname(__file__), "freshmart_data")
+delta_dir = os.path.join(os.path.dirname(__file__), "delta")
 
-def main() -> None:
-    wanted = sys.argv[1:] or list(STAGES)
-    unknown = [name for name in wanted if name not in STAGES]
-    if unknown:
-        raise SystemExit(f"unknown stage(s): {', '.join(unknown)}. Choose from {', '.join(STAGES)}")
+os.environ["RAW_BASE_PATH"] = raw_dir
+os.environ["DELTA_BASE_PATH"] = delta_dir
 
-    started = time.perf_counter()
-    for name in wanted:
-        print(f"\n{'#' * 100}\n# {name.upper()}\n{'#' * 100}")
-        STAGES[name]()
-    print(f"\ndone in {time.perf_counter() - started:.1f}s")
+importlib.import_module("notebooks.nb_bronze_ingest")
+importlib.import_module("notebooks.nb_silver_transform")
+importlib.import_module("notebooks.nb_gold_aggregate")
 
+print("FreshMart Medallion ETL pipeline executed successfully.")
 
-if __name__ == "__main__":
-    main()
+spark.stop()
+os._exit(0)
